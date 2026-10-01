@@ -1,0 +1,40 @@
+# Private working notes — NOT for the public repo.
+Just-in-Time Skills Runtime.md
+plans/
+plans.zip
+*.private.md
+.obsidian/
+.superpowers/
+
+# Scratch
+scratch/
+tmp/
+*.log
+/tests/cases.xlsx
+.~lock.*#
+
+# Python (catalog generator, later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Node (if the generator ends up JS)
+node_modules/
+.next/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Catalog build cache (refetchable: python3 tools/build_catalog.py --refresh)
+.cache/
+
+# Build output (regenerate: python3 tools/build_bundles.py)
+dist/
