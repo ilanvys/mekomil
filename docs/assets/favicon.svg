@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- The licence sticker, reduced to what survives at 16px: yellow disc, month ring, IL.
+       The letters are drawn as shapes so they never depend on a font. -->
+  <circle cx="32" cy="32" r="31" fill="#F6CF1C" stroke="#111" stroke-width="2"/>
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="2 4.68" opacity=".55"/>
+  <rect x="20" y="19" width="6" height="26" fill="#1D3F9E"/>
+  <rect x="30" y="19" width="6" height="26" fill="#1D3F9E"/>
+  <rect x="30" y="39" width="15" height="6" fill="#1D3F9E"/>
+</svg>

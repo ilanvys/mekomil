@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- Source for docs/assets/og.png, the WhatsApp / social share preview.
+     Rendered at 1200x630 with a headless browser screenshot, e.g. Playwright:
+       page.setViewportSize({width:1200,height:630}); page.goto("file://.../tools/og.html");
+       page.screenshot({path:"docs/assets/og.png"})
+     Keep the plate and headline near the centre: WhatsApp sometimes crops the preview to a
+     centred square. -->
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;800;900&display=block">
+<style>
+html,body{margin:0;width:1200px;height:630px;overflow:hidden}
+body{background:#FFFDF4;color:#111;font-family:Heebo,sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative}
+body::before{content:"";position:absolute;inset:0 0 auto 0;height:18px;background:#F6CF1C;border-bottom:3px solid #111}
+.plate{display:inline-flex;align-items:stretch;border:7px solid #111;border-radius:18px;overflow:hidden;background:#F6CF1C;line-height:1}
+.plate .word{padding:18px 44px 22px;font-weight:900;font-size:124px}
+.plate .strip{background:#1D3F9E;color:#fff;font-weight:800;font-size:58px;padding:0 24px;display:flex;align-items:center;letter-spacing:.04em}
+h1{font-weight:900;font-size:58px;line-height:1.1;letter-spacing:-.02em;margin:46px 0 0;text-align:center}
+.foot{position:absolute;bottom:34px;font-weight:500;font-size:24px;color:#4F4F4F}
+.sticker{position:absolute;left:74px;top:92px;width:200px;height:200px;transform:rotate(-10deg);filter:drop-shadow(0 5px 5px rgba(0,0,0,.22))}
+.ring text{font-family:Heebo;font-weight:800;font-size:8.5px;text-anchor:middle;fill:#111}
+</style>
+</head>
+<body>
+  <svg class="sticker" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="49" fill="#3FA3E0"/>
+    <circle cx="50" cy="50" r="46.5" fill="none" stroke="#111" stroke-opacity=".3" stroke-width="1"/>
+    <g class="ring">
+      <text x="69.5" y="19.7">1</text><text x="83.8" y="34">2</text><text x="89" y="53.5">3</text>
+      <text x="83.8" y="73">4</text><text x="69.5" y="87.3">5</text><text x="50" y="92.5">6</text>
+      <text x="30.5" y="87.3">7</text><text x="16.2" y="73">8</text><text x="11" y="53.5">9</text>
+      <text x="16.2" y="34">10</text><text x="30.5" y="19.7">11</text><text x="50" y="14.5">12</text>
+    </g>
+    <text x="50" y="63" text-anchor="middle" font-family="Heebo" font-weight="900" font-size="34" fill="#111">IL</text>
+  </svg>
+  <div class="plate"><span class="word">מקומי</span><span class="strip">IL</span></div>
+  <h1>שואלים כרגיל. מקבלים תשובה של מקומי.</h1>
+  <div class="foot">סקילים ישראליים מ-skills-il, נטענים לשיחה ברגע שצריך</div>
+</body>
+</html>
