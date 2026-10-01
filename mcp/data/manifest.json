@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T13:32:15.398Z",
+ "generated": "2026-10-01T20:07:59.003Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -90,15 +90,19 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/domain-checklist.md",
+    "references/donor-rules.md",
     "references/filing-package.md",
+    "references/refusal-path.md",
     "scripts/band_check.py"
    ],
    "bytes": {
-    "SKILL.md": 27479,
-    "SKILL_HE.md": 34080,
-    "references/domain-checklist.md": 12166,
-    "references/filing-package.md": 5037,
-    "scripts/band_check.py": 9810
+    "SKILL.md": 31107,
+    "SKILL_HE.md": 39087,
+    "references/domain-checklist.md": 16216,
+    "references/donor-rules.md": 1657,
+    "references/filing-package.md": 5781,
+    "references/refusal-path.md": 3032,
+    "scripts/band_check.py": 15316
    }
   },
   "israeli-annual-reports": {
@@ -129,12 +133,12 @@
     "scripts/reconcile_hours.py"
    ],
    "bytes": {
-    "SKILL.md": 31029,
-    "SKILL_HE.md": 39736,
-    "references/domain-checklist.md": 9011,
-    "references/rates-and-tiers.md": 7205,
-    "references/records-and-remedies.md": 7719,
-    "scripts/reconcile_hours.py": 9901
+    "SKILL.md": 31168,
+    "SKILL_HE.md": 41126,
+    "references/domain-checklist.md": 11509,
+    "references/rates-and-tiers.md": 15547,
+    "references/records-and-remedies.md": 13613,
+    "scripts/reconcile_hours.py": 12686
    }
   },
   "israeli-bank-reconciliation": {
@@ -574,16 +578,18 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
     "references/optimization-guide.md",
     "references/transformation-cheatsheet.md",
     "scripts/upload_asset.py"
    ],
    "bytes": {
-    "SKILL.md": 23133,
-    "SKILL_HE.md": 28838,
-    "references/optimization-guide.md": 3537,
-    "references/transformation-cheatsheet.md": 5553,
-    "scripts/upload_asset.py": 19778
+    "SKILL.md": 30069,
+    "SKILL_HE.md": 37611,
+    "references/domain-checklist.md": 8571,
+    "references/optimization-guide.md": 4541,
+    "references/transformation-cheatsheet.md": 6501,
+    "scripts/upload_asset.py": 24162
    }
   },
   "github-actions-il": {
@@ -1036,14 +1042,16 @@
     "SKILL_HE.md",
     "references/domain-checklist.md",
     "references/skill-spec.md",
+    "references/submission-checklist.md",
     "scripts/scaffold-skill.py"
    ],
    "bytes": {
-    "SKILL.md": 31593,
-    "SKILL_HE.md": 36035,
-    "references/domain-checklist.md": 5508,
-    "references/skill-spec.md": 8270,
-    "scripts/scaffold-skill.py": 7817
+    "SKILL.md": 34483,
+    "SKILL_HE.md": 44208,
+    "references/domain-checklist.md": 6847,
+    "references/skill-spec.md": 12413,
+    "references/submission-checklist.md": 5649,
+    "scripts/scaffold-skill.py": 10205
    }
   },
   "telegram-bot-builder": {
@@ -1600,11 +1608,11 @@
     "scripts/verdict_template.py"
    ],
    "bytes": {
-    "SKILL.md": 16040,
-    "SKILL_HE.md": 20525,
-    "references/domain-checklist.md": 10867,
-    "references/source-map.md": 4749,
-    "scripts/verdict_template.py": 5946
+    "SKILL.md": 22454,
+    "SKILL_HE.md": 29326,
+    "references/domain-checklist.md": 13760,
+    "references/source-map.md": 7577,
+    "scripts/verdict_template.py": 16240
    }
   },
   "israeli-firearm-license-navigator": {
@@ -3627,16 +3635,20 @@
     "SKILL_HE.md",
     "references/domain-checklist.md",
     "references/form-1219-sections.md",
+    "references/hard-cases.md",
     "references/penalties-and-offences.md",
+    "references/reconciliation.md",
     "references/valuation-rules.md"
    ],
    "bytes": {
-    "SKILL.md": 25110,
-    "SKILL_HE.md": 31323,
-    "references/domain-checklist.md": 46616,
-    "references/form-1219-sections.md": 8525,
-    "references/penalties-and-offences.md": 3627,
-    "references/valuation-rules.md": 3892
+    "SKILL.md": 31010,
+    "SKILL_HE.md": 39586,
+    "references/domain-checklist.md": 51264,
+    "references/form-1219-sections.md": 8714,
+    "references/hard-cases.md": 5006,
+    "references/penalties-and-offences.md": 4574,
+    "references/reconciliation.md": 5191,
+    "references/valuation-rules.md": 4229
    }
   },
   "israeli-insurance-comparator": {
