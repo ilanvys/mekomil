@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T08:49:30.348Z",
+ "generated": "2026-10-01T13:32:15.398Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -1744,14 +1744,18 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/auditor-office-standards.md",
+    "references/domain-checklist.md",
     "references/statutory-timeline.md",
     "scripts/audit_timeline.py"
    ],
    "bytes": {
-    "SKILL.md": 14301,
-    "SKILL_HE.md": 17228,
-    "references/statutory-timeline.md": 3126,
-    "scripts/audit_timeline.py": 2528
+    "SKILL.md": 25793,
+    "SKILL_HE.md": 32135,
+    "references/auditor-office-standards.md": 5712,
+    "references/domain-checklist.md": 4710,
+    "references/statutory-timeline.md": 5719,
+    "scripts/audit_timeline.py": 8625
    }
   },
   "israeli-public-transit": {
@@ -1778,10 +1782,10 @@
     "scripts/calculate_mas_rechisha.py"
    ],
    "bytes": {
-    "SKILL.md": 17421,
-    "SKILL_HE.md": 21130,
-    "references/transaction-guide.md": 1649,
-    "scripts/calculate_mas_rechisha.py": 8199
+    "SKILL.md": 21717,
+    "SKILL_HE.md": 26822,
+    "references/transaction-guide.md": 1685,
+    "scripts/calculate_mas_rechisha.py": 8099
    }
   },
   "israeli-relocation-abroad": {
@@ -2544,12 +2548,12 @@
     "scripts/inheritance_helper.py"
    ],
    "bytes": {
-    "SKILL.md": 31889,
-    "SKILL_HE.md": 39623,
-    "references/domain-checklist.md": 9877,
-    "references/orders-and-process.md": 13710,
+    "SKILL.md": 31988,
+    "SKILL_HE.md": 42336,
+    "references/domain-checklist.md": 12406,
+    "references/orders-and-process.md": 18483,
     "references/will-templates.md": 7810,
-    "scripts/inheritance_helper.py": 6984
+    "scripts/inheritance_helper.py": 8096
    }
   },
   "israeli-workplace-rights-navigator": {
@@ -2589,16 +2593,20 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
     "references/hebrew-fonts.md",
     "references/templates.md",
+    "scripts/docx_rtl.py",
     "scripts/generate_doc.py"
    ],
    "bytes": {
-    "SKILL.md": 36405,
-    "SKILL_HE.md": 43938,
-    "references/hebrew-fonts.md": 3520,
-    "references/templates.md": 4841,
-    "scripts/generate_doc.py": 8092
+    "SKILL.md": 29960,
+    "SKILL_HE.md": 36685,
+    "references/domain-checklist.md": 4116,
+    "references/hebrew-fonts.md": 3519,
+    "references/templates.md": 6134,
+    "scripts/docx_rtl.py": 13982,
+    "scripts/generate_doc.py": 12880
    }
   },
   "hebrew-i18n": {
@@ -2711,15 +2719,19 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/city-rental-guide.md",
+    "references/domain-checklist.md",
     "references/hebrew-rental-glossary.md",
+    "references/tenant-rights-and-move-in.md",
     "scripts/rental-budget-calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 22574,
-    "SKILL_HE.md": 29340,
-    "references/city-rental-guide.md": 9951,
-    "references/hebrew-rental-glossary.md": 10208,
-    "scripts/rental-budget-calculator.py": 13452
+    "SKILL.md": 31282,
+    "SKILL_HE.md": 41218,
+    "references/city-rental-guide.md": 8862,
+    "references/domain-checklist.md": 4316,
+    "references/hebrew-rental-glossary.md": 10596,
+    "references/tenant-rights-and-move-in.md": 13281,
+    "scripts/rental-budget-calculator.py": 17191
    }
   },
   "israeli-ui-design-system": {
@@ -3350,11 +3362,11 @@
     "scripts/categorize_invoices.py"
    ],
    "bytes": {
-    "SKILL.md": 23362,
-    "SKILL_HE.md": 28290,
-    "references/domain-checklist.md": 4322,
-    "references/expense-categories.md": 13324,
-    "scripts/categorize_invoices.py": 48086
+    "SKILL.md": 28269,
+    "SKILL_HE.md": 34446,
+    "references/domain-checklist.md": 4928,
+    "references/expense-categories.md": 15034,
+    "scripts/categorize_invoices.py": 62875
    }
   },
   "israeli-arnona-optimizer": {
@@ -3485,13 +3497,13 @@
     "scripts/tax_comparison.py"
    ],
    "bytes": {
-    "SKILL.md": 34131,
-    "SKILL_HE.md": 37724,
-    "references/domain-checklist.md": 6558,
-    "references/extraction-methods.md": 2250,
-    "references/section-3tet-rules.md": 4099,
-    "references/tax-rates-2026.md": 11591,
-    "scripts/tax_comparison.py": 13667
+    "SKILL.md": 34247,
+    "SKILL_HE.md": 39733,
+    "references/domain-checklist.md": 7371,
+    "references/extraction-methods.md": 3025,
+    "references/section-3tet-rules.md": 4501,
+    "references/tax-rates-2026.md": 15322,
+    "scripts/tax_comparison.py": 18741
    }
   },
   "israeli-coupon-code-finder": {
@@ -3678,12 +3690,16 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
-    "references/domain-checklist.md"
+    "references/directive-329-special-cases.md",
+    "references/domain-checklist.md",
+    "references/offer-comparison-and-fees.md"
    ],
    "bytes": {
-    "SKILL.md": 32238,
-    "SKILL_HE.md": 43604,
-    "references/domain-checklist.md": 6167
+    "SKILL.md": 32290,
+    "SKILL_HE.md": 42961,
+    "references/directive-329-special-cases.md": 1271,
+    "references/domain-checklist.md": 8433,
+    "references/offer-comparison-and-fees.md": 8357
    }
   },
   "israeli-payment-orchestrator": {
@@ -3708,6 +3724,7 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/approaching-retirement.md",
     "references/life-events.md",
     "references/pension-fund-types.md",
     "references/retirement-age-by-cohort.md",
@@ -3716,14 +3733,15 @@
     "scripts/calculate_pension.py"
    ],
    "bytes": {
-    "SKILL.md": 33689,
-    "SKILL_HE.md": 45815,
-    "references/life-events.md": 2436,
-    "references/pension-fund-types.md": 5462,
-    "references/retirement-age-by-cohort.md": 1329,
-    "references/tax-benefits.md": 5825,
-    "references/troubleshooting.md": 1786,
-    "scripts/calculate_pension.py": 18983
+    "SKILL.md": 33220,
+    "SKILL_HE.md": 42383,
+    "references/approaching-retirement.md": 4259,
+    "references/life-events.md": 2499,
+    "references/pension-fund-types.md": 6536,
+    "references/retirement-age-by-cohort.md": 1444,
+    "references/tax-benefits.md": 9655,
+    "references/troubleshooting.md": 1876,
+    "scripts/calculate_pension.py": 19291
    }
   },
   "israeli-price-quote-generator": {
@@ -3829,13 +3847,13 @@
     "references/troubleshooting.md"
    ],
    "bytes": {
-    "SKILL.md": 31454,
-    "SKILL_HE.md": 41881,
-    "references/credit-points.md": 12558,
-    "references/domain-checklist.md": 7250,
-    "references/form-guide.md": 15420,
-    "references/tax-brackets-credits.md": 6647,
-    "references/troubleshooting.md": 2228
+    "SKILL.md": 32802,
+    "SKILL_HE.md": 40631,
+    "references/credit-points.md": 12815,
+    "references/domain-checklist.md": 8010,
+    "references/form-guide.md": 20272,
+    "references/tax-brackets-credits.md": 8191,
+    "references/troubleshooting.md": 6448
    }
   },
   "israeli-tax-withholding": {
@@ -3849,12 +3867,12 @@
     "scripts/calculate_withholding.py"
    ],
    "bytes": {
-    "SKILL.md": 19838,
-    "SKILL_HE.md": 24241,
-    "references/certificate-guide.md": 1873,
-    "references/domain-checklist.md": 5444,
-    "references/withholding-rates.md": 8310,
-    "scripts/calculate_withholding.py": 11848
+    "SKILL.md": 29145,
+    "SKILL_HE.md": 36116,
+    "references/certificate-guide.md": 2023,
+    "references/domain-checklist.md": 8895,
+    "references/withholding-rates.md": 10141,
+    "scripts/calculate_withholding.py": 18774
    }
   },
   "israeli-toshav-chozer-vatik-tax-planner": {
