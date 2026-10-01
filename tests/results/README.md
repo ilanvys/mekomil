@@ -30,6 +30,10 @@ protocol skill; C01 and C06 passed without a skill; and X01/X02 passed with one
 skill even though their fixtures still require two. These fixtures were not
 silently changed and need a separate benchmark-design decision.
 
+The [post-migration verification](post-migration-2026-10-01.md) records the production service
+smoke suite and a clean public Claude Code install with C03 and N01 routing traces. Other hosts
+remain explicitly unverified there.
+
 The M07 shelter answer also exposed a content issue independent of routing:
 official material still presents ten minutes as the general rule, while some
 specific operational events require waiting for an explicit release notice.

@@ -13,6 +13,8 @@
 
 - Recorded the [53-case Claude.ai routing benchmark](tests/results/README.md): 53 LLM-judge
   passes and 38/40 positive skill loads, with five strict-fixture disagreements retained.
+- Recorded the [post-migration production and Claude Code checks](tests/results/post-migration-2026-10-01.md),
+  including the C03 positive trace and silent N01 route.
 - Clarified supported-catalog coverage, the one-hour content cache and best-effort support.
 
 The first tagged release artifact and clean-install host checks remain release gates;
