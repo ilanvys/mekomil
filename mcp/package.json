@@ -29,6 +29,6 @@
     "postcss": "8.5.28"
   },
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   }
 }
