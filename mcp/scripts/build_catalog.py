@@ -42,7 +42,7 @@ if os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN"):
 NOT_SKILL_REPOS = {"skills-il-cli", "release-workflow", ".github", "mcps",
                    "bundles", "shufersal-mcp", "rami-levy-mcp", "design-systems"}
 
-# Ordering for _index.md: audience-1 categories first. See plans/00.
+# Ordering for _index.md: general-audience categories first.
 CATEGORY_ORDER = ["tax-and-finance", "government-services", "legal-tech", "accounting",
                   "health-services", "education", "travel", "food-and-dining",
                   "localization", "communication", "marketing-growth",
