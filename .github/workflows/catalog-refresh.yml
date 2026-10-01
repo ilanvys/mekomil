@@ -1,0 +1,59 @@
+name: Refresh catalog metadata
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: mcp/package-lock.json
+      - name: Install catalog generator dependencies
+        run: python -m pip install -r mcp/scripts/requirements.txt
+      - name: Build catalog candidate
+        run: python mcp/scripts/build_catalog.py --refresh --verify
+      - name: Build manifest and validate service
+        working-directory: mcp
+        run: |
+          npm ci
+          npm run manifest
+          npm test
+          npm run typecheck
+      - name: Validate catalog, manifest, and generated plugin
+        run: python tools/check_refresh.py
+      - name: Open or update the refresh proposal
+        run: |
+          git add mcp/data/catalog mcp/data/manifest.json
+          if git diff --cached --quiet; then
+            echo "No metadata changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B automation/catalog-refresh
+          git commit -m "Refresh skills-il catalog metadata"
+          git push --force origin HEAD:refs/heads/automation/catalog-refresh
+          if ! gh pr view automation/catalog-refresh --json number >/dev/null 2>&1; then
+            gh pr create \
+              --base main \
+              --head automation/catalog-refresh \
+              --title "Refresh skills-il catalog metadata" \
+              --body "Daily generated catalog and manifest. Review removals, category changes, and file-list changes before merging. A failed build leaves the current deployment in place."
+          fi
