@@ -10,6 +10,7 @@ here -- those are cases.tsv, run by hand on each surface. See tests/README.md.
     MEKOMIL_MCP_URL=... python3 tests/smoke.py
 """
 import json, os, re, sys, urllib.request, urllib.error
+from pathlib import Path
 
 URL = os.environ.get("MEKOMIL_MCP_URL", "https://mekomil-mcp.vercel.app/api/mcp")
 TIMEOUT = 30
@@ -233,7 +234,14 @@ def S16_parts_reassemble_losslessly():
     for t in parts_of(LONG, LONG_FILE):
         assert "\n---\n\n" in t, "no provenance separator -- cannot tell header from body"
         bodies.append(t.split("\n---\n\n", 1)[1])
-    whole = "\n".join(bodies)
+    whole = "".join(bodies)
+    manifest = json.loads((Path(__file__).resolve().parents[1] / "mcp" / "data" / "manifest.json").read_text())
+    skill = manifest["skills"][LONG]
+    branch = manifest["defaultBranches"][skill["repo"]]
+    raw_url = f"https://raw.githubusercontent.com/{manifest['org']}/{skill['repo']}/{branch}/{LONG}/{LONG_FILE}"
+    with urllib.request.urlopen(raw_url, timeout=TIMEOUT) as response:
+        expected = response.read().decode("utf-8")
+    assert whole == expected, "parts do not concatenate to the exact upstream file"
     # Step 6 sat just past where a real client truncated this file; step 9 is the last
     # section. Both present means nothing was dropped in the middle or off the end.
     assert "### שלב 6" in whole, "step 6 missing -- the old truncation is not fixed"
@@ -266,7 +274,7 @@ def S18_a_non_final_part_says_so():
 
 def whole(slug, file):
     """The file itself, every part joined, with the provenance blocks stripped."""
-    return "\n".join(t.split("\n---\n\n", 1)[1] for t in parts_of(slug, file))
+    return "".join(t.split("\n---\n\n", 1)[1] for t in parts_of(slug, file))
 
 
 CITED = re.compile(r"(?:scripts|references)/[A-Za-z0-9._-]+")

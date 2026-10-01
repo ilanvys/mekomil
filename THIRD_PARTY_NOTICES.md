@@ -2,11 +2,11 @@
 
 ## skills-il
 
-mekomIL reads the public [skills-il](https://github.com/skills-il) catalog. Two kinds of copies
-of that content exist in this project:
+mekomIL reads the public [skills-il](https://github.com/skills-il) catalog. Two kinds of that
+content pass through this project:
 
-- **The catalog shards** in [`catalog/`](catalog/) quote each skill's `description` verbatim. The
-  generated copy in the MCP service's `data/catalog/` does the same.
+- **The catalog shards** in [`mcp/data/catalog/`](mcp/data/catalog/) quote each skill's
+  `description` verbatim. This is the repository's single generated metadata copy.
 - **Skill files** (`SKILL.md`, `SKILL_HE.md`, references and scripts) are fetched live and
   returned by the MCP service's `get_skill` tool. Every response carries the line
   `license: MIT, Copyright (c) 2026 Skills IL (Yootech)`.

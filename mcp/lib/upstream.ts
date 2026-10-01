@@ -111,58 +111,46 @@ export function fileBytes(slug: string, file: string): number | undefined {
 }
 
 /**
- * Split a file into parts that survive the escaped-character budget, breaking at markdown
- * headings so a part never begins mid-section. `overhead` is the room the provenance block
- * will take once prepended.
+ * Split a file into exact contiguous substrings that survive the escaped-character budget.
+ * Prefer a recent Markdown heading as the boundary when the whole section fits; otherwise cut
+ * within the section or line. `overhead` is the room the provenance block will take once prepended.
  */
 export function splitParts(body: string, overhead: number): string[] {
   const budget = Math.max(PART_BUDGET - overhead, 2_000);
   if (escapedLen(body) <= budget) return [body];
 
-  // A single paragraph can itself blow the budget in Hebrew, so break those up first;
-  // otherwise the line-wise pass below would emit an oversized part and lose the tail.
-  const lines: string[] = [];
-  for (const line of body.split("\n")) {
-    if (escapedLen(line) <= budget) {
-      lines.push(line);
-      continue;
-    }
-    let chunk = "";
-    for (const ch of line) {
-      if (escapedLen(chunk + ch) > budget) {
-        lines.push(chunk);
-        chunk = "";
-      }
-      chunk += ch;
-    }
-    if (chunk) lines.push(chunk);
-  }
-
   const parts: string[] = [];
-  let buf: string[] = [];
-  let used = 0;
-  let lastHeading = -1;
+  let start = 0;
 
-  const cost = (l: string) => escapedLen(l) + 1; // + the newline
-  const recount = () => {
-    used = buf.reduce((n, l) => n + cost(l), 0);
-    lastHeading = buf.findIndex((l) => l.startsWith("#"));
-  };
+  while (start < body.length) {
+    let end = start;
+    let used = 0;
+    let lastHeading = -1;
+    let atLineStart = start === 0 || body[start - 1] === "\n";
 
-  for (const line of lines) {
-    if (used + cost(line) > budget && buf.length) {
-      // Prefer breaking before the most recent heading so a section stays whole; if that
-      // would emit an empty part, break at the buffer's end instead.
-      const at = lastHeading > 0 ? lastHeading : buf.length;
-      parts.push(buf.slice(0, at).join("\n"));
-      buf = buf.slice(at);
-      recount();
+    while (end < body.length) {
+      const codePoint = body.codePointAt(end)!;
+      const ch = String.fromCodePoint(codePoint);
+      const cost = escapedLen(ch);
+      if (used + cost > budget) break;
+      if (atLineStart && ch === "#") lastHeading = end;
+      used += cost;
+      end += ch.length;
+      atLineStart = ch === "\n";
     }
-    if (line.startsWith("#")) lastHeading = buf.length;
-    buf.push(line);
-    used += cost(line);
+
+    if (end === body.length) {
+      parts.push(body.slice(start));
+      break;
+    }
+
+    // Keeping a heading section is only a preference. If it is itself too large, the next
+    // iteration cuts inside it while preserving the original characters and separators.
+    const cut = lastHeading > start ? lastHeading : end;
+    parts.push(body.slice(start, cut));
+    start = cut;
   }
-  if (buf.length) parts.push(buf.join("\n"));
+
   return parts;
 }
 

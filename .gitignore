@@ -33,7 +33,7 @@ dist/
 .DS_Store
 Thumbs.db
 
-# Catalog build cache (refetchable: python3 tools/build_catalog.py --refresh)
+# Catalog build cache (refetchable: python3 mcp/scripts/build_catalog.py --refresh)
 .cache/
 
 # Build output (regenerate: python3 tools/build_bundles.py)

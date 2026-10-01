@@ -14,6 +14,7 @@ before replacing the previous output.
 ```bash
 python3 -m pip install -r mcp/scripts/requirements.txt
 python3 mcp/scripts/build_catalog.py --refresh --verify
+python -m unittest discover -s tests -p 'test_*.py'
 npm --prefix mcp ci
 npm --prefix mcp run manifest
 npm --prefix mcp test
