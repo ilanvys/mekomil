@@ -1,0 +1,20 @@
+{
+  "name": "mekomil",
+  "description": "The mekomIL skill and its fetch connector, in one install.",
+  "owner": {
+    "name": "ilanvys",
+    "url": "https://github.com/ilanvys/mekomil"
+  },
+  "plugins": [
+    {
+      "name": "mekomil",
+      "description": "Finds the Israeli skill that fits your question in the open skills-il catalog, loads it for that one task, and forgets it. Hebrew-first: tax, pensions, ביטוח לאומי, government forms, law, RTL and Israeli formats.",
+      "author": {
+        "name": "ilanvys"
+      },
+      "source": "./plugin",
+      "category": "productivity",
+      "homepage": "https://ilanvys.github.io/mekomil/"
+    }
+  ]
+}

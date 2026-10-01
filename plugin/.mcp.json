@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mekomil": {
+      "type": "http",
+      "url": "https://mekomil-mcp.vercel.app/api/mcp"
+    }
+  }
+}

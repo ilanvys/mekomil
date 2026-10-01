@@ -1,0 +1,11 @@
+{
+  "name": "mekomil",
+  "description": "Finds the Israeli skill that fits your question in the open skills-il catalog, loads it for that one task, and forgets it. Hebrew-first: tax, pensions, ביטוח לאומי, government forms, law, RTL and Israeli formats.",
+  "version": "0.2.0",
+  "author": {
+    "name": "ilanvys",
+    "url": "https://github.com/ilanvys/mekomil"
+  },
+  "homepage": "https://ilanvys.github.io/mekomil/",
+  "license": "MIT"
+}
