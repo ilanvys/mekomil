@@ -6,6 +6,11 @@ regenerates the manifest during a production build, so the deployed file list ca
 the reviewed metadata commit. Check catalog/manifest agreement and run the smoke suite after each
 release deployment. Existing skill-body edits are fetched live and do not need a metadata refresh.
 
+The Vercel project uses `mcp/` as its Root Directory and runs
+`./scripts/should-ignore-build.sh` as its ignored-build command. The script compares
+`VERCEL_GIT_PREVIOUS_SHA` with `VERCEL_GIT_COMMIT_SHA` from the repository root: changes under
+`mcp/` build, docs-only changes are skipped, and missing or unavailable refs build safely.
+
 ## 1. Build a complete candidate
 
 Use a read-only `GITHUB_TOKEN` when available. Both generators validate their complete result
