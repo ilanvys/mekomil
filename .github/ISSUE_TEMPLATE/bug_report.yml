@@ -1,0 +1,21 @@
+name: Report a problem
+description: Report a routing, retrieval or installation problem. Support is best-effort.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "This is an experimental side project with best-effort support. Share a minimal reproduction without secrets, personal details or private chat transcripts. Report security vulnerabilities privately using the repository's security reporting route."
+  - type: input
+    id: environment
+    attributes:
+      label: Host and installed version
+      placeholder: "For example: claude.ai, mekomIL 0.2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: What happened?
+      description: "Include a minimal redacted question or installation step, what you expected, and what happened. For routing problems, name the expected skill and the skill actually loaded (or none)."
+    validations:
+      required: true
