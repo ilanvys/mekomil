@@ -1,0 +1,4123 @@
+{
+ "generated": "2026-09-28T08:49:30.348Z",
+ "org": "skills-il",
+ "maxFileBytes": 262144,
+ "repos": [
+  "accounting",
+  "communication",
+  "courses",
+  "developer-tools",
+  "education",
+  "food-and-dining",
+  "government-services",
+  "health-services",
+  "legal-tech",
+  "localization",
+  "marketing-growth",
+  "security-compliance",
+  "tax-and-finance",
+  "travel"
+ ],
+ "defaultBranches": {
+  "accounting": "master",
+  "communication": "master",
+  "courses": "master",
+  "developer-tools": "master",
+  "education": "master",
+  "food-and-dining": "master",
+  "government-services": "master",
+  "health-services": "master",
+  "legal-tech": "master",
+  "localization": "master",
+  "marketing-growth": "master",
+  "security-compliance": "master",
+  "tax-and-finance": "master",
+  "travel": "master"
+ },
+ "skills": {
+  "green-invoice": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/api-reference.md",
+    "references/document-workflows.md",
+    "scripts/green-invoice-client.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34567,
+    "SKILL_HE.md": 44074,
+    "references/api-reference.md": 19231,
+    "references/document-workflows.md": 8879,
+    "scripts/green-invoice-client.py": 15017
+   }
+  },
+  "gws-israeli-business-sheets": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/gws-sheets-recipes.md",
+    "references/israeli-tax-categories.md",
+    "scripts/backup-sheets.py",
+    "scripts/vat-summary.py"
+   ],
+   "bytes": {
+    "SKILL.md": 29025,
+    "SKILL_HE.md": 35864,
+    "references/gws-sheets-recipes.md": 5973,
+    "references/israeli-tax-categories.md": 11430,
+    "scripts/backup-sheets.py": 4962,
+    "scripts/vat-summary.py": 16621
+   }
+  },
+  "hashavshevet-data-tools": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/legacy-fixed-width.md"
+   ],
+   "bytes": {
+    "SKILL.md": 34921,
+    "SKILL_HE.md": 46787,
+    "references/legacy-fixed-width.md": 5582
+   }
+  },
+  "israeli-amuta-compliance": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/filing-package.md",
+    "scripts/band_check.py"
+   ],
+   "bytes": {
+    "SKILL.md": 27479,
+    "SKILL_HE.md": 34080,
+    "references/domain-checklist.md": 12166,
+    "references/filing-package.md": 5037,
+    "scripts/band_check.py": 9810
+   }
+  },
+  "israeli-annual-reports": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/hebrew-financial-terms.md",
+    "scripts/financial_parser.py"
+   ],
+   "bytes": {
+    "SKILL.md": 24293,
+    "SKILL_HE.md": 30177,
+    "references/domain-checklist.md": 7015,
+    "references/hebrew-financial-terms.md": 2950,
+    "scripts/financial_parser.py": 4527
+   }
+  },
+  "israeli-attendance-wage-checker": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/rates-and-tiers.md",
+    "references/records-and-remedies.md",
+    "scripts/reconcile_hours.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31029,
+    "SKILL_HE.md": 39736,
+    "references/domain-checklist.md": 9011,
+    "references/rates-and-tiers.md": 7205,
+    "references/records-and-remedies.md": 7719,
+    "scripts/reconcile_hours.py": 9901
+   }
+  },
+  "israeli-bank-reconciliation": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/bank-scrapers-credentials.md",
+    "references/domain-checklist.md",
+    "references/matching-rules.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32182,
+    "SKILL_HE.md": 40932,
+    "references/bank-scrapers-credentials.md": 3805,
+    "references/domain-checklist.md": 8484,
+    "references/matching-rules.md": 5201
+   }
+  },
+  "israeli-bookkeeping-automation": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/vat-input-and-filing-formats.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33167,
+    "SKILL_HE.md": 40707,
+    "references/domain-checklist.md": 11149,
+    "references/vat-input-and-filing-formats.md": 8221
+   }
+  },
+  "israeli-e-invoice": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/compliance-timeline.md",
+    "references/domain-checklist.md",
+    "references/invoice-types.md",
+    "references/shaam-api-reference.md",
+    "scripts/validate_invoice.py"
+   ],
+   "bytes": {
+    "SKILL.md": 19175,
+    "SKILL_HE.md": 23829,
+    "references/compliance-timeline.md": 3632,
+    "references/domain-checklist.md": 6231,
+    "references/invoice-types.md": 2923,
+    "references/shaam-api-reference.md": 5831,
+    "scripts/validate_invoice.py": 14747
+   }
+  },
+  "israeli-expense-categorizer": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32505,
+    "SKILL_HE.md": 38038,
+    "references/domain-checklist.md": 8127
+   }
+  },
+  "israeli-financial-reports": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 24710,
+    "SKILL_HE.md": 30849,
+    "references/domain-checklist.md": 7211
+   }
+  },
+  "israeli-healthcare-payroll": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/dirug-map.md",
+    "references/domain-checklist.md",
+    "references/framework-agreement.md",
+    "references/healthcare-tosafot.md",
+    "references/nurses-salary-tables.md",
+    "references/troubleshooting.md",
+    "references/wage-reduction.md",
+    "scripts/healthcare_gross.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33732,
+    "SKILL_HE.md": 46047,
+    "references/dirug-map.md": 2658,
+    "references/domain-checklist.md": 15736,
+    "references/framework-agreement.md": 3147,
+    "references/healthcare-tosafot.md": 11476,
+    "references/nurses-salary-tables.md": 33355,
+    "references/troubleshooting.md": 1184,
+    "references/wage-reduction.md": 2296,
+    "scripts/healthcare_gross.py": 9737
+   }
+  },
+  "israeli-payroll-calculator": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/bituach-leumi-rates.md",
+    "references/credit-points.md",
+    "references/domain-checklist.md",
+    "references/tax-brackets.md",
+    "scripts/calculate_payroll.py"
+   ],
+   "bytes": {
+    "SKILL.md": 24891,
+    "SKILL_HE.md": 30801,
+    "references/bituach-leumi-rates.md": 9717,
+    "references/credit-points.md": 9060,
+    "references/domain-checklist.md": 5729,
+    "references/tax-brackets.md": 3039,
+    "scripts/calculate_payroll.py": 28629
+   }
+  },
+  "israeli-receipt-scanner": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33744,
+    "SKILL_HE.md": 43373,
+    "references/domain-checklist.md": 10324
+   }
+  },
+  "israeli-teacher-payroll": {
+   "repo": "accounting",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/gmul-components.md",
+    "references/reform-hour-structure.md",
+    "references/wage-reduction.md",
+    "scripts/teacher_gross.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31971,
+    "SKILL_HE.md": 45142,
+    "references/domain-checklist.md": 14717,
+    "references/gmul-components.md": 9131,
+    "references/reform-hour-structure.md": 4791,
+    "references/wage-reduction.md": 3775,
+    "scripts/teacher_gross.py": 13092
+   }
+  },
+  "gws-hebrew-email-automation": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/gws-gmail-commands.md",
+    "references/israeli-business-email-templates.md",
+    "references/israeli-email-compliance.md",
+    "references/israeli-holiday-gate.md",
+    "scripts/shekel-formatter.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34029,
+    "SKILL_HE.md": 43023,
+    "references/domain-checklist.md": 6214,
+    "references/gws-gmail-commands.md": 9282,
+    "references/israeli-business-email-templates.md": 3316,
+    "references/israeli-email-compliance.md": 5664,
+    "references/israeli-holiday-gate.md": 2591,
+    "scripts/shekel-formatter.py": 5950
+   }
+  },
+  "israeli-customer-support-automator": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/consumer-protection-law.md",
+    "references/hebrew-response-templates.md",
+    "scripts/ticket-classifier.py"
+   ],
+   "bytes": {
+    "SKILL.md": 35217,
+    "SKILL_HE.md": 41260,
+    "references/consumer-protection-law.md": 26424,
+    "references/hebrew-response-templates.md": 13891,
+    "scripts/ticket-classifier.py": 15522
+   }
+  },
+  "israeli-cv-builder": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/cover-letter-templates.md",
+    "references/domain-checklist.md",
+    "references/eeo-compliance-checklist.md",
+    "references/israeli-cv-structure.md",
+    "scripts/cv_keyword_extractor.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23560,
+    "SKILL_HE.md": 30348,
+    "references/cover-letter-templates.md": 5714,
+    "references/domain-checklist.md": 7114,
+    "references/eeo-compliance-checklist.md": 9376,
+    "references/israeli-cv-structure.md": 7906,
+    "scripts/cv_keyword_extractor.py": 7216
+   }
+  },
+  "israeli-hr-recruitment-automator": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/adjacent-duties.md",
+    "references/anti-discrimination-law.md",
+    "references/domain-checklist.md",
+    "references/mandatory-benefits.md",
+    "scripts/job-description-generator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32534,
+    "SKILL_HE.md": 36240,
+    "references/adjacent-duties.md": 3133,
+    "references/anti-discrimination-law.md": 7920,
+    "references/domain-checklist.md": 21989,
+    "references/mandatory-benefits.md": 9059,
+    "scripts/job-description-generator.py": 16433
+   }
+  },
+  "israeli-job-market": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/israeli-cv-template.md"
+   ],
+   "bytes": {
+    "SKILL.md": 23966,
+    "SKILL_HE.md": 31454,
+    "references/domain-checklist.md": 4788,
+    "references/israeli-cv-template.md": 3568
+   }
+  },
+  "israeli-personal-assistant": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/hebrew-communication-templates.md",
+    "references/israeli-business-calendar.md",
+    "scripts/morning-brief.py"
+   ],
+   "bytes": {
+    "SKILL.md": 28526,
+    "SKILL_HE.md": 34117,
+    "references/domain-checklist.md": 3004,
+    "references/hebrew-communication-templates.md": 8334,
+    "references/israeli-business-calendar.md": 11377,
+    "scripts/morning-brief.py": 17777
+   }
+  },
+  "israeli-sms-gateway": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "scripts/send_sms.py",
+    "scripts/validate_phone.py"
+   ],
+   "bytes": {
+    "SKILL.md": 21348,
+    "SKILL_HE.md": 27287,
+    "scripts/send_sms.py": 17079,
+    "scripts/validate_phone.py": 6452
+   }
+  },
+  "israeli-telecom-comparator": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md"
+   ],
+   "bytes": {
+    "SKILL.md": 31682,
+    "SKILL_HE.md": 42889
+   }
+  },
+  "israeli-telegram-business-bot": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/business-bot-templates.md",
+    "references/domain-checklist.md",
+    "references/israeli-payment-providers.md",
+    "references/mini-apps-implementation.md",
+    "references/no-code-platforms.md"
+   ],
+   "bytes": {
+    "SKILL.md": 34070,
+    "SKILL_HE.md": 46555,
+    "references/business-bot-templates.md": 20139,
+    "references/domain-checklist.md": 6652,
+    "references/israeli-payment-providers.md": 3447,
+    "references/mini-apps-implementation.md": 2646,
+    "references/no-code-platforms.md": 1448
+   }
+  },
+  "israeli-whatsapp-business": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/bsp-selection.md",
+    "references/compliance-checklist.md",
+    "references/domain-checklist.md",
+    "references/interactive-list.md",
+    "references/platform-2026.md",
+    "references/template-rejections.md",
+    "scripts/send_whatsapp.py"
+   ],
+   "bytes": {
+    "SKILL.md": 36400,
+    "SKILL_HE.md": 45407,
+    "references/bsp-selection.md": 1281,
+    "references/compliance-checklist.md": 1516,
+    "references/domain-checklist.md": 10111,
+    "references/interactive-list.md": 1040,
+    "references/platform-2026.md": 7762,
+    "references/template-rejections.md": 2117,
+    "scripts/send_whatsapp.py": 18061
+   }
+  },
+  "monday-com-workflows": {
+   "repo": "communication",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/graphql-patterns.md",
+    "references/israeli-holidays.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32724,
+    "SKILL_HE.md": 40756,
+    "references/domain-checklist.md": 4794,
+    "references/graphql-patterns.md": 12683,
+    "references/israeli-holidays.md": 7753
+   }
+  },
+  "ai-agents-for-everyone": {
+   "repo": "courses",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md"
+   ],
+   "bytes": {
+    "SKILL.md": 53605,
+    "SKILL_HE.md": 73865
+   }
+  },
+  "israeli-freelancer-year": {
+   "repo": "courses",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md"
+   ],
+   "bytes": {
+    "SKILL.md": 45911,
+    "SKILL_HE.md": 61961
+   }
+  },
+  "israeli-pension-decoded": {
+   "repo": "courses",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md"
+   ],
+   "bytes": {
+    "SKILL.md": 60347,
+    "SKILL_HE.md": 75421
+   }
+  },
+  "making-aliyah-first-90-days": {
+   "repo": "courses",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md"
+   ],
+   "bytes": {
+    "SKILL.md": 18781,
+    "SKILL_HE.md": 25127
+   }
+  },
+  "miluim-rights-and-money": {
+   "repo": "courses",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md"
+   ],
+   "bytes": {
+    "SKILL.md": 20004,
+    "SKILL_HE.md": 26023
+   }
+  },
+  "writing-your-first-agent-skill": {
+   "repo": "courses",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md"
+   ],
+   "bytes": {
+    "SKILL.md": 39780,
+    "SKILL_HE.md": 52716
+   }
+  },
+  "cloudinary-assets": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/optimization-guide.md",
+    "references/transformation-cheatsheet.md",
+    "scripts/upload_asset.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23133,
+    "SKILL_HE.md": 28838,
+    "references/optimization-guide.md": 3537,
+    "references/transformation-cheatsheet.md": 5553,
+    "scripts/upload_asset.py": 19778
+   }
+  },
+  "github-actions-il": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/shabbat-deploy-freeze.md",
+    "references/workflow-templates.md"
+   ],
+   "bytes": {
+    "SKILL.md": 35267,
+    "SKILL_HE.md": 33920,
+    "references/shabbat-deploy-freeze.md": 15775,
+    "references/workflow-templates.md": 20145
+   }
+  },
+  "hebrew-chatbot-builder": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/hebrew-chatbot-phrases.md",
+    "references/whatsapp-business-api-guide.md",
+    "scripts/telegram-bot-scaffold.py",
+    "scripts/whatsapp-webhook-handler.py"
+   ],
+   "bytes": {
+    "SKILL.md": 42738,
+    "SKILL_HE.md": 39183,
+    "references/hebrew-chatbot-phrases.md": 8965,
+    "references/whatsapp-business-api-guide.md": 11149,
+    "scripts/telegram-bot-scaffold.py": 17833,
+    "scripts/whatsapp-webhook-handler.py": 18643
+   }
+  },
+  "hebrew-llm-eval-suite": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/benchmark-catalog.md",
+    "references/prompt-templates.md",
+    "scripts/make_scorecard.py",
+    "scripts/run_eval.py",
+    "scripts/score_results.py"
+   ],
+   "bytes": {
+    "SKILL.md": 35320,
+    "SKILL_HE.md": 41067,
+    "references/benchmark-catalog.md": 8346,
+    "references/prompt-templates.md": 5733,
+    "scripts/make_scorecard.py": 8140,
+    "scripts/run_eval.py": 11480,
+    "scripts/score_results.py": 8950
+   }
+  },
+  "hebrew-ml-datasets-navigator": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/dataset-catalog.md",
+    "references/license-quick-guide.md",
+    "references/model-catalog.md",
+    "scripts/find_dataset.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31787,
+    "SKILL_HE.md": 34149,
+    "references/dataset-catalog.md": 5695,
+    "references/license-quick-guide.md": 7709,
+    "references/model-catalog.md": 7415,
+    "scripts/find_dataset.py": 15766
+   }
+  },
+  "hebrew-voice-bot-builder": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/hebrew-stt-models.md",
+    "references/ivr-design-patterns.md",
+    "scripts/hebrew-stt-demo.py"
+   ],
+   "bytes": {
+    "SKILL.md": 40671,
+    "SKILL_HE.md": 40395,
+    "references/hebrew-stt-models.md": 9157,
+    "references/ivr-design-patterns.md": 9289,
+    "scripts/hebrew-stt-demo.py": 12894
+   }
+  },
+  "hyperframes-best-practices": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/audio-reactive.md",
+    "references/captions.md",
+    "references/css-patterns.md",
+    "references/domain-checklist.md",
+    "references/dynamic-techniques.md",
+    "references/hebrew-rtl.md",
+    "references/motion-principles.md",
+    "references/transcript-guide.md",
+    "references/transitions.md",
+    "references/transitions/catalog.md",
+    "references/transitions/css-3d.md",
+    "references/transitions/css-blur.md",
+    "references/transitions/css-cover.md",
+    "references/transitions/css-destruction.md",
+    "references/transitions/css-dissolve.md",
+    "references/transitions/css-distortion.md",
+    "references/transitions/css-grid.md",
+    "references/transitions/css-light.md",
+    "references/transitions/css-mechanical.md",
+    "references/transitions/css-other.md",
+    "references/transitions/css-push.md",
+    "references/transitions/css-radial.md",
+    "references/transitions/css-scale.md",
+    "references/tts.md",
+    "references/typography.md",
+    "scripts/animation-map.mjs",
+    "scripts/contrast-report.mjs"
+   ],
+   "bytes": {
+    "SKILL.md": 36400,
+    "SKILL_HE.md": 25641,
+    "references/audio-reactive.md": 3040,
+    "references/captions.md": 6669,
+    "references/css-patterns.md": 8294,
+    "references/domain-checklist.md": 18842,
+    "references/dynamic-techniques.md": 6853,
+    "references/hebrew-rtl.md": 9142,
+    "references/motion-principles.md": 3877,
+    "references/transcript-guide.md": 7973,
+    "references/transitions.md": 11676,
+    "references/transitions/catalog.md": 6278,
+    "references/transitions/css-3d.md": 421,
+    "references/transitions/css-blur.md": 1784,
+    "references/transitions/css-cover.md": 1448,
+    "references/transitions/css-destruction.md": 4439,
+    "references/transitions/css-dissolve.md": 2453,
+    "references/transitions/css-distortion.md": 1800,
+    "references/transitions/css-grid.md": 367,
+    "references/transitions/css-light.md": 2376,
+    "references/transitions/css-mechanical.md": 1613,
+    "references/transitions/css-other.md": 838,
+    "references/transitions/css-push.md": 1192,
+    "references/transitions/css-radial.md": 1060,
+    "references/transitions/css-scale.md": 715,
+    "references/tts.md": 2839,
+    "references/typography.md": 11022,
+    "scripts/animation-map.mjs": 19301,
+    "scripts/contrast-report.mjs": 12030
+   }
+  },
+  "idf-date-converter": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/hebrew-calendar-reference.md",
+    "scripts/convert_date.py"
+   ],
+   "bytes": {
+    "SKILL.md": 15525,
+    "SKILL_HE.md": 20741,
+    "references/hebrew-calendar-reference.md": 3921,
+    "scripts/convert_date.py": 25126
+   }
+  },
+  "israeli-agritech-advisor": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/agritech-ecosystem.md"
+   ],
+   "bytes": {
+    "SKILL.md": 25203,
+    "SKILL_HE.md": 28522,
+    "references/agritech-ecosystem.md": 6204
+   }
+  },
+  "israeli-chatbot-analytics": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/analytics-stack-notes.md",
+    "references/chatbot-metrics-glossary.md",
+    "references/domain-checklist.md",
+    "references/hebrew-sentiment-guide.md",
+    "references/llm-bot-observability.md",
+    "references/platform-integrations.md",
+    "scripts/conversation-analyzer.py"
+   ],
+   "bytes": {
+    "SKILL.md": 38472,
+    "SKILL_HE.md": 53967,
+    "references/analytics-stack-notes.md": 3125,
+    "references/chatbot-metrics-glossary.md": 18047,
+    "references/domain-checklist.md": 6191,
+    "references/hebrew-sentiment-guide.md": 17792,
+    "references/llm-bot-observability.md": 13829,
+    "references/platform-integrations.md": 2826,
+    "scripts/conversation-analyzer.py": 24332
+   }
+  },
+  "israeli-cloud-cost-comparator": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/compliance-he.md",
+    "references/compliance.md",
+    "references/cost-mechanics.md",
+    "references/pricing-and-credits-he.md",
+    "references/pricing-and-credits.md"
+   ],
+   "bytes": {
+    "SKILL.md": 35982,
+    "SKILL_HE.md": 52422,
+    "references/compliance-he.md": 8527,
+    "references/compliance.md": 6442,
+    "references/cost-mechanics.md": 13370,
+    "references/pricing-and-credits-he.md": 9936,
+    "references/pricing-and-credits.md": 7053
+   }
+  },
+  "israeli-id-validator": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/id-formats.md",
+    "scripts/validate_id.py"
+   ],
+   "bytes": {
+    "SKILL.md": 14541,
+    "SKILL_HE.md": 18860,
+    "references/id-formats.md": 3317,
+    "scripts/validate_id.py": 12390
+   }
+  },
+  "israeli-marketplace-seller": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/platform-guides.md"
+   ],
+   "bytes": {
+    "SKILL.md": 26787,
+    "SKILL_HE.md": 33484,
+    "references/platform-guides.md": 12088
+   }
+  },
+  "israeli-phone-formatter": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/prefix-allocation.md",
+    "scripts/validate_phone.py"
+   ],
+   "bytes": {
+    "SKILL.md": 10357,
+    "SKILL_HE.md": 13232,
+    "references/prefix-allocation.md": 4290,
+    "scripts/validate_phone.py": 6483
+   }
+  },
+  "israeli-postgres-toolkit": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/hebrew-collation-guide.md",
+    "references/supabase-israel-patterns.md",
+    "scripts/hebrew-search-setup.sql",
+    "scripts/israeli-data-types.sql"
+   ],
+   "bytes": {
+    "SKILL.md": 35825,
+    "SKILL_HE.md": 42414,
+    "references/domain-checklist.md": 21772,
+    "references/hebrew-collation-guide.md": 8775,
+    "references/supabase-israel-patterns.md": 10155,
+    "scripts/hebrew-search-setup.sql": 11146,
+    "scripts/israeli-data-types.sql": 13085
+   }
+  },
+  "israeli-product-price-comparator": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md"
+   ],
+   "bytes": {
+    "SKILL.md": 22791,
+    "SKILL_HE.md": 30248
+   }
+  },
+  "israeli-shipping-manager": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/address-format.md",
+    "references/carrier-apis.md",
+    "references/returns-law.md",
+    "scripts/format_address.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34056,
+    "SKILL_HE.md": 43527,
+    "references/address-format.md": 4594,
+    "references/carrier-apis.md": 17591,
+    "references/returns-law.md": 8351,
+    "scripts/format_address.py": 12388
+   }
+  },
+  "israeli-spreadsheets": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/israeli-tax-rates.md",
+    "scripts/generate_spreadsheet.py"
+   ],
+   "bytes": {
+    "SKILL.md": 18504,
+    "SKILL_HE.md": 22932,
+    "references/israeli-tax-rates.md": 7457,
+    "scripts/generate_spreadsheet.py": 14318
+   }
+  },
+  "israeli-startup-toolkit": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/ecosystem-context-he.md",
+    "references/ecosystem-context.md",
+    "references/iia-programs-guide.md",
+    "references/investment-term-sheets.md",
+    "references/option-102-reference.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32351,
+    "SKILL_HE.md": 35992,
+    "references/ecosystem-context-he.md": 3547,
+    "references/ecosystem-context.md": 2781,
+    "references/iia-programs-guide.md": 3526,
+    "references/investment-term-sheets.md": 6275,
+    "references/option-102-reference.md": 4955
+   }
+  },
+  "jfrog-devops": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/api-reference.md",
+    "references/domain-checklist.md",
+    "scripts/artifactory_client.py",
+    "scripts/xray_client.py"
+   ],
+   "bytes": {
+    "SKILL.md": 27214,
+    "SKILL_HE.md": 31490,
+    "references/api-reference.md": 5994,
+    "references/domain-checklist.md": 7855,
+    "scripts/artifactory_client.py": 19155,
+    "scripts/xray_client.py": 21172
+   }
+  },
+  "make-com-israeli-automations": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/billing-cycle-patterns.md",
+    "references/make-israeli-modules.md",
+    "references/make-mcp-server.md"
+   ],
+   "bytes": {
+    "SKILL.md": 34222,
+    "SKILL_HE.md": 43841,
+    "references/billing-cycle-patterns.md": 13231,
+    "references/make-israeli-modules.md": 18275,
+    "references/make-mcp-server.md": 4477
+   }
+  },
+  "n8n-hebrew-workflows": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/israeli-api-endpoints.md",
+    "references/n8n-version-migration.md",
+    "references/n8n-workflow-authoring.md",
+    "references/shabbat-cron-patterns.md",
+    "references/webhook-auth-patterns.md"
+   ],
+   "bytes": {
+    "SKILL.md": 35445,
+    "SKILL_HE.md": 54789,
+    "references/israeli-api-endpoints.md": 50232,
+    "references/n8n-version-migration.md": 17595,
+    "references/n8n-workflow-authoring.md": 19309,
+    "references/shabbat-cron-patterns.md": 16668,
+    "references/webhook-auth-patterns.md": 6721
+   }
+  },
+  "open-slide-best-practices": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 27726,
+    "SKILL_HE.md": 36415,
+    "references/domain-checklist.md": 4681
+   }
+  },
+  "remotion-best-practices": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 18357,
+    "SKILL_HE.md": 22661,
+    "references/domain-checklist.md": 6651
+   }
+  },
+  "skills-il-skill-creator": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/skill-spec.md",
+    "scripts/scaffold-skill.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31593,
+    "SKILL_HE.md": 36035,
+    "references/domain-checklist.md": 5508,
+    "references/skill-spec.md": 8270,
+    "scripts/scaffold-skill.py": 7817
+   }
+  },
+  "telegram-bot-builder": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/conversations.md",
+    "references/deployment.md",
+    "references/domain-checklist.md",
+    "references/examples.md",
+    "references/framework-comparison.md",
+    "references/middleware.md",
+    "references/mini-apps.md",
+    "references/quickstarts.md"
+   ],
+   "bytes": {
+    "SKILL.md": 37042,
+    "SKILL_HE.md": 49134,
+    "references/conversations.md": 2674,
+    "references/deployment.md": 3350,
+    "references/domain-checklist.md": 15897,
+    "references/examples.md": 14321,
+    "references/framework-comparison.md": 9056,
+    "references/middleware.md": 1266,
+    "references/mini-apps.md": 5061,
+    "references/quickstarts.md": 3930
+   }
+  },
+  "video-use-best-practices": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/captions-only-tuning.md",
+    "references/domain-checklist.md",
+    "references/hebrew-filler-words.md",
+    "references/known-limitations.md",
+    "references/macos-ffmpeg-setup.md",
+    "references/pricing.md",
+    "references/quick-test.md",
+    "references/sub-force-style-hebrew.md",
+    "scripts/burn-hebrew-captions.sh",
+    "scripts/captions-only.sh",
+    "scripts/install-hebrew-fonts.sh"
+   ],
+   "bytes": {
+    "SKILL.md": 37223,
+    "SKILL_HE.md": 50760,
+    "references/captions-only-tuning.md": 5286,
+    "references/domain-checklist.md": 9781,
+    "references/hebrew-filler-words.md": 8810,
+    "references/known-limitations.md": 1425,
+    "references/macos-ffmpeg-setup.md": 5464,
+    "references/pricing.md": 4267,
+    "references/quick-test.md": 3040,
+    "references/sub-force-style-hebrew.md": 8160,
+    "scripts/burn-hebrew-captions.sh": 21105,
+    "scripts/captions-only.sh": 16323,
+    "scripts/install-hebrew-fonts.sh": 5992
+   }
+  },
+  "wcag-accessibility-widget": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/README.md",
+    "references/accessibility-statement.md"
+   ],
+   "bytes": {
+    "SKILL.md": 23968,
+    "SKILL_HE.md": 28077,
+    "references/README.md": 2638,
+    "references/accessibility-statement.md": 3918
+   }
+  },
+  "yad2-second-hand-trader": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/listing-and-pricing.md",
+    "references/scam-playbook.md",
+    "scripts/scam_score.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23500,
+    "SKILL_HE.md": 30722,
+    "references/domain-checklist.md": 6820,
+    "references/listing-and-pricing.md": 4115,
+    "references/scam-playbook.md": 7429,
+    "scripts/scam_score.py": 4432
+   }
+  },
+  "zapier-israeli-integrations": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/israeli-zapier-apps.md",
+    "references/zap-templates.md",
+    "references/zapier-platform-notes.md"
+   ],
+   "bytes": {
+    "SKILL.md": 34530,
+    "SKILL_HE.md": 45624,
+    "references/israeli-zapier-apps.md": 38707,
+    "references/zap-templates.md": 22481,
+    "references/zapier-platform-notes.md": 20639
+   }
+  },
+  "israeli-academic-scholarships": {
+   "repo": "education",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/profile-questionnaire.md",
+    "references/scholarship-table.md",
+    "scripts/match_scholarships.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32005,
+    "SKILL_HE.md": 42151,
+    "references/domain-checklist.md": 25389,
+    "references/profile-questionnaire.md": 2857,
+    "references/scholarship-table.md": 7608,
+    "scripts/match_scholarships.py": 22195
+   }
+  },
+  "israeli-bagrut-psychometric": {
+   "repo": "education",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/bagrut-subjects-and-units.md",
+    "references/domain-checklist.md",
+    "references/nite-tests-and-procedures.md",
+    "references/university-admission-guide.md",
+    "scripts/bagrut-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33571,
+    "SKILL_HE.md": 45104,
+    "references/bagrut-subjects-and-units.md": 6693,
+    "references/domain-checklist.md": 11396,
+    "references/nite-tests-and-procedures.md": 5103,
+    "references/university-admission-guide.md": 17531,
+    "scripts/bagrut-calculator.py": 17275
+   }
+  },
+  "israeli-childcare-navigator": {
+   "repo": "education",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/childcare-timeline.md",
+    "references/domain-checklist.md",
+    "references/maon-yom-tuition-tables.md",
+    "references/special-education-rights.md"
+   ],
+   "bytes": {
+    "SKILL.md": 28944,
+    "SKILL_HE.md": 34770,
+    "references/childcare-timeline.md": 2729,
+    "references/domain-checklist.md": 8129,
+    "references/maon-yom-tuition-tables.md": 9271,
+    "references/special-education-rights.md": 7411
+   }
+  },
+  "israeli-genealogy-researcher": {
+   "repo": "education",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/data-sources-guide.md",
+    "references/hebrew-document-glossary.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33926,
+    "SKILL_HE.md": 45121,
+    "references/data-sources-guide.md": 10170,
+    "references/hebrew-document-glossary.md": 8178
+   }
+  },
+  "israeli-heritage-explorer": {
+   "repo": "education",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/historical-periods.md",
+    "references/nli-api-reference.md",
+    "scripts/nli-search-example.py"
+   ],
+   "bytes": {
+    "SKILL.md": 27259,
+    "SKILL_HE.md": 34622,
+    "references/domain-checklist.md": 5636,
+    "references/historical-periods.md": 7244,
+    "references/nli-api-reference.md": 5422,
+    "scripts/nli-search-example.py": 11373
+   }
+  },
+  "israeli-special-education-dossier": {
+   "repo": "education",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/committee-rights.md",
+    "references/domain-checklist.md",
+    "scripts/deadline_calc.py"
+   ],
+   "bytes": {
+    "SKILL.md": 26117,
+    "SKILL_HE.md": 32004,
+    "references/committee-rights.md": 5865,
+    "references/domain-checklist.md": 8939,
+    "scripts/deadline_calc.py": 7586
+   }
+  },
+  "israeli-tech-interview-prep": {
+   "repo": "education",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/hebrew-tech-vocabulary.md",
+    "references/israeli-tech-companies.md",
+    "scripts/interview-question-generator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 28535,
+    "SKILL_HE.md": 37353,
+    "references/hebrew-tech-vocabulary.md": 9511,
+    "references/israeli-tech-companies.md": 14159,
+    "scripts/interview-question-generator.py": 38243
+   }
+  },
+  "israeli-food-business-compliance": {
+   "repo": "food-and-dining",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/health-ministry-requirements.md",
+    "references/labeling-requirements.md"
+   ],
+   "bytes": {
+    "SKILL.md": 25352,
+    "SKILL_HE.md": 30660,
+    "references/domain-checklist.md": 6626,
+    "references/health-ministry-requirements.md": 7693,
+    "references/labeling-requirements.md": 10232
+   }
+  },
+  "israeli-grocery-price-intelligence": {
+   "repo": "food-and-dining",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/chain-feeds.md",
+    "references/domain-checklist.md",
+    "scripts/parse_price_xml.py"
+   ],
+   "bytes": {
+    "SKILL.md": 29632,
+    "SKILL_HE.md": 37803,
+    "references/chain-feeds.md": 23358,
+    "references/domain-checklist.md": 4222,
+    "scripts/parse_price_xml.py": 14965
+   }
+  },
+  "israeli-restaurant-ops": {
+   "repo": "food-and-dining",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/platform-guides.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33261,
+    "SKILL_HE.md": 41691,
+    "references/domain-checklist.md": 2256,
+    "references/platform-guides.md": 8214
+   }
+  },
+  "israel-gov-api": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/ckan-api-reference.md",
+    "scripts/query_datagov.py"
+   ],
+   "bytes": {
+    "SKILL.md": 26925,
+    "SKILL_HE.md": 32742,
+    "references/ckan-api-reference.md": 4329,
+    "scripts/query_datagov.py": 12054
+   }
+  },
+  "israeli-address-autocomplete": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/city-codes.md",
+    "references/domain-checklist.md",
+    "scripts/lookup_address.py"
+   ],
+   "bytes": {
+    "SKILL.md": 18887,
+    "SKILL_HE.md": 22878,
+    "references/city-codes.md": 2898,
+    "references/domain-checklist.md": 7834,
+    "scripts/lookup_address.py": 19109
+   }
+  },
+  "israeli-aliyah-customs-shipment-planner": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/allowed-items-list.md",
+    "references/returning-residents.md",
+    "references/shipment-planning-strategy.md",
+    "scripts/plan_shipments.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23172,
+    "SKILL_HE.md": 30549,
+    "references/allowed-items-list.md": 5924,
+    "references/returning-residents.md": 4042,
+    "references/shipment-planning-strategy.md": 5120,
+    "scripts/plan_shipments.py": 13396
+   }
+  },
+  "israeli-aliyah-navigator": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/aliyah-additional-procedures.md",
+    "references/aliyah-timeline-guide.md",
+    "references/alternate-aliyah-statuses.md",
+    "references/driver-license-conversion.md",
+    "references/post-basket-entitlements.md",
+    "references/pre-aliyah-documents.md",
+    "references/professional-recognition.md",
+    "references/sal-klita-rates.md",
+    "references/tax-benefits-olim.md",
+    "references/troubleshooting.md",
+    "scripts/aliyah-checklist.py",
+    "scripts/sal-klita-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33520,
+    "SKILL_HE.md": 45069,
+    "references/aliyah-additional-procedures.md": 26558,
+    "references/aliyah-timeline-guide.md": 18713,
+    "references/alternate-aliyah-statuses.md": 6356,
+    "references/driver-license-conversion.md": 3723,
+    "references/post-basket-entitlements.md": 7128,
+    "references/pre-aliyah-documents.md": 4999,
+    "references/professional-recognition.md": 4447,
+    "references/sal-klita-rates.md": 3193,
+    "references/tax-benefits-olim.md": 14767,
+    "references/troubleshooting.md": 11467,
+    "scripts/aliyah-checklist.py": 14236,
+    "scripts/sal-klita-calculator.py": 9140
+   }
+  },
+  "israeli-bituach-leumi": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/benefit-programs.md",
+    "references/contribution-rates.md",
+    "references/domain-checklist.md",
+    "references/forms.md",
+    "references/troubleshooting.md",
+    "scripts/calculate_benefits.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33587,
+    "SKILL_HE.md": 55988,
+    "references/benefit-programs.md": 30046,
+    "references/contribution-rates.md": 10629,
+    "references/domain-checklist.md": 9614,
+    "references/forms.md": 16362,
+    "references/troubleshooting.md": 2138,
+    "scripts/calculate_benefits.py": 28707
+   }
+  },
+  "israeli-bureaucracy-decoder": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/bureaucratic-hebrew-glossary.md",
+    "references/common-government-forms.md",
+    "references/government-bodies-guide.md",
+    "scripts/document-analyzer.py"
+   ],
+   "bytes": {
+    "SKILL.md": 24159,
+    "SKILL_HE.md": 30213,
+    "references/bureaucratic-hebrew-glossary.md": 15571,
+    "references/common-government-forms.md": 14421,
+    "references/government-bodies-guide.md": 20162,
+    "scripts/document-analyzer.py": 25384
+   }
+  },
+  "israeli-business-war-compensation": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/calculator-walkthrough.md",
+    "references/claimant-paths.md",
+    "references/domain-checklist.md",
+    "references/red-track-yishuvim.md",
+    "scripts/calc_grant.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34866,
+    "SKILL_HE.md": 45291,
+    "references/calculator-walkthrough.md": 6041,
+    "references/claimant-paths.md": 3609,
+    "references/domain-checklist.md": 21750,
+    "references/red-track-yishuvim.md": 6389,
+    "scripts/calc_grant.py": 16367
+   }
+  },
+  "israeli-company-lookup": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/entity-types.md",
+    "scripts/search_company.py"
+   ],
+   "bytes": {
+    "SKILL.md": 13913,
+    "SKILL_HE.md": 16089,
+    "references/domain-checklist.md": 4679,
+    "references/entity-types.md": 2380,
+    "scripts/search_company.py": 6895
+   }
+  },
+  "israeli-digital-nomad-navigator": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/examples.md",
+    "references/totalization-treaties.md",
+    "references/visa-by-country-2026.md",
+    "scripts/nomad-decision.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34238,
+    "SKILL_HE.md": 48857,
+    "references/domain-checklist.md": 3757,
+    "references/examples.md": 13525,
+    "references/totalization-treaties.md": 4033,
+    "references/visa-by-country-2026.md": 6847,
+    "scripts/nomad-decision.py": 24793
+   }
+  },
+  "israeli-discharged-soldier-navigator": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/adjacent-benefits.md",
+    "references/domain-checklist.md",
+    "references/mimadim-scholarship.md",
+    "references/nekudot-zikui-tables.md",
+    "references/six-purposes-deep-dive.md",
+    "scripts/pikadon-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33181,
+    "SKILL_HE.md": 43643,
+    "references/adjacent-benefits.md": 7609,
+    "references/domain-checklist.md": 15350,
+    "references/mimadim-scholarship.md": 3884,
+    "references/nekudot-zikui-tables.md": 7596,
+    "references/six-purposes-deep-dive.md": 9399,
+    "scripts/pikadon-calculator.py": 9650
+   }
+  },
+  "israeli-drug-database": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/drug-registry-guide.md",
+    "scripts/lookup_drug.py"
+   ],
+   "bytes": {
+    "SKILL.md": 28273,
+    "SKILL_HE.md": 33806,
+    "references/drug-registry-guide.md": 8881,
+    "scripts/lookup_drug.py": 13853
+   }
+  },
+  "israeli-education-system": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/education-glossary.md",
+    "scripts/calculate_sekhem.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34670,
+    "SKILL_HE.md": 43504,
+    "references/education-glossary.md": 8387,
+    "scripts/calculate_sekhem.py": 16642
+   }
+  },
+  "israeli-election-data": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/knesset-api-entities.md",
+    "scripts/query_knesset.py"
+   ],
+   "bytes": {
+    "SKILL.md": 36203,
+    "SKILL_HE.md": 44521,
+    "references/domain-checklist.md": 8311,
+    "references/knesset-api-entities.md": 11102,
+    "scripts/query_knesset.py": 14725
+   }
+  },
+  "israeli-fact-checker": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/source-map.md",
+    "scripts/verdict_template.py"
+   ],
+   "bytes": {
+    "SKILL.md": 16040,
+    "SKILL_HE.md": 20525,
+    "references/domain-checklist.md": 10867,
+    "references/source-map.md": 4749,
+    "scripts/verdict_template.py": 5946
+   }
+  },
+  "israeli-firearm-license-navigator": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/eligibility-criteria.md",
+    "references/glossary.md",
+    "references/process-stages.md",
+    "references/refusal-and-appeal.md",
+    "references/renewal-and-refresher.md",
+    "references/storage-ammunition-and-incidents.md",
+    "scripts/build_stage_checklist.py",
+    "scripts/calculate_license_dates.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33006,
+    "SKILL_HE.md": 41629,
+    "references/eligibility-criteria.md": 18012,
+    "references/glossary.md": 6272,
+    "references/process-stages.md": 9555,
+    "references/refusal-and-appeal.md": 7601,
+    "references/renewal-and-refresher.md": 14141,
+    "references/storage-ammunition-and-incidents.md": 10380,
+    "scripts/build_stage_checklist.py": 42698,
+    "scripts/calculate_license_dates.py": 55912
+   }
+  },
+  "israeli-gov-form-automator": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/gov-portals.md",
+    "scripts/fill_form.py"
+   ],
+   "bytes": {
+    "SKILL.md": 17326,
+    "SKILL_HE.md": 19812,
+    "references/gov-portals.md": 6709,
+    "scripts/fill_form.py": 12613
+   }
+  },
+  "israeli-land-tenders": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/rmi-system-guide.md",
+    "scripts/search_tenders.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23955,
+    "SKILL_HE.md": 29688,
+    "references/rmi-system-guide.md": 4565,
+    "scripts/search_tenders.py": 6752
+   }
+  },
+  "israeli-lone-soldier-rights": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/additional-benefits.md",
+    "references/diaspora-orgs-directory.md",
+    "references/documents-checklist.md",
+    "references/domain-checklist.md",
+    "references/recognition-process.md",
+    "scripts/post-discharge-rent-estimator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34547,
+    "SKILL_HE.md": 47253,
+    "references/additional-benefits.md": 1347,
+    "references/diaspora-orgs-directory.md": 5517,
+    "references/documents-checklist.md": 1008,
+    "references/domain-checklist.md": 6842,
+    "references/recognition-process.md": 4253,
+    "scripts/post-discharge-rent-estimator.py": 6894
+   }
+  },
+  "israeli-media-authenticity-verifier": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/artifact-checklist.md",
+    "references/domain-checklist.md",
+    "references/israeli-context.md",
+    "references/provenance.md",
+    "references/source-tracing.md",
+    "references/verdict-report-template.md",
+    "scripts/check_provenance.py",
+    "scripts/dump_metadata.py",
+    "scripts/extract_frames.py"
+   ],
+   "bytes": {
+    "SKILL.md": 28175,
+    "SKILL_HE.md": 37823,
+    "references/artifact-checklist.md": 3913,
+    "references/domain-checklist.md": 11040,
+    "references/israeli-context.md": 11406,
+    "references/provenance.md": 6400,
+    "references/source-tracing.md": 8493,
+    "references/verdict-report-template.md": 1990,
+    "scripts/check_provenance.py": 4335,
+    "scripts/dump_metadata.py": 4829,
+    "scripts/extract_frames.py": 2796
+   }
+  },
+  "israeli-miluim-manager": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/2026-law-changes.md",
+    "references/bituach-leumi-filing-guide.md",
+    "references/btl-payment-rules.md",
+    "references/domain-checklist.md",
+    "references/troubleshooting.md",
+    "scripts/miluim-tax-credit-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33856,
+    "SKILL_HE.md": 60464,
+    "references/2026-law-changes.md": 57326,
+    "references/bituach-leumi-filing-guide.md": 21855,
+    "references/btl-payment-rules.md": 10060,
+    "references/domain-checklist.md": 6369,
+    "references/troubleshooting.md": 14753,
+    "scripts/miluim-tax-credit-calculator.py": 19742
+   }
+  },
+  "israeli-municipal-audit-report": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/statutory-timeline.md",
+    "scripts/audit_timeline.py"
+   ],
+   "bytes": {
+    "SKILL.md": 14301,
+    "SKILL_HE.md": 17228,
+    "references/statutory-timeline.md": 3126,
+    "scripts/audit_timeline.py": 2528
+   }
+  },
+  "israeli-public-transit": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/operators-and-gtfs.md",
+    "scripts/check_transit.py"
+   ],
+   "bytes": {
+    "SKILL.md": 19269,
+    "SKILL_HE.md": 25809,
+    "references/operators-and-gtfs.md": 1834,
+    "scripts/check_transit.py": 9038
+   }
+  },
+  "israeli-real-estate": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/transaction-guide.md",
+    "scripts/calculate_mas_rechisha.py"
+   ],
+   "bytes": {
+    "SKILL.md": 17421,
+    "SKILL_HE.md": 21130,
+    "references/transaction-guide.md": 1649,
+    "scripts/calculate_mas_rechisha.py": 8199
+   }
+  },
+  "israeli-relocation-abroad": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/bituach-leumi-abroad.md",
+    "references/domain-checklist.md",
+    "references/return-side-deep-topics.md",
+    "references/toshav-chozer-customs.md",
+    "references/troubleshooting.md",
+    "scripts/relocation-checklist.py",
+    "scripts/residency-check.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33710,
+    "SKILL_HE.md": 45195,
+    "references/bituach-leumi-abroad.md": 4987,
+    "references/domain-checklist.md": 26049,
+    "references/return-side-deep-topics.md": 8329,
+    "references/toshav-chozer-customs.md": 4040,
+    "references/troubleshooting.md": 4326,
+    "scripts/relocation-checklist.py": 9788,
+    "scripts/residency-check.py": 6467
+   }
+  },
+  "israeli-returning-resident-customs-vehicle": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/customs-timeline.md",
+    "references/domain-checklist.md",
+    "references/household-shipment-rules.md",
+    "references/vehicle-import-benefit.md",
+    "scripts/vehicle-decision.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34655,
+    "SKILL_HE.md": 26404,
+    "references/customs-timeline.md": 5894,
+    "references/domain-checklist.md": 18289,
+    "references/household-shipment-rules.md": 7055,
+    "references/vehicle-import-benefit.md": 8104,
+    "scripts/vehicle-decision.py": 10836
+   }
+  },
+  "israeli-returning-resident-navigator": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/eligibility-decision-tree.md",
+    "references/employment-and-benefits-basket.md",
+    "references/first-90-days-checklist.md",
+    "scripts/check-eligibility.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34327,
+    "SKILL_HE.md": 42498,
+    "references/domain-checklist.md": 14007,
+    "references/eligibility-decision-tree.md": 6186,
+    "references/employment-and-benefits-basket.md": 6077,
+    "references/first-90-days-checklist.md": 5204,
+    "scripts/check-eligibility.py": 10479
+   }
+  },
+  "israeli-statistics": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/cbs-data-guide.md",
+    "scripts/fetch_cbs_data.py"
+   ],
+   "bytes": {
+    "SKILL.md": 18729,
+    "SKILL_HE.md": 24106,
+    "references/cbs-data-guide.md": 3196,
+    "scripts/fetch_cbs_data.py": 10756
+   }
+  },
+  "israeli-survivor-benefits-navigator": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/after-the-claim.md",
+    "references/domain-checklist.md",
+    "references/forms-and-filing.md",
+    "references/survivor-allowance-rates.md",
+    "scripts/estimate_survivor_allowance.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31867,
+    "SKILL_HE.md": 40836,
+    "references/after-the-claim.md": 2959,
+    "references/domain-checklist.md": 10388,
+    "references/forms-and-filing.md": 5329,
+    "references/survivor-allowance-rates.md": 9049,
+    "scripts/estimate_survivor_allowance.py": 23139
+   }
+  },
+  "israeli-unemployment-benefits-navigator": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/application-forms.md",
+    "references/benefit-calculation-tables.md",
+    "references/eligibility-rules.md",
+    "scripts/avtala_calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31804,
+    "SKILL_HE.md": 44156,
+    "references/application-forms.md": 12087,
+    "references/benefit-calculation-tables.md": 14917,
+    "references/eligibility-rules.md": 26405,
+    "scripts/avtala_calculator.py": 29812
+   }
+  },
+  "israeli-vehicle-manager": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/license-fee-table.md",
+    "references/ownership-transfer.md",
+    "references/test-preparation.md",
+    "scripts/test-reminder.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31711,
+    "SKILL_HE.md": 38703,
+    "references/domain-checklist.md": 7138,
+    "references/license-fee-table.md": 4796,
+    "references/ownership-transfer.md": 7293,
+    "references/test-preparation.md": 2788,
+    "scripts/test-reminder.py": 9964
+   }
+  },
+  "israeli-war-damage-claims": {
+   "repo": "government-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/claims-process-flowchart.md",
+    "references/compensation-ceilings.md"
+   ],
+   "bytes": {
+    "SKILL.md": 22474,
+    "SKILL_HE.md": 24300,
+    "references/claims-process-flowchart.md": 3307,
+    "references/compensation-ceilings.md": 3126
+   }
+  },
+  "foreign-caregiver-payroll": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/employment-process.md",
+    "references/pay-and-cost-components.md",
+    "scripts/calc_caregiver_cost.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32274,
+    "SKILL_HE.md": 40728,
+    "references/domain-checklist.md": 8949,
+    "references/employment-process.md": 2479,
+    "references/pay-and-cost-components.md": 7180,
+    "scripts/calc_caregiver_cost.py": 14395
+   }
+  },
+  "israeli-celiac-navigator": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/birthday-snacks.md",
+    "references/diagnosis-pathway.md",
+    "references/domain-checklist.md",
+    "references/entitlements-and-education.md",
+    "references/labels-and-pesach.md"
+   ],
+   "bytes": {
+    "SKILL.md": 30577,
+    "SKILL_HE.md": 39771,
+    "references/birthday-snacks.md": 7653,
+    "references/diagnosis-pathway.md": 2703,
+    "references/domain-checklist.md": 7339,
+    "references/entitlements-and-education.md": 4125,
+    "references/labels-and-pesach.md": 2719
+   }
+  },
+  "israeli-elder-care-navigator": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/elder-care-benefits.md",
+    "references/housing-options.md",
+    "references/institutional-copayment.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33096,
+    "SKILL_HE.md": 43774,
+    "references/domain-checklist.md": 6575,
+    "references/elder-care-benefits.md": 11235,
+    "references/housing-options.md": 5583,
+    "references/institutional-copayment.md": 10678
+   }
+  },
+  "israeli-emergency-guide": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/blood-donation.md",
+    "references/domain-checklist.md",
+    "references/er-payment-exemptions.md",
+    "references/first-aid-basics.md",
+    "references/hospital-directory.md",
+    "references/oref-scenarios.md",
+    "references/triage-and-red-flags.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32612,
+    "SKILL_HE.md": 44740,
+    "references/blood-donation.md": 2863,
+    "references/domain-checklist.md": 7723,
+    "references/er-payment-exemptions.md": 5925,
+    "references/first-aid-basics.md": 28862,
+    "references/hospital-directory.md": 9596,
+    "references/oref-scenarios.md": 11622,
+    "references/triage-and-red-flags.md": 6384
+   }
+  },
+  "israeli-fertility-guide": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/ivf-process-detailed.md",
+    "references/posthumous-and-embryo-law.md",
+    "references/surrogacy-law-guide.md",
+    "scripts/fertility-coverage-checker.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31962,
+    "SKILL_HE.md": 41558,
+    "references/domain-checklist.md": 11906,
+    "references/ivf-process-detailed.md": 12292,
+    "references/posthumous-and-embryo-law.md": 6528,
+    "references/surrogacy-law-guide.md": 5891,
+    "scripts/fertility-coverage-checker.py": 26406
+   }
+  },
+  "israeli-food-allergy-navigator": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/allergen-labelling.md",
+    "references/bituach-leumi-allergy-claim.md",
+    "references/document-templates.md",
+    "references/domain-checklist.md",
+    "references/moe-standing-instruction-0042.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33073,
+    "SKILL_HE.md": 42061,
+    "references/allergen-labelling.md": 2833,
+    "references/bituach-leumi-allergy-claim.md": 5149,
+    "references/document-templates.md": 10203,
+    "references/domain-checklist.md": 12010,
+    "references/moe-standing-instruction-0042.md": 10426
+   }
+  },
+  "israeli-hmo-navigator": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/copay-tables.md",
+    "references/domain-checklist.md",
+    "references/er-waiver-list.md",
+    "references/exemptions-and-ceilings.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33312,
+    "SKILL_HE.md": 39230,
+    "references/copay-tables.md": 11760,
+    "references/domain-checklist.md": 32120,
+    "references/er-waiver-list.md": 6135,
+    "references/exemptions-and-ceilings.md": 6802
+   }
+  },
+  "israeli-mental-health-navigator": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/crisis-hotlines-directory.md",
+    "references/domain-checklist.md",
+    "references/patient-rights.md",
+    "references/therapy-types-guide.md",
+    "scripts/therapy-cost-estimator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33456,
+    "SKILL_HE.md": 44984,
+    "references/crisis-hotlines-directory.md": 14846,
+    "references/domain-checklist.md": 8470,
+    "references/patient-rights.md": 5869,
+    "references/therapy-types-guide.md": 13430,
+    "scripts/therapy-cost-estimator.py": 17312
+   }
+  },
+  "israeli-nutrition-planner": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/kosher-halal-planning.md",
+    "references/nutritional-rainbow.md",
+    "references/red-green-labels.md",
+    "references/staples-and-nutrient-gaps.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33297,
+    "SKILL_HE.md": 43890,
+    "references/domain-checklist.md": 9503,
+    "references/kosher-halal-planning.md": 10480,
+    "references/nutritional-rainbow.md": 4479,
+    "references/red-green-labels.md": 6709,
+    "references/staples-and-nutrient-gaps.md": 4150
+   }
+  },
+  "israeli-oncology-navigator": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/bituach-leumi-oncology-rights.md",
+    "references/cancer-type-equity-rights.md",
+    "references/domain-checklist.md",
+    "references/exceptions-committee-precedents-and-appeals.md",
+    "references/experimental-and-off-label-treatments.md",
+    "references/health-basket-and-hmo-coverage.md",
+    "references/ngos-and-support-services.md",
+    "references/sherum-committee-preparation.md"
+   ],
+   "bytes": {
+    "SKILL.md": 35954,
+    "SKILL_HE.md": 46538,
+    "references/bituach-leumi-oncology-rights.md": 11454,
+    "references/cancer-type-equity-rights.md": 14168,
+    "references/domain-checklist.md": 13257,
+    "references/exceptions-committee-precedents-and-appeals.md": 5998,
+    "references/experimental-and-off-label-treatments.md": 11442,
+    "references/health-basket-and-hmo-coverage.md": 12558,
+    "references/ngos-and-support-services.md": 15030,
+    "references/sherum-committee-preparation.md": 6905
+   }
+  },
+  "israeli-workout-coach": {
+   "repo": "health-services",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/hebrew-exercise-map.md",
+    "references/israeli-gym-rules.md",
+    "references/progression-models.md",
+    "references/safety-red-flags.md",
+    "references/state-schema.md",
+    "scripts/analyze_log.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33537,
+    "SKILL_HE.md": 46177,
+    "references/domain-checklist.md": 13681,
+    "references/hebrew-exercise-map.md": 3859,
+    "references/israeli-gym-rules.md": 4947,
+    "references/progression-models.md": 6317,
+    "references/safety-red-flags.md": 6749,
+    "references/state-schema.md": 9300,
+    "scripts/analyze_log.py": 20346
+   }
+  },
+  "israeli-building-committee": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/fee-split-rules.md",
+    "references/letter-templates-he.md",
+    "scripts/fee_split.py"
+   ],
+   "bytes": {
+    "SKILL.md": 25999,
+    "SKILL_HE.md": 34927,
+    "references/fee-split-rules.md": 7862,
+    "references/letter-templates-he.md": 10301,
+    "scripts/fee_split.py": 7496
+   }
+  },
+  "israeli-car-accident-claim": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/claims-guide.md",
+    "references/compensation-and-deadlines.md",
+    "references/domain-checklist.md",
+    "scripts/claim_router.py"
+   ],
+   "bytes": {
+    "SKILL.md": 25588,
+    "SKILL_HE.md": 32204,
+    "references/claims-guide.md": 15464,
+    "references/compensation-and-deadlines.md": 11439,
+    "references/domain-checklist.md": 10870,
+    "scripts/claim_router.py": 18254
+   }
+  },
+  "israeli-citizenship-by-descent": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/smaller-routes.md",
+    "scripts/eligibility_intake.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33107,
+    "SKILL_HE.md": 43767,
+    "references/domain-checklist.md": 19208,
+    "references/smaller-routes.md": 5515,
+    "scripts/eligibility_intake.py": 7614
+   }
+  },
+  "israeli-divorce-navigator": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/court-jurisdiction-comparison.md",
+    "references/domain-checklist.md",
+    "references/izun-mashabim-worksheet.md",
+    "scripts/izun_mashabim.py"
+   ],
+   "bytes": {
+    "SKILL.md": 28027,
+    "SKILL_HE.md": 33829,
+    "references/court-jurisdiction-comparison.md": 4342,
+    "references/domain-checklist.md": 9849,
+    "references/izun-mashabim-worksheet.md": 3809,
+    "scripts/izun_mashabim.py": 15214
+   }
+  },
+  "israeli-employment-contract-reviewer": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/high-value-clause-traps.md",
+    "references/hoda-at-mukdemet-table.md",
+    "references/notice-to-employee-disclosures.md",
+    "references/numerical-sanity-checks.md",
+    "references/red-flag-checklist.md",
+    "references/section-14-trap-guide.md",
+    "references/standard-negotiation-language.md",
+    "scripts/contract_sanity_check.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33150,
+    "SKILL_HE.md": 42868,
+    "references/high-value-clause-traps.md": 12351,
+    "references/hoda-at-mukdemet-table.md": 3783,
+    "references/notice-to-employee-disclosures.md": 2322,
+    "references/numerical-sanity-checks.md": 8135,
+    "references/red-flag-checklist.md": 7658,
+    "references/section-14-trap-guide.md": 6652,
+    "references/standard-negotiation-language.md": 8347,
+    "scripts/contract_sanity_check.py": 16090
+   }
+  },
+  "israeli-employment-contracts": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/labor-law.md",
+    "references/mandatory-clauses.md",
+    "scripts/generate_contract.py"
+   ],
+   "bytes": {
+    "SKILL.md": 29324,
+    "SKILL_HE.md": 36268,
+    "references/labor-law.md": 11808,
+    "references/mandatory-clauses.md": 22702,
+    "scripts/generate_contract.py": 20334
+   }
+  },
+  "israeli-estate-settlement-navigator": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/burial-charges.md",
+    "references/domain-checklist.md",
+    "references/institution-checklist.md",
+    "references/money-tax-and-employment-after-death.md",
+    "references/notification-letter-templates.md",
+    "scripts/checklist.py",
+    "scripts/generate_timeline.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32839,
+    "SKILL_HE.md": 41056,
+    "references/burial-charges.md": 2819,
+    "references/domain-checklist.md": 16695,
+    "references/institution-checklist.md": 7099,
+    "references/money-tax-and-employment-after-death.md": 11549,
+    "references/notification-letter-templates.md": 6569,
+    "scripts/checklist.py": 4801,
+    "scripts/generate_timeline.py": 9212
+   }
+  },
+  "israeli-fines-fighter": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/appeal-grounds.md",
+    "references/fine-types.md",
+    "scripts/deadline-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32122,
+    "SKILL_HE.md": 41420,
+    "references/appeal-grounds.md": 6042,
+    "references/fine-types.md": 6166,
+    "scripts/deadline-calculator.py": 6704
+   }
+  },
+  "israeli-freelancer-service-agreement": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/legal-reference.md",
+    "scripts/build_agreement.py"
+   ],
+   "bytes": {
+    "SKILL.md": 27576,
+    "SKILL_HE.md": 34195,
+    "references/domain-checklist.md": 10649,
+    "references/legal-reference.md": 20904,
+    "scripts/build_agreement.py": 23474
+   }
+  },
+  "israeli-home-defect-report": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/periods-and-burdens.md",
+    "references/walkthrough-and-letter.md",
+    "scripts/defect_window.py"
+   ],
+   "bytes": {
+    "SKILL.md": 25121,
+    "SKILL_HE.md": 31167,
+    "references/domain-checklist.md": 17010,
+    "references/periods-and-burdens.md": 15147,
+    "references/walkthrough-and-letter.md": 8918,
+    "scripts/defect_window.py": 14958
+   }
+  },
+  "israeli-hotzaa-lapoal-debtor": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/forms-and-clocks.md",
+    "references/verified-facts.md",
+    "scripts/deadlines.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23961,
+    "SKILL_HE.md": 30742,
+    "references/domain-checklist.md": 7480,
+    "references/forms-and-clocks.md": 3534,
+    "references/verified-facts.md": 16061,
+    "scripts/deadlines.py": 3220
+   }
+  },
+  "israeli-patent-guide": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/amendment-15.md",
+    "references/domain-checklist.md",
+    "references/ilpo-fee-schedule.md",
+    "references/pct-israel-checklist.md",
+    "references/pte.md",
+    "references/service-inventions.md",
+    "scripts/patent-deadlines.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33667,
+    "SKILL_HE.md": 45820,
+    "references/amendment-15.md": 3451,
+    "references/domain-checklist.md": 7116,
+    "references/ilpo-fee-schedule.md": 12067,
+    "references/pct-israel-checklist.md": 7453,
+    "references/pte.md": 2255,
+    "references/service-inventions.md": 1832,
+    "scripts/patent-deadlines.py": 13913
+   }
+  },
+  "israeli-renovation-scope-builder": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/permits-and-trades.md",
+    "references/scope-and-terms.md",
+    "scripts/payment_schedule.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32889,
+    "SKILL_HE.md": 42381,
+    "references/domain-checklist.md": 32095,
+    "references/permits-and-trades.md": 15185,
+    "references/scope-and-terms.md": 19858,
+    "scripts/payment_schedule.py": 7202
+   }
+  },
+  "israeli-rental-agreements": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/contract-checklist.md",
+    "references/fair-rental-law-summary.md",
+    "references/statutory-provisions.md",
+    "scripts/rent-index-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32314,
+    "SKILL_HE.md": 40120,
+    "references/contract-checklist.md": 16218,
+    "references/fair-rental-law-summary.md": 16343,
+    "references/statutory-provisions.md": 14005,
+    "scripts/rent-index-calculator.py": 8655
+   }
+  },
+  "israeli-small-claims-court": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/demand-letter-template.md",
+    "references/domain-checklist.md",
+    "references/evidence-guide.md",
+    "scripts/filing-fee-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 30408,
+    "SKILL_HE.md": 35959,
+    "references/demand-letter-template.md": 8610,
+    "references/domain-checklist.md": 7017,
+    "references/evidence-guide.md": 12170,
+    "scripts/filing-fee-calculator.py": 6400
+   }
+  },
+  "israeli-tabu-extract-decoder": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/entry-types.md",
+    "references/registration-regimes.md"
+   ],
+   "bytes": {
+    "SKILL.md": 19725,
+    "SKILL_HE.md": 24245,
+    "references/domain-checklist.md": 7844,
+    "references/entry-types.md": 11621,
+    "references/registration-regimes.md": 4234
+   }
+  },
+  "israeli-tender-proposal-builder": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/mandatory-declarations.md",
+    "references/tender-types.md",
+    "references/threshold-conditions.md",
+    "scripts/compliance_checklist.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31618,
+    "SKILL_HE.md": 37557,
+    "references/domain-checklist.md": 4504,
+    "references/mandatory-declarations.md": 5619,
+    "references/tender-types.md": 4915,
+    "references/threshold-conditions.md": 3092,
+    "scripts/compliance_checklist.py": 3846
+   }
+  },
+  "israeli-urban-renewal-owner-guide": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/owner-protections.md",
+    "references/tracks-and-majorities.md",
+    "scripts/majority_threshold.py"
+   ],
+   "bytes": {
+    "SKILL.md": 19083,
+    "SKILL_HE.md": 24041,
+    "references/domain-checklist.md": 22040,
+    "references/owner-protections.md": 27062,
+    "references/tracks-and-majorities.md": 12020,
+    "scripts/majority_threshold.py": 10457
+   }
+  },
+  "israeli-wills-inheritance": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/orders-and-process.md",
+    "references/will-templates.md",
+    "scripts/inheritance_helper.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31889,
+    "SKILL_HE.md": 39623,
+    "references/domain-checklist.md": 9877,
+    "references/orders-and-process.md": 13710,
+    "references/will-templates.md": 7810,
+    "scripts/inheritance_helper.py": 6984
+   }
+  },
+  "israeli-workplace-rights-navigator": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/entitlements-calculator.md",
+    "references/labor-laws-summary.md",
+    "scripts/severance-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32316,
+    "SKILL_HE.md": 45336,
+    "references/domain-checklist.md": 5547,
+    "references/entitlements-calculator.md": 21518,
+    "references/labor-laws-summary.md": 7129,
+    "scripts/severance-calculator.py": 12434
+   }
+  },
+  "hebrew-content-writer": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/hebrew-grammar-quick-ref.md"
+   ],
+   "bytes": {
+    "SKILL.md": 17459,
+    "SKILL_HE.md": 21364,
+    "references/hebrew-grammar-quick-ref.md": 3820
+   }
+  },
+  "hebrew-document-generator": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/hebrew-fonts.md",
+    "references/templates.md",
+    "scripts/generate_doc.py"
+   ],
+   "bytes": {
+    "SKILL.md": 36405,
+    "SKILL_HE.md": 43938,
+    "references/hebrew-fonts.md": 3520,
+    "references/templates.md": 4841,
+    "scripts/generate_doc.py": 8092
+   }
+  },
+  "hebrew-i18n": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/bidi.md",
+    "references/pluralization.md",
+    "scripts/generate_i18n.py"
+   ],
+   "bytes": {
+    "SKILL.md": 21264,
+    "SKILL_HE.md": 25248,
+    "references/bidi.md": 2985,
+    "references/pluralization.md": 3148,
+    "scripts/generate_i18n.py": 7665
+   }
+  },
+  "hebrew-nlp-toolkit": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/model-comparison.md",
+    "scripts/preprocess_hebrew.py"
+   ],
+   "bytes": {
+    "SKILL.md": 16127,
+    "SKILL_HE.md": 19334,
+    "references/model-comparison.md": 6836,
+    "scripts/preprocess_hebrew.py": 8363
+   }
+  },
+  "hebrew-ocr-forms": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/israeli-form-types.md",
+    "references/nesach-tabu-structure.md",
+    "scripts/extract_form_fields.py",
+    "scripts/preprocess_image.py",
+    "scripts/tabu_to_spreadsheet.py"
+   ],
+   "bytes": {
+    "SKILL.md": 15862,
+    "SKILL_HE.md": 19374,
+    "references/israeli-form-types.md": 3121,
+    "references/nesach-tabu-structure.md": 7388,
+    "scripts/extract_form_fields.py": 9251,
+    "scripts/preprocess_image.py": 5266,
+    "scripts/tabu_to_spreadsheet.py": 13690
+   }
+  },
+  "hebrew-rtl-best-practices": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/css-logical-properties.md",
+    "references/domain-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 22511,
+    "SKILL_HE.md": 29263,
+    "references/css-logical-properties.md": 3030,
+    "references/domain-checklist.md": 4439
+   }
+  },
+  "hebrew-tailwind-preset": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/rtl-config.md"
+   ],
+   "bytes": {
+    "SKILL.md": 20166,
+    "SKILL_HE.md": 23269,
+    "references/domain-checklist.md": 3074,
+    "references/rtl-config.md": 5477
+   }
+  },
+  "israeli-accessibility-compliance": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/is-5568.md",
+    "references/mobile-apps.md",
+    "references/widget-implementation.md",
+    "scripts/audit_a11y.py"
+   ],
+   "bytes": {
+    "SKILL.md": 35527,
+    "SKILL_HE.md": 43353,
+    "references/domain-checklist.md": 5328,
+    "references/is-5568.md": 13068,
+    "references/mobile-apps.md": 4130,
+    "references/widget-implementation.md": 26884,
+    "scripts/audit_a11y.py": 17631
+   }
+  },
+  "israeli-apartment-hunting": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/city-rental-guide.md",
+    "references/hebrew-rental-glossary.md",
+    "scripts/rental-budget-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 22574,
+    "SKILL_HE.md": 29340,
+    "references/city-rental-guide.md": 9951,
+    "references/hebrew-rental-glossary.md": 10208,
+    "scripts/rental-budget-calculator.py": 13452
+   }
+  },
+  "israeli-ui-design-system": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/hebrew-typography.md"
+   ],
+   "bytes": {
+    "SKILL.md": 29656,
+    "SKILL_HE.md": 36964,
+    "references/domain-checklist.md": 3108,
+    "references/hebrew-typography.md": 4526
+   }
+  },
+  "israeli-wedding-planner": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/legal-and-contract-risks.md",
+    "references/rabbinate-checklist.md",
+    "references/wedding-budget-calculator.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32359,
+    "SKILL_HE.md": 42494,
+    "references/domain-checklist.md": 8863,
+    "references/legal-and-contract-risks.md": 24513,
+    "references/rabbinate-checklist.md": 3791,
+    "references/wedding-budget-calculator.md": 4511
+   }
+  },
+  "shabbat-aware-scheduler": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/israeli-holiday-calendar.md",
+    "scripts/check_shabbat.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23811,
+    "SKILL_HE.md": 28809,
+    "references/domain-checklist.md": 16988,
+    "references/israeli-holiday-calendar.md": 7324,
+    "scripts/check_shabbat.py": 27202
+   }
+  },
+  "hebrew-podcast-postproduction": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/chapters-json-schema.md",
+    "references/domain-checklist.md",
+    "references/ffmpeg-hebrew-subtitles.md",
+    "references/social-caption-limits.md",
+    "references/spotify-chapters-rules.md",
+    "scripts/generate_bundle.py",
+    "scripts/score_segments.py"
+   ],
+   "bytes": {
+    "SKILL.md": 30759,
+    "SKILL_HE.md": 38623,
+    "references/chapters-json-schema.md": 3588,
+    "references/domain-checklist.md": 3367,
+    "references/ffmpeg-hebrew-subtitles.md": 7887,
+    "references/social-caption-limits.md": 5632,
+    "references/spotify-chapters-rules.md": 2805,
+    "scripts/generate_bundle.py": 11153,
+    "scripts/score_segments.py": 9793
+   }
+  },
+  "hebrew-seo-geo-toolkit": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/aeo-considerations.md",
+    "references/domain-checklist.md",
+    "references/eeat-principles.md",
+    "references/geo-research.md",
+    "references/hebrew-seo.md",
+    "references/platform-algorithms.md",
+    "references/schema-templates.md",
+    "references/seo-checklist.md",
+    "references/tools-and-apis.md",
+    "scripts/analyze_keywords.py",
+    "scripts/autocomplete_ideas.py",
+    "scripts/backlinks.py",
+    "scripts/competitor_gap.py",
+    "scripts/credential.py",
+    "scripts/dataforseo_api.py",
+    "scripts/domain_overview.py",
+    "scripts/keyword_research.py",
+    "scripts/related_keywords.py",
+    "scripts/seo_audit.py",
+    "scripts/serp_analysis.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32992,
+    "SKILL_HE.md": 40529,
+    "references/aeo-considerations.md": 6727,
+    "references/domain-checklist.md": 5791,
+    "references/eeat-principles.md": 3617,
+    "references/geo-research.md": 10051,
+    "references/hebrew-seo.md": 4037,
+    "references/platform-algorithms.md": 13097,
+    "references/schema-templates.md": 11483,
+    "references/seo-checklist.md": 8014,
+    "references/tools-and-apis.md": 8457,
+    "scripts/analyze_keywords.py": 5998,
+    "scripts/autocomplete_ideas.py": 2521,
+    "scripts/backlinks.py": 1041,
+    "scripts/competitor_gap.py": 3042,
+    "scripts/credential.py": 311,
+    "scripts/dataforseo_api.py": 3274,
+    "scripts/domain_overview.py": 1418,
+    "scripts/keyword_research.py": 1174,
+    "scripts/related_keywords.py": 3180,
+    "scripts/seo_audit.py": 10634,
+    "scripts/serp_analysis.py": 1247
+   }
+  },
+  "hebrew-survey-builder": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/export-to-other-platforms.md",
+    "references/gws-forms-cheatsheet.md",
+    "references/hebrew-survey-templates.md",
+    "references/israeli-send-timing.md",
+    "scripts/build_batchupdate_payload.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23709,
+    "SKILL_HE.md": 28862,
+    "references/domain-checklist.md": 2657,
+    "references/export-to-other-platforms.md": 8218,
+    "references/gws-forms-cheatsheet.md": 3471,
+    "references/hebrew-survey-templates.md": 9175,
+    "references/israeli-send-timing.md": 5677,
+    "scripts/build_batchupdate_payload.py": 12121
+   }
+  },
+  "israeli-aso": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/israeli-app-market.md",
+    "scripts/keyword_analyzer.py"
+   ],
+   "bytes": {
+    "SKILL.md": 21284,
+    "SKILL_HE.md": 28396,
+    "references/domain-checklist.md": 9595,
+    "references/israeli-app-market.md": 6905,
+    "scripts/keyword_analyzer.py": 4900
+   }
+  },
+  "israeli-content-marketing": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/israeli-media-landscape.md",
+    "scripts/content_planner.py"
+   ],
+   "bytes": {
+    "SKILL.md": 14783,
+    "SKILL_HE.md": 18914,
+    "references/israeli-media-landscape.md": 2410,
+    "scripts/content_planner.py": 5603
+   }
+  },
+  "israeli-email-sequences": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/chok-haspam-guide.md",
+    "references/domain-checklist.md",
+    "scripts/email_validator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 29585,
+    "SKILL_HE.md": 38337,
+    "references/chok-haspam-guide.md": 9206,
+    "references/domain-checklist.md": 7006,
+    "scripts/email_validator.py": 6329
+   }
+  },
+  "israeli-linkedin-strategy": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/linkedin-patterns.md"
+   ],
+   "bytes": {
+    "SKILL.md": 23632,
+    "SKILL_HE.md": 31637,
+    "references/linkedin-patterns.md": 6491
+   }
+  },
+  "israeli-market-fit": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/segments.md",
+    "scripts/market-sizing.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23873,
+    "SKILL_HE.md": 31006,
+    "references/domain-checklist.md": 10287,
+    "references/segments.md": 4240,
+    "scripts/market-sizing.py": 3737
+   }
+  },
+  "israeli-paid-ads": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/israeli-ad-regulations.md",
+    "scripts/cpc_calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33796,
+    "SKILL_HE.md": 44186,
+    "references/domain-checklist.md": 11491,
+    "references/israeli-ad-regulations.md": 25296,
+    "scripts/cpc_calculator.py": 4051
+   }
+  },
+  "israeli-product-launch": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/tech-media.md"
+   ],
+   "bytes": {
+    "SKILL.md": 25806,
+    "SKILL_HE.md": 34603,
+    "references/domain-checklist.md": 9370,
+    "references/tech-media.md": 4561
+   }
+  },
+  "israeli-social-content": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/israeli-social-platforms.md",
+    "scripts/posting_scheduler.py"
+   ],
+   "bytes": {
+    "SKILL.md": 24116,
+    "SKILL_HE.md": 32548,
+    "references/domain-checklist.md": 9378,
+    "references/israeli-social-platforms.md": 3080,
+    "scripts/posting_scheduler.py": 3038
+   }
+  },
+  "israeli-tech-salary-negotiator": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/gross-to-net-2026.md",
+    "references/israeli-benefits-guide.md",
+    "references/israeli-tech-salary-data.md",
+    "scripts/salary-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 27152,
+    "SKILL_HE.md": 34940,
+    "references/gross-to-net-2026.md": 9797,
+    "references/israeli-benefits-guide.md": 20226,
+    "references/israeli-tech-salary-data.md": 12615,
+    "scripts/salary-calculator.py": 21438
+   }
+  },
+  "presentation-generator": {
+   "repo": "marketing-growth",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/marp-rtl-guide.md",
+    "references/pptx-rtl-patches.md",
+    "scripts/create-presentation.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31700,
+    "SKILL_HE.md": 38066,
+    "references/marp-rtl-guide.md": 8520,
+    "references/pptx-rtl-patches.md": 13406,
+    "scripts/create-presentation.py": 19452
+   }
+  },
+  "hebrew-legal-research": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/legal-databases-guide.md",
+    "references/legislation-index.md",
+    "scripts/legal_term_lookup.py"
+   ],
+   "bytes": {
+    "SKILL.md": 17214,
+    "SKILL_HE.md": 22389,
+    "references/domain-checklist.md": 11036,
+    "references/legal-databases-guide.md": 6065,
+    "references/legislation-index.md": 13495,
+    "scripts/legal_term_lookup.py": 14065
+   }
+  },
+  "israeli-ai-compliance-kit": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/dpia-template.md",
+    "references/eu-ai-act-israel-guide.md",
+    "references/moi-2023-principles.md",
+    "references/ppl-for-ml-engineers.md",
+    "scripts/classify_eu_ai_act_risk.py",
+    "scripts/generate_model_card.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34497,
+    "SKILL_HE.md": 39926,
+    "references/dpia-template.md": 5486,
+    "references/eu-ai-act-israel-guide.md": 9524,
+    "references/moi-2023-principles.md": 7241,
+    "references/ppl-for-ml-engineers.md": 6001,
+    "scripts/classify_eu_ai_act_risk.py": 15936,
+    "scripts/generate_model_card.py": 7530
+   }
+  },
+  "israeli-appsec-scanner": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/israeli-privacy-law-guide.md",
+    "references/owasp-hebrew-checklist.md",
+    "scripts/secrets-scanner.sh",
+    "scripts/security-audit-checklist.py"
+   ],
+   "bytes": {
+    "SKILL.md": 27584,
+    "SKILL_HE.md": 31389,
+    "references/domain-checklist.md": 6903,
+    "references/israeli-privacy-law-guide.md": 17056,
+    "references/owasp-hebrew-checklist.md": 17409,
+    "scripts/secrets-scanner.sh": 12705,
+    "scripts/security-audit-checklist.py": 18094
+   }
+  },
+  "israeli-cyber-regulations": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/incd-guidelines.md",
+    "references/sector-rules.md"
+   ],
+   "bytes": {
+    "SKILL.md": 35744,
+    "SKILL_HE.md": 44305,
+    "references/domain-checklist.md": 10969,
+    "references/incd-guidelines.md": 11243,
+    "references/sector-rules.md": 16377
+   }
+  },
+  "israeli-cybersecurity-ops": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/incd-guidelines.md",
+    "scripts/security_triage.py"
+   ],
+   "bytes": {
+    "SKILL.md": 14339,
+    "SKILL_HE.md": 17292,
+    "references/domain-checklist.md": 6555,
+    "references/incd-guidelines.md": 11567,
+    "scripts/security_triage.py": 22976
+   }
+  },
+  "israeli-ecommerce-compliance": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/consumer-protection-law.md"
+   ],
+   "bytes": {
+    "SKILL.md": 15466,
+    "SKILL_HE.md": 17605,
+    "references/consumer-protection-law.md": 5347
+   }
+  },
+  "israeli-privacy-shield": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/consent-banner-implementation.md",
+    "references/consent-ui-anti-patterns.md",
+    "references/privacy-law-requirements.md",
+    "scripts/compliance_checker.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34180,
+    "SKILL_HE.md": 53408,
+    "references/consent-banner-implementation.md": 33736,
+    "references/consent-ui-anti-patterns.md": 2725,
+    "references/privacy-law-requirements.md": 17013,
+    "scripts/compliance_checker.py": 19885
+   }
+  },
+  "israeli-scam-detector": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/reporting-routes.md",
+    "references/russian-phrasebook.md",
+    "scripts/liability_clock.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31275,
+    "SKILL_HE.md": 40281,
+    "references/domain-checklist.md": 24643,
+    "references/reporting-routes.md": 8012,
+    "references/russian-phrasebook.md": 8214,
+    "scripts/liability_clock.py": 7843
+   }
+  },
+  "israeli-shelter-guide": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/alert-response-guide.md",
+    "references/shelter-preparation-checklist.md",
+    "references/shelter-types-comparison.md",
+    "scripts/protection_times.json",
+    "scripts/shelter_finder.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32546,
+    "SKILL_HE.md": 41024,
+    "references/alert-response-guide.md": 7842,
+    "references/shelter-preparation-checklist.md": 1788,
+    "references/shelter-types-comparison.md": 7000,
+    "scripts/protection_times.json": 25557,
+    "scripts/shelter_finder.py": 7654
+   }
+  },
+  "israeli-standards-import-checker": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/approval-routes.md",
+    "references/common-official-standards.md",
+    "references/fast-track-options.md",
+    "scripts/check_standard.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31903,
+    "SKILL_HE.md": 39958,
+    "references/approval-routes.md": 8242,
+    "references/common-official-standards.md": 4684,
+    "references/fast-track-options.md": 8063,
+    "scripts/check_standard.py": 20264
+   }
+  },
+  "pikud-haoref-safety-protocols": {
+   "repo": "security-compliance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/alert-categories-quick-reference.md",
+    "references/special-populations-guide.md",
+    "scripts/alert_protocol_lookup.py"
+   ],
+   "bytes": {
+    "SKILL.md": 29973,
+    "SKILL_HE.md": 33837,
+    "references/alert-categories-quick-reference.md": 3241,
+    "references/special-populations-guide.md": 6316,
+    "scripts/alert_protocol_lookup.py": 12421
+   }
+  },
+  "american-freelancer-israel-tax": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/se-tax-mechanics.md",
+    "scripts/se_tax_projection.py"
+   ],
+   "bytes": {
+    "SKILL.md": 18956,
+    "SKILL_HE.md": 24439,
+    "references/domain-checklist.md": 6284,
+    "references/se-tax-mechanics.md": 4341,
+    "scripts/se_tax_projection.py": 8111
+   }
+  },
+  "boi-economic-data": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/boi-api.md",
+    "references/domain-checklist.md",
+    "scripts/fetch_boi_rates.py"
+   ],
+   "bytes": {
+    "SKILL.md": 16829,
+    "SKILL_HE.md": 21755,
+    "references/boi-api.md": 8269,
+    "references/domain-checklist.md": 3894,
+    "scripts/fetch_boi_rates.py": 16093
+   }
+  },
+  "cardcom-payment-gateway": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/api-endpoints.md",
+    "references/api-responses.md",
+    "references/document-types.md",
+    "scripts/validate_cardcom_response.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33887,
+    "SKILL_HE.md": 40643,
+    "references/api-endpoints.md": 10192,
+    "references/api-responses.md": 3256,
+    "references/document-types.md": 7499,
+    "scripts/validate_cardcom_response.py": 14008
+   }
+  },
+  "dual-listed-arbitrage": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/boi-fx.md",
+    "references/domain-checklist.md",
+    "references/dual-listed-pairs.md",
+    "scripts/chart.py",
+    "scripts/dual_diff.py",
+    "scripts/provider.py",
+    "scripts/registry.py",
+    "scripts/viz.py"
+   ],
+   "bytes": {
+    "SKILL.md": 12136,
+    "SKILL_HE.md": 15816,
+    "references/boi-fx.md": 1024,
+    "references/domain-checklist.md": 4728,
+    "references/dual-listed-pairs.md": 4060,
+    "scripts/chart.py": 7043,
+    "scripts/dual_diff.py": 1686,
+    "scripts/provider.py": 5421,
+    "scripts/registry.py": 3058,
+    "scripts/viz.py": 14154
+   }
+  },
+  "grow-payment-gateway": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/api-endpoints.md",
+    "references/domain-checklist.md",
+    "references/webhook-payloads.md",
+    "scripts/grow-payment-helper.sh"
+   ],
+   "bytes": {
+    "SKILL.md": 33722,
+    "SKILL_HE.md": 38548,
+    "references/api-endpoints.md": 5451,
+    "references/domain-checklist.md": 5127,
+    "references/webhook-payloads.md": 1886,
+    "scripts/grow-payment-helper.sh": 7471
+   }
+  },
+  "il-invoice-organizer": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/expense-categories.md",
+    "scripts/categorize_invoices.py"
+   ],
+   "bytes": {
+    "SKILL.md": 23362,
+    "SKILL_HE.md": 28290,
+    "references/domain-checklist.md": 4322,
+    "references/expense-categories.md": 13324,
+    "scripts/categorize_invoices.py": 48086
+   }
+  },
+  "israeli-arnona-optimizer": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/arnona-discounts-guide.md",
+    "references/arnona-rates-guide.md",
+    "references/domain-checklist.md",
+    "scripts/arnona-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 30485,
+    "SKILL_HE.md": 39256,
+    "references/arnona-discounts-guide.md": 24426,
+    "references/arnona-rates-guide.md": 7120,
+    "references/domain-checklist.md": 6082,
+    "scripts/arnona-calculator.py": 45392
+   }
+  },
+  "israeli-bank-connector": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/spending-categories.md",
+    "references/supported-banks.md",
+    "scripts/categorize_transactions.py"
+   ],
+   "bytes": {
+    "SKILL.md": 14815,
+    "SKILL_HE.md": 18080,
+    "references/spending-categories.md": 2148,
+    "references/supported-banks.md": 7943,
+    "scripts/categorize_transactions.py": 18855
+   }
+  },
+  "israeli-budget-planner": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/israeli-financial-rates.md",
+    "scripts/budget_calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 20330,
+    "SKILL_HE.md": 27194,
+    "references/domain-checklist.md": 7099,
+    "references/israeli-financial-rates.md": 5071,
+    "scripts/budget_calculator.py": 10965
+   }
+  },
+  "israeli-client-payment-chaser": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/legal-escalation.md",
+    "references/reminder-templates.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32391,
+    "SKILL_HE.md": 44896,
+    "references/legal-escalation.md": 14184,
+    "references/reminder-templates.md": 7807
+   }
+  },
+  "israeli-company-valuation": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/israeli-tax-regimes.md",
+    "references/transaction-and-sale-he.md",
+    "references/transaction-and-sale.md",
+    "references/troubleshooting.md",
+    "references/valuation-methods.md",
+    "scripts/valuation_model.py"
+   ],
+   "bytes": {
+    "SKILL.md": 31925,
+    "SKILL_HE.md": 43654,
+    "references/domain-checklist.md": 11093,
+    "references/israeli-tax-regimes.md": 12781,
+    "references/transaction-and-sale-he.md": 6480,
+    "references/transaction-and-sale.md": 5164,
+    "references/troubleshooting.md": 2468,
+    "references/valuation-methods.md": 11705,
+    "scripts/valuation_model.py": 18148
+   }
+  },
+  "israeli-consumer-fee-fighter": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/2027-fee-reform.md",
+    "references/cancellation-letter-templates.md",
+    "references/domain-checklist.md",
+    "references/fee-tracks-comparison.md",
+    "references/payment-services-remedies.md",
+    "scripts/fee_track_calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32046,
+    "SKILL_HE.md": 45872,
+    "references/2027-fee-reform.md": 3358,
+    "references/cancellation-letter-templates.md": 7390,
+    "references/domain-checklist.md": 11800,
+    "references/fee-tracks-comparison.md": 5165,
+    "references/payment-services-remedies.md": 8471,
+    "scripts/fee_track_calculator.py": 9573
+   }
+  },
+  "israeli-corporate-tax-strategy": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/extraction-methods.md",
+    "references/section-3tet-rules.md",
+    "references/tax-rates-2026.md",
+    "scripts/tax_comparison.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34131,
+    "SKILL_HE.md": 37724,
+    "references/domain-checklist.md": 6558,
+    "references/extraction-methods.md": 2250,
+    "references/section-3tet-rules.md": 4099,
+    "references/tax-rates-2026.md": 11591,
+    "scripts/tax_comparison.py": 13667
+   }
+  },
+  "israeli-coupon-code-finder": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/source-map.md",
+    "scripts/rank_codes.py"
+   ],
+   "bytes": {
+    "SKILL.md": 19353,
+    "SKILL_HE.md": 26396,
+    "references/domain-checklist.md": 4374,
+    "references/source-map.md": 4331,
+    "scripts/rank_codes.py": 6132
+   }
+  },
+  "israeli-crypto-tax-reporter": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/crypto-tax-regulations.md",
+    "references/crypto-tax-scenarios.md",
+    "references/domain-checklist.md",
+    "scripts/crypto-gains-calculator.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33082,
+    "SKILL_HE.md": 43582,
+    "references/crypto-tax-regulations.md": 26405,
+    "references/crypto-tax-scenarios.md": 13153,
+    "references/domain-checklist.md": 9264,
+    "scripts/crypto-gains-calculator.py": 48023
+   }
+  },
+  "israeli-customs-duty-calculator": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/duty-rates-by-category.md",
+    "references/fta-preferences.md",
+    "references/hs-codes-guide.md",
+    "scripts/calculate_duty.py"
+   ],
+   "bytes": {
+    "SKILL.md": 28590,
+    "SKILL_HE.md": 35181,
+    "references/domain-checklist.md": 5277,
+    "references/duty-rates-by-category.md": 3917,
+    "references/fta-preferences.md": 6961,
+    "references/hs-codes-guide.md": 2280,
+    "scripts/calculate_duty.py": 13209
+   }
+  },
+  "israeli-employee-tax-refund": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/2026-rates.md",
+    "references/document-requirements.md",
+    "references/domain-checklist.md",
+    "scripts/estimate_refund.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32184,
+    "SKILL_HE.md": 52513,
+    "references/2026-rates.md": 18642,
+    "references/document-requirements.md": 6099,
+    "references/domain-checklist.md": 19408,
+    "scripts/estimate_refund.py": 13939
+   }
+  },
+  "israeli-export-shipping-kit": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/eur1-application-guide.md",
+    "references/incoterms-2020.md",
+    "references/origin-declaration-template.md",
+    "references/pem-2026-rules.md",
+    "scripts/generate_invoice.py",
+    "scripts/sample_order.json"
+   ],
+   "bytes": {
+    "SKILL.md": 28765,
+    "SKILL_HE.md": 35312,
+    "references/eur1-application-guide.md": 5274,
+    "references/incoterms-2020.md": 2531,
+    "references/origin-declaration-template.md": 4272,
+    "references/pem-2026-rules.md": 3276,
+    "scripts/generate_invoice.py": 14064,
+    "scripts/sample_order.json": 992
+   }
+  },
+  "israeli-freelancer-ops": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/deadline-calendar.md",
+    "references/utility-portals.md"
+   ],
+   "bytes": {
+    "SKILL.md": 25813,
+    "SKILL_HE.md": 32819,
+    "references/deadline-calendar.md": 6296,
+    "references/utility-portals.md": 4302
+   }
+  },
+  "israeli-hon-declaration-preparer": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/form-1219-sections.md",
+    "references/penalties-and-offences.md",
+    "references/valuation-rules.md"
+   ],
+   "bytes": {
+    "SKILL.md": 25110,
+    "SKILL_HE.md": 31323,
+    "references/domain-checklist.md": 46616,
+    "references/form-1219-sections.md": 8525,
+    "references/penalties-and-offences.md": 3627,
+    "references/valuation-rules.md": 3892
+   }
+  },
+  "israeli-insurance-comparator": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/bituach-siudi-he.md",
+    "references/bituach-siudi.md",
+    "references/domain-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32943,
+    "SKILL_HE.md": 44270,
+    "references/bituach-siudi-he.md": 3234,
+    "references/bituach-siudi.md": 1929,
+    "references/domain-checklist.md": 5311
+   }
+  },
+  "israeli-insurance-duplication-checker": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/cancellation-letter-he.md",
+    "references/claims-and-escalation.md",
+    "references/domain-checklist.md",
+    "references/line-by-line-detail-he.md",
+    "references/line-by-line-detail.md",
+    "references/reference-links-he.md",
+    "references/reference-links.md",
+    "references/worked-examples-he.md",
+    "references/worked-examples.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33316,
+    "SKILL_HE.md": 57108,
+    "references/cancellation-letter-he.md": 3035,
+    "references/claims-and-escalation.md": 2484,
+    "references/domain-checklist.md": 8073,
+    "references/line-by-line-detail-he.md": 11493,
+    "references/line-by-line-detail.md": 25345,
+    "references/reference-links-he.md": 3644,
+    "references/reference-links.md": 2966,
+    "references/worked-examples-he.md": 11392,
+    "references/worked-examples.md": 8427
+   }
+  },
+  "israeli-mortgage-comparator": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32238,
+    "SKILL_HE.md": 43604,
+    "references/domain-checklist.md": 6167
+   }
+  },
+  "israeli-payment-orchestrator": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/gateway-matrix.md",
+    "scripts/compare_gateways.py"
+   ],
+   "bytes": {
+    "SKILL.md": 34190,
+    "SKILL_HE.md": 41657,
+    "references/domain-checklist.md": 6605,
+    "references/gateway-matrix.md": 14116,
+    "scripts/compare_gateways.py": 15393
+   }
+  },
+  "israeli-pension-advisor": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/life-events.md",
+    "references/pension-fund-types.md",
+    "references/retirement-age-by-cohort.md",
+    "references/tax-benefits.md",
+    "references/troubleshooting.md",
+    "scripts/calculate_pension.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33689,
+    "SKILL_HE.md": 45815,
+    "references/life-events.md": 2436,
+    "references/pension-fund-types.md": 5462,
+    "references/retirement-age-by-cohort.md": 1329,
+    "references/tax-benefits.md": 5825,
+    "references/troubleshooting.md": 1786,
+    "scripts/calculate_pension.py": 18983
+   }
+  },
+  "israeli-price-quote-generator": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/payment-terms-law.md",
+    "references/quote-templates.md",
+    "references/vat-and-oseik-status.md",
+    "scripts/quote_builder.py"
+   ],
+   "bytes": {
+    "SKILL.md": 30536,
+    "SKILL_HE.md": 37122,
+    "references/domain-checklist.md": 6313,
+    "references/payment-terms-law.md": 8086,
+    "references/quote-templates.md": 7796,
+    "references/vat-and-oseik-status.md": 5029,
+    "scripts/quote_builder.py": 18897
+   }
+  },
+  "israeli-property-appraisal": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/betterment-levy.md",
+    "references/comparables-routes.md",
+    "references/domain-checklist.md",
+    "scripts/comparables.py"
+   ],
+   "bytes": {
+    "SKILL.md": 24199,
+    "SKILL_HE.md": 39749,
+    "references/betterment-levy.md": 8388,
+    "references/comparables-routes.md": 9874,
+    "references/domain-checklist.md": 9642,
+    "scripts/comparables.py": 17926
+   }
+  },
+  "israeli-smart-saver": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/cashback-platforms-guide.md",
+    "references/subscription-audit-template.md"
+   ],
+   "bytes": {
+    "SKILL.md": 27843,
+    "SKILL_HE.md": 34895,
+    "references/cashback-platforms-guide.md": 3222,
+    "references/subscription-audit-template.md": 4781
+   }
+  },
+  "israeli-startup-investment-analyzer": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/diligence-questions.md",
+    "references/domain-checklist.md",
+    "references/investment-memo-template.md",
+    "references/israeli-dd-landmines.md",
+    "scripts/cap_table_math.py"
+   ],
+   "bytes": {
+    "SKILL.md": 30112,
+    "SKILL_HE.md": 40388,
+    "references/diligence-questions.md": 5543,
+    "references/domain-checklist.md": 7316,
+    "references/investment-memo-template.md": 6748,
+    "references/israeli-dd-landmines.md": 11033,
+    "scripts/cap_table_math.py": 17089
+   }
+  },
+  "israeli-stock-options-tax": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/section-102-tracks.md",
+    "references/tax-rates-2026.md"
+   ],
+   "bytes": {
+    "SKILL.md": 30938,
+    "SKILL_HE.md": 37381,
+    "references/section-102-tracks.md": 9027,
+    "references/tax-rates-2026.md": 4162
+   }
+  },
+  "israeli-tax-returns": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/credit-points.md",
+    "references/domain-checklist.md",
+    "references/form-guide.md",
+    "references/tax-brackets-credits.md",
+    "references/troubleshooting.md"
+   ],
+   "bytes": {
+    "SKILL.md": 31454,
+    "SKILL_HE.md": 41881,
+    "references/credit-points.md": 12558,
+    "references/domain-checklist.md": 7250,
+    "references/form-guide.md": 15420,
+    "references/tax-brackets-credits.md": 6647,
+    "references/troubleshooting.md": 2228
+   }
+  },
+  "israeli-tax-withholding": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/certificate-guide.md",
+    "references/domain-checklist.md",
+    "references/withholding-rates.md",
+    "scripts/calculate_withholding.py"
+   ],
+   "bytes": {
+    "SKILL.md": 19838,
+    "SKILL_HE.md": 24241,
+    "references/certificate-guide.md": 1873,
+    "references/domain-checklist.md": 5444,
+    "references/withholding-rates.md": 8310,
+    "scripts/calculate_withholding.py": 11848
+   }
+  },
+  "israeli-toshav-chozer-vatik-tax-planner": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/2026-reporting-change.md",
+    "references/domain-checklist.md",
+    "references/equity-compensation-sourcing.md",
+    "references/form-1348-fields.md",
+    "references/section-14-mechanics.md",
+    "references/us-citizen-dual-tax.md",
+    "scripts/cashflow-projection.py"
+   ],
+   "bytes": {
+    "SKILL.md": 33693,
+    "SKILL_HE.md": 45463,
+    "references/2026-reporting-change.md": 4438,
+    "references/domain-checklist.md": 9390,
+    "references/equity-compensation-sourcing.md": 3204,
+    "references/form-1348-fields.md": 4263,
+    "references/section-14-mechanics.md": 12111,
+    "references/us-citizen-dual-tax.md": 4560,
+    "scripts/cashflow-projection.py": 14105
+   }
+  },
+  "israeli-trapped-profits-planner": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/computation.md",
+    "references/domain-checklist.md",
+    "references/section-62a.md",
+    "references/transitional.md"
+   ],
+   "bytes": {
+    "SKILL.md": 31491,
+    "SKILL_HE.md": 43967,
+    "references/computation.md": 10668,
+    "references/domain-checklist.md": 8342,
+    "references/section-62a.md": 4774,
+    "references/transitional.md": 5346
+   }
+  },
+  "israeli-utility-rates-comparator": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/details-2026.md",
+    "references/domain-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33103,
+    "SKILL_HE.md": 51872,
+    "references/details-2026.md": 51688,
+    "references/domain-checklist.md": 3257
+   }
+  },
+  "israeli-vat-reporting": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/reporting-calendar.md",
+    "references/special-cases.md",
+    "references/vat-regulations.md",
+    "scripts/calculate_vat.py"
+   ],
+   "bytes": {
+    "SKILL.md": 11458,
+    "SKILL_HE.md": 14321,
+    "references/reporting-calendar.md": 2129,
+    "references/special-cases.md": 1205,
+    "references/vat-regulations.md": 1349,
+    "scripts/calculate_vat.py": 12304
+   }
+  },
+  "pelecard-payment-gateway": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/api-endpoints.md",
+    "references/domain-checklist.md",
+    "references/error-codes.md",
+    "references/payment-parameters.md",
+    "scripts/validate_pelecard_response.py"
+   ],
+   "bytes": {
+    "SKILL.md": 36205,
+    "SKILL_HE.md": 46370,
+    "references/api-endpoints.md": 11361,
+    "references/domain-checklist.md": 3183,
+    "references/error-codes.md": 35545,
+    "references/payment-parameters.md": 8756,
+    "scripts/validate_pelecard_response.py": 15225
+   }
+  },
+  "shekel-currency-converter": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/boi-api-guide.md",
+    "references/currency-codes.md",
+    "references/domain-checklist.md",
+    "scripts/fetch_rates.py"
+   ],
+   "bytes": {
+    "SKILL.md": 13308,
+    "SKILL_HE.md": 16388,
+    "references/boi-api-guide.md": 3900,
+    "references/currency-codes.md": 1981,
+    "references/domain-checklist.md": 5226,
+    "scripts/fetch_rates.py": 18652
+   }
+  },
+  "tase-stock-analysis": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/capital-gains.md",
+    "references/domain-checklist.md",
+    "references/tase-api.md",
+    "scripts/fetch_tase_data.py"
+   ],
+   "bytes": {
+    "SKILL.md": 16589,
+    "SKILL_HE.md": 21301,
+    "references/capital-gains.md": 6171,
+    "references/domain-checklist.md": 1433,
+    "references/tase-api.md": 2820,
+    "scripts/fetch_tase_data.py": 8345
+   }
+  },
+  "tranzila-payment-gateway": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/3ds-flow.md",
+    "references/api-parameters.md",
+    "references/domain-checklist.md",
+    "references/error-codes.md",
+    "scripts/validate_tranzila_response.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32878,
+    "SKILL_HE.md": 39815,
+    "references/3ds-flow.md": 6074,
+    "references/api-parameters.md": 6720,
+    "references/domain-checklist.md": 1997,
+    "references/error-codes.md": 6070,
+    "scripts/validate_tranzila_response.py": 16949
+   }
+  },
+  "us-israel-dual-tax-navigator": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/filing-matrix.md",
+    "scripts/filing_map.py"
+   ],
+   "bytes": {
+    "SKILL.md": 25782,
+    "SKILL_HE.md": 33383,
+    "references/domain-checklist.md": 12021,
+    "references/filing-matrix.md": 6829,
+    "scripts/filing_map.py": 8227
+   }
+  },
+  "us-person-israeli-investment-check": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/screening-criteria.md",
+    "scripts/screen_product.py"
+   ],
+   "bytes": {
+    "SKILL.md": 20120,
+    "SKILL_HE.md": 25930,
+    "references/domain-checklist.md": 7770,
+    "references/screening-criteria.md": 5751,
+    "scripts/screen_product.py": 15249
+   }
+  },
+  "israeli-abroad-trip-planner": {
+   "repo": "travel",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/insurance-and-medication-checklist.md"
+   ],
+   "bytes": {
+    "SKILL.md": 33155,
+    "SKILL_HE.md": 42556,
+    "references/domain-checklist.md": 9441,
+    "references/insurance-and-medication-checklist.md": 3743
+   }
+  },
+  "israeli-flight-compensation": {
+   "repo": "travel",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/compensation-table.md",
+    "references/domain-checklist.md",
+    "scripts/compensation_calc.py"
+   ],
+   "bytes": {
+    "SKILL.md": 26540,
+    "SKILL_HE.md": 34407,
+    "references/compensation-table.md": 15488,
+    "references/domain-checklist.md": 9963,
+    "scripts/compensation_calc.py": 21152
+   }
+  },
+  "israeli-flight-finder": {
+   "repo": "travel",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/airline-baggage-quick-ref.md",
+    "references/comparison-platforms.md",
+    "references/domain-checklist.md",
+    "references/soar-mcp-usage.md",
+    "scripts/compare-flights.md"
+   ],
+   "bytes": {
+    "SKILL.md": 32653,
+    "SKILL_HE.md": 45151,
+    "references/airline-baggage-quick-ref.md": 2724,
+    "references/comparison-platforms.md": 4063,
+    "references/domain-checklist.md": 5451,
+    "references/soar-mcp-usage.md": 2715,
+    "scripts/compare-flights.md": 4604
+   }
+  },
+  "israeli-travel-planner": {
+   "repo": "travel",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/israeli-transport-guide.md",
+    "scripts/plan_route.py"
+   ],
+   "bytes": {
+    "SKILL.md": 21396,
+    "SKILL_HE.md": 28321,
+    "references/domain-checklist.md": 7779,
+    "references/israeli-transport-guide.md": 6243,
+    "scripts/plan_route.py": 8936
+   }
+  }
+ }
+}
