@@ -57,20 +57,19 @@ Developers get the same thing in Claude Code as a one-command plugin.
 ## Install
 
 **Early version; best-effort side project.** The download link becomes active with the first
-tagged release. Clean-install verification on each host is part of that release;
-Cowork and ChatGPT remain unverified/experimental. Step-by-step instructions for claude.ai, Claude Code, Cowork and ChatGPT are
-on the [install page](https://ilanvys.github.io/mekomil/#install). There are two pieces: the
+tagged release. Step-by-step instructions for claude.ai, Claude Cowork, Claude Code, ChatGPT and
+Codex are on the [install page](https://ilanvys.github.io/mekomil/#install). There are two pieces: the
 skill decides *when* to act, and the connector fetches *what* to load.
 
 **claude.ai:**
 
 1. Download [`mekomil.zip`](https://github.com/ilanvys/mekomil/releases/latest/download/mekomil.zip).
-2. Open **Settings → Customize → Skills**, then drag and drop the ZIP onto the Skills page. You can
-   also use **+ Add → Upload skill**. Do not unzip it.
-3. Open **Settings → Customize → Connectors**, add a custom connector named `mekomil`, and use
-   `https://mekomil-mcp.vercel.app/api/mcp` as its address.
-4. Optional: open the connector, then set **Tool permissions → Other tools → Always allow** so
-   Claude can use its three read-only catalog tools without asking each time.
+2. Open **Settings → Skills**, then drag and drop the ZIP onto the Skills page. You can also use
+   **+ Add**, then **Upload skill**. Do not unzip it.
+3. Open **Settings → Connectors**, select **+**, then **Add custom connector**. Name it `mekomil`,
+   use `https://mekomil-mcp.vercel.app/api/mcp`, choose **No sign-in** and leave request headers empty.
+4. Open the connector and set **Tool permissions → Other tools → Always allow** for all three
+   read-only catalog tools so Claude does not ask for approval on every call.
 
 **Claude Code**, both pieces in one plugin:
 
@@ -84,8 +83,8 @@ skill decides *when* to act, and the connector fetches *what* to load.
 Two parts, deployed separately:
 
 - **The client**: [`skill/SKILL.md`](skill/SKILL.md), a short decision procedure that runs inside the host
-  model. It ships as a zip for claude.ai and Cowork, as pasted instructions for ChatGPT, and as a
-  plugin for Claude Code. It holds no catalog.
+  model. It ships as a ZIP for claude.ai, Claude Cowork and ChatGPT, as a local skill for Codex,
+  and as a plugin for Claude Code. It holds no catalog.
 - **The service**: [`mcp/`](mcp/), a small MCP server on Vercel. It serves the
   catalog and fetches allowlisted skill files live from the public skills-il repositories.
 
@@ -101,7 +100,7 @@ machine.
 flowchart LR
   U(["User<br/>asks in Hebrew"]) --> H
 
-  subgraph H["Host model: claude.ai · Claude Code · Cowork · ChatGPT"]
+  subgraph H["Host model: claude.ai · Claude Cowork · Claude Code · ChatGPT · Codex"]
     S["mekomIL skill<br/>SKILL.md<br/><i>decides when to act</i>"]
   end
 
