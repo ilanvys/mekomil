@@ -1,12 +1,13 @@
 # Changelog
 
-## Unreleased — mekomIL 0.2.0
+## mekomIL 0.2.0 — 2026-10-03
 
 - Moved client catalog discovery to MCP; the distributed skill and plugin no longer
   bundle category shards.
 - Combined the client, service, plugin, website and documentation in the `mekomil` repository,
   with the `mekomil-mcp` service identity and endpoint.
-- Added a daily validated catalog/manifest refresh proposal for this repository.
+- Added a daily catalog/manifest refresh that validates the candidate, rejects catastrophic
+  catalog loss, and commits accepted changes to `main` for Vercel to deploy.
 - Pinned a patched PostCSS dependency and aligned client/service version metadata.
 - Deployed `mekomil-mcp.vercel.app`, verified all 21 service smoke checks against it, and enabled
   a fixed-window per-IP rate limit on the MCP route.
@@ -17,5 +18,5 @@
   including the C03 positive trace and silent N01 route.
 - Clarified supported-catalog coverage, the one-hour content cache and best-effort support.
 
-The `v0.2.0` release candidate ZIP is deterministic and contains one uploadable skill folder;
-answer-quality scoring is outside the recorded routing benchmark. The first GitHub release remains pending.
+The `v0.2.0` ZIP is deterministic and contains one uploadable skill folder; answer-quality scoring
+is outside the recorded routing benchmark.

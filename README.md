@@ -56,8 +56,7 @@ Developers get the same thing in Claude Code as a one-command plugin.
 
 ## Install
 
-**Early version; best-effort side project.** The download link becomes active with the first
-tagged release. Step-by-step instructions for claude.ai, Claude Cowork, Claude Code, ChatGPT and
+**Early version; best-effort side project.** Step-by-step instructions for claude.ai, Claude Cowork, Claude Code, ChatGPT and
 Codex are on the [install page](https://ilanvys.github.io/mekomil/#install). There are two pieces: the
 skill decides *when* to act, and the connector fetches *what* to load.
 
