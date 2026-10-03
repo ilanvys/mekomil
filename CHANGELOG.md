@@ -17,5 +17,5 @@
   including the C03 positive trace and silent N01 route.
 - Clarified supported-catalog coverage, the one-hour content cache and best-effort support.
 
-The first tagged release artifact and clean-install host checks remain release gates;
-answer-quality scoring is outside the recorded routing benchmark.
+The `v0.2.0` release candidate ZIP is deterministic and contains one uploadable skill folder;
+answer-quality scoring is outside the recorded routing benchmark. The first GitHub release remains pending.
