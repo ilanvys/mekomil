@@ -117,7 +117,7 @@ flowchart LR
   M -- "live fetch<br/>allowlisted files only" --> R[("skills-il repos<br/>raw.githubusercontent")]
 
   subgraph B["Build time · daily check"]
-    G["GitHub API<br/>repo trees"] --> P["catalog + manifest<br/>generator"] --> Q["review PR<br/>→ deploy"]
+    G["GitHub API<br/>repo trees"] --> P["catalog + manifest<br/>generator"] --> Q["validate + commit<br/>→ deploy"]
   end
   Q --> D
 ```

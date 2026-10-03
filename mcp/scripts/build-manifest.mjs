@@ -7,12 +7,12 @@
 // Why the API and not raw.githubusercontent: raw serves file *bodies* and has no directory
 // listing at all. Enumerating `references/` and `scripts/` -- whose names we cannot guess --
 // needs a tree, and the tree only exists on api.github.com. Raw is the read path; the API is
-// the discovery path, once per deploy.
+// the discovery path, once per daily metadata refresh.
 //
-// 15 requests (1 org + 14 trees). Unauthenticated GitHub allows 60/hr *per IP*, and a Vercel
-// build IP is shared with strangers -- set GITHUB_TOKEN (any read-only token, 5000/hr) before
-// the first deploy rather than after the first failure. A partial manifest is worse than no
-// deploy: every check below exits non-zero rather than writing a file that drops skills.
+// 15 requests (1 org + 14 trees). Unauthenticated GitHub allows 60/hr *per IP*. The scheduled
+// GitHub Action supplies its read-only GITHUB_TOKEN; set one for manual refreshes too. A partial
+// manifest is worse than no update: every check below exits non-zero rather than writing a file
+// that drops skills.
 import { writeFileSync, mkdirSync, renameSync, rmSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -33,9 +33,10 @@ const UA = {
   ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
 };
 
-// Below this, something is wrong upstream or we were rate limited mid-run.
-const MIN_REPOS = 12;
-const MIN_SKILLS = 190;
+// Empty discovery is always invalid. Larger unexpected losses are rejected later by
+// tools/check_refresh_delta.py against the last committed manifest.
+const MIN_REPOS = 1;
+const MIN_SKILLS = 1;
 
 function die(msg) {
   console.error(`manifest build failed: ${msg}`);

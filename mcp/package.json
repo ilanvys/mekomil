@@ -5,7 +5,7 @@
   "description": "Fetch service for mekomIL. Given a skill id, return its real content. Knows nothing about the user.",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/build-manifest.mjs && next build",
+    "build": "next build",
     "start": "next start",
     "manifest": "node scripts/build-manifest.mjs",
     "test": "node scripts/check-server-instructions.mjs && tsx --test tests/*.test.ts",

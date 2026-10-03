@@ -7,7 +7,10 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+
+concurrency:
+  group: catalog-refresh
+  cancel-in-progress: false
 
 jobs:
   refresh:
@@ -40,7 +43,9 @@ jobs:
           npm run typecheck
       - name: Validate catalog, manifest, and generated plugin
         run: python tools/check_refresh.py
-      - name: Open or update the refresh proposal
+      - name: Reject catastrophic catalog loss
+        run: python tools/check_refresh_delta.py
+      - name: Commit validated refresh
         run: |
           git add mcp/data/catalog mcp/data/manifest.json
           if git diff --cached --quiet; then
@@ -49,13 +54,5 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -B automation/catalog-refresh
-          git commit -m "Refresh skills-il catalog metadata"
-          git push --force origin HEAD:refs/heads/automation/catalog-refresh
-          if [ "$(gh pr list --state open --head automation/catalog-refresh --json number --jq 'length')" -eq 0 ]; then
-            gh pr create \
-              --base main \
-              --head automation/catalog-refresh \
-              --title "Refresh skills-il catalog metadata" \
-              --body "Daily generated catalog and manifest. Review removals, category changes, and file-list changes before merging. A failed build leaves the current deployment in place."
-          fi
+          git commit -m "chore: refresh skills-il catalog metadata"
+          git push origin HEAD:main

@@ -13,16 +13,15 @@ engages.
 `data/manifest.json` — repository → default branch, plus slug → repo and file list. Metadata only,
 216 skills from the supported organization repositories; it is not a promise to mirror every entry
 in the wider public registry.
-Rebuild with `npm run manifest` (1 org + 14 tree requests against api.github.com).
+Refresh with `npm run manifest` (1 org + 14 tree requests against api.github.com).
 
-**Set `GITHUB_TOKEN`** (any read-only token) in the Vercel project. The API allows 60/hr per
-IP unauthenticated and build IPs are shared, so an untokened build can be rate limited by
-someone else's traffic. The script exits non-zero rather than writing a truncated manifest,
-so that shows up as a failed deploy, not as skills quietly disappearing.
+The scheduled GitHub Action supplies its read-only `GITHUB_TOKEN`. Set one for manual refreshes too;
+the API allows only 60 requests/hour per IP without it. The script exits non-zero rather than writing
+a truncated manifest, so the current deployment stays intact instead of quietly losing skills.
 
 The API is used because **raw.githubusercontent has no directory listing** — it serves file
 bodies only. Enumerating each skill's `references/` and `scripts/`, whose names we can't
-guess, needs a git tree. Discovery is the API, once per deploy; reading is raw, per request.
+guess, needs a git tree. Discovery is the API, once per daily refresh; reading is raw, per request.
 
 **No skill content is persisted.** `get_skill` fetches from raw.githubusercontent.com live on
 each cold request; the in-memory map in `lib/upstream.ts` is a per-instance latency cache
@@ -85,13 +84,10 @@ it. This is a deployment setting, not repository state.
 
 ## Deploy
 
-Vercel. Endpoint is `/api/mcp` (Streamable HTTP). `npm run build` regenerates the manifest before
-building the service, so an occasional build/deploy also refreshes file discovery. This
-intentional live discovery can differ from the manifest reviewed in a metadata PR; use the
-agreement check and smoke suite when releasing a deployment. Build when a repository,
-skill, file list, default branch, or catalog description changes; edits to the body of an
-already-listed file are fetched live and need no rebuild. No runtime env vars; `GITHUB_TOKEN` is
-build-time only.
+Vercel. Endpoint is `/api/mcp` (Streamable HTTP). `npm run build` packages the committed manifest;
+it does not discover upstream files. The daily GitHub Action refreshes and validates discovery data,
+commits changes to `main`, and that commit triggers the deployment. Edits to the body of an
+already-listed file are fetched live and need no rebuild. There are no runtime environment variables.
 
 The catalog in `data/catalog/` and the manifest are generated in this repository. They can still
 manifest drift independently: a skill in the manifest but not the catalog is merely unroutable,
@@ -100,18 +96,18 @@ client would offer a skill `get_skill` cannot resolve. Check both directions aft
 The complete refresh, diff-review, consistency, and local-check sequence lives in
 [`docs/refresh.md`](../docs/refresh.md).
 
-The scheduled workflow in `.github/workflows/catalog-refresh.yml` checks the public
-client generator once per day, validates catalog/manifest agreement, and proposes changes
-in a pull request. It does not merge or deploy automatically. Unchanged metadata preserves
-the existing manifest timestamp, so routine runs produce no PR.
+The scheduled workflow in `.github/workflows/catalog-refresh.yml` checks the public client generator
+once per day, validates catalog/manifest agreement and the change size, then commits ordinary changes
+directly to `main`. A broad collapse fails safely; the following run includes every upstream change
+since the last successful refresh. Unchanged metadata preserves the existing manifest timestamp and
+produces no commit.
 
 ### First deploy
 
-1. `GITHUB_TOKEN` in the Vercel project (build-time only, read-only, no scopes needed).
-2. From the repository root, run `python3 mcp/scripts/build_catalog.py --refresh --verify`, then
-   run `npm run build` from `mcp/`. The build regenerates the manifest and must print
-   `manifest: 14 repos, 216 skills, …`; a non-zero exit means rate limited or upstream changed,
-   and the existing metadata stays intact.
+1. From the repository root, run `python3 mcp/scripts/build_catalog.py --refresh --verify`, then
+   run `npm run manifest` from `mcp/`. The refresh must print `manifest: 14 repos, 216 skills, …`;
+   a non-zero exit means rate limited or upstream changed, and the existing metadata stays intact.
+2. Run `npm run build` from `mcp/` to package the committed metadata.
 3. Check both directions of catalog/manifest drift before deploying.
 4. Deploy. Endpoint: `https://<project>.vercel.app/api/mcp`.
 5. Smoke it before connecting anything — `initialize` must answer with

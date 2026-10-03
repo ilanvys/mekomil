@@ -1,10 +1,12 @@
 # Catalog refresh and release checks
 
-The daily workflow builds a complete catalog and manifest candidate and opens or updates a pull
-request when metadata changes. It never merges or deploys automatically. Vercel intentionally
-regenerates the manifest during a production build, so the deployed file list can be newer than
-the reviewed metadata commit. Check catalog/manifest agreement and run the smoke suite after each
-release deployment. Existing skill-body edits are fetched live and do not need a metadata refresh.
+The daily workflow builds and validates a complete catalog and manifest candidate. When metadata
+changes, it commits the generated files directly to `main`; Vercel then deploys that exact committed
+manifest. Ordinary additions, removals, file-list changes, and default-branch changes are accepted
+automatically. A loss of more than 25% of the previous repositories or skills, or a change to the
+organization or file-size limit, fails the run and leaves production unchanged. The next run compares
+the latest upstream state with the same deployed manifest, so missed changes accumulate rather than
+disappear. Existing skill-body edits are fetched live and do not need a metadata refresh.
 
 The Vercel project uses `mcp/` as its Root Directory and runs
 `./scripts/should-ignore-build.sh` as its ignored-build command. The script compares
@@ -25,12 +27,13 @@ npm --prefix mcp run manifest
 npm --prefix mcp test
 npm --prefix mcp run typecheck
 python3 tools/check_refresh.py
+python3 tools/check_refresh_delta.py
 git diff -- mcp/data/catalog/ mcp/data/manifest.json
 ```
 
-Review removed skills, changed descriptions, category moves, file-list changes and surprising flag
-changes. Do not continue if a catalog row is absent from the manifest or if a repository, skill or
-file disappeared unexpectedly. An unchanged refresh preserves the manifest timestamp.
+The agreement check rejects any catalog row without a matching manifest entry. The delta check allows
+normal upstream removals and blocks only broad catalog collapse or service-identity changes. An
+unchanged refresh preserves the manifest timestamp.
 
 Regenerate the client artifacts and confirm they are deterministic:
 
