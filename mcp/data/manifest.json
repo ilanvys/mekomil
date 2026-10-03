@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T20:07:59.003Z",
+ "generated": "2026-10-03T07:14:48.650Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -601,10 +601,10 @@
     "references/workflow-templates.md"
    ],
    "bytes": {
-    "SKILL.md": 35267,
-    "SKILL_HE.md": 33920,
-    "references/shabbat-deploy-freeze.md": 15775,
-    "references/workflow-templates.md": 20145
+    "SKILL.md": 36772,
+    "SKILL_HE.md": 38222,
+    "references/shabbat-deploy-freeze.md": 16480,
+    "references/workflow-templates.md": 24390
    }
   },
   "hebrew-chatbot-builder": {
@@ -2002,15 +2002,17 @@
     "references/domain-checklist.md",
     "references/elder-care-benefits.md",
     "references/housing-options.md",
-    "references/institutional-copayment.md"
+    "references/institutional-copayment.md",
+    "references/more-entitlements.md"
    ],
    "bytes": {
-    "SKILL.md": 33096,
-    "SKILL_HE.md": 43774,
-    "references/domain-checklist.md": 6575,
-    "references/elder-care-benefits.md": 11235,
-    "references/housing-options.md": 5583,
-    "references/institutional-copayment.md": 10678
+    "SKILL.md": 32452,
+    "SKILL_HE.md": 44859,
+    "references/domain-checklist.md": 10639,
+    "references/elder-care-benefits.md": 12099,
+    "references/housing-options.md": 5780,
+    "references/institutional-copayment.md": 17339,
+    "references/more-entitlements.md": 12639
    }
   },
   "israeli-emergency-guide": {
@@ -3802,13 +3804,19 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/cashback-platforms-guide.md",
+    "references/consumer-law-details.md",
+    "references/domain-checklist.md",
+    "references/seasonal-sales-calendar.md",
     "references/subscription-audit-template.md"
    ],
    "bytes": {
-    "SKILL.md": 27843,
-    "SKILL_HE.md": 34895,
-    "references/cashback-platforms-guide.md": 3222,
-    "references/subscription-audit-template.md": 4781
+    "SKILL.md": 31781,
+    "SKILL_HE.md": 41845,
+    "references/cashback-platforms-guide.md": 4187,
+    "references/consumer-law-details.md": 7120,
+    "references/domain-checklist.md": 33212,
+    "references/seasonal-sales-calendar.md": 778,
+    "references/subscription-audit-template.md": 5077
    }
   },
   "israeli-startup-investment-analyzer": {
