@@ -52,7 +52,7 @@ jobs:
           git checkout -B automation/catalog-refresh
           git commit -m "Refresh skills-il catalog metadata"
           git push --force origin HEAD:refs/heads/automation/catalog-refresh
-          if ! gh pr view automation/catalog-refresh --json number >/dev/null 2>&1; then
+          if [ "$(gh pr list --state open --head automation/catalog-refresh --json number --jq 'length')" -eq 0 ]; then
             gh pr create \
               --base main \
               --head automation/catalog-refresh \
