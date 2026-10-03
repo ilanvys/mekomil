@@ -150,7 +150,7 @@ h2{font-weight:900; font-size:clamp(1.55rem,4vw,2rem); line-height:1.2; letter-s
 
 /* ---------- steps ---------- */
 .steps{list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
-.steps + .note{margin-top:24px}
+.steps + .note{margin-top:24px; font-size:14.5px; line-height:1.55; color:var(--muted)}
 @media (max-width:680px){.steps{grid-template-columns:1fr}}
 .steps li{border:2px solid var(--ink); border-radius:10px; background:var(--surface); padding:16px 18px 18px; font-size:15.5px; line-height:1.6}
 .steps svg{width:46px; height:46px; display:block; margin-bottom:12px; filter:drop-shadow(0 1px 1.5px rgba(0,0,0,.2))}
@@ -352,7 +352,7 @@ footer{padding:44px 0 64px}
       <span lang="he">מקבלים תשובה מקומית, בלי להתקין כל סקיל בנפרד.</span><span lang="en">Get a local answer, without installing each skill separately.</span>
     </li>
   </ol>
-  <p class="note"><span lang="he">הגישה היא לסקילים הנתמכים ממאגרי skills-il הציבוריים, ולא לכל פריט באתר הקטלוג. התוכן נטען מהמקור; המטמון יכול להחזיק עותק למשך שעה. זו גרסה ניסיונית ופרויקט צד, ללא התחייבות לתמיכה.</span><span lang="en">Access covers supported skills from the public skills-il repositories, rather than every registry entry. Content comes from upstream; a cached copy can remain for up to one hour. This is an experimental, best-effort side project.</span></p>
+  <p class="note"><span lang="he">הגישה היא לסקילים הנתמכים ממאגרי skills-il הציבוריים, ולא לכל פריט באתר הקטלוג. זו גרסה ניסיונית ופרויקט צד, ללא התחייבות לתמיכה.</span><span lang="en">Access covers supported skills from the public skills-il repositories, rather than every registry entry. This is an experimental, best-effort side project.</span></p>
 </section>
 
 <section>
@@ -379,37 +379,46 @@ footer{padding:44px 0 64px}
   </div>
 
   <p class="note">
-    <span lang="he"><strong>מקומי לא הופעל לבד?</strong> בתחילת השיחה כתבו <q>השתמש במקומי כדי לענות על השאלה</q>. אם הצ׳אט מציע תפריט סקילים, הקלידו <kbd>@</kbd> או <kbd>/</kbd> ובחרו <code>mekomil</code> מהרשימה. בחיבור הניסיוני ל-ChatGPT כתבו <q>השתמש בחיבור mekomil</q>.</span>
-    <span lang="en"><strong>mekomIL didn't activate automatically?</strong> At the start of the conversation, ask <q>Use mekomIL to answer this question</q>. If your chat offers a skills menu, type <kbd>@</kbd> or <kbd>/</kbd> and select <code>mekomil</code> from the list. With the experimental ChatGPT setup, ask <q>Use the mekomil connector</q>.</span>
+    <span lang="he"><strong>מקומי לא הופעל לבד?</strong> בתחילת השיחה כתבו <q>השתמש במקומי כדי לענות על השאלה</q>. אם הצ׳אט מציע תפריט סקילים, הקלידו <kbd>@</kbd> או <kbd>/</kbd> ובחרו <code>mekomil</code> מהרשימה.</span>
+    <span lang="en"><strong>mekomIL didn't activate automatically?</strong> At the start of the conversation, ask <q>Use mekomIL to answer this question</q>. If your chat offers a skills menu, type <kbd>@</kbd> or <kbd>/</kbd> and select <code>mekomil</code> from the list.</span>
   </p>
 
   <div class="tabs" role="tablist" aria-label="Install target">
     <button type="button" role="tab" id="t-web"  aria-controls="p-web"  aria-selected="true">claude.ai</button>
+    <button type="button" role="tab" id="t-cw"   aria-controls="p-cw"   aria-selected="false">Claude Cowork</button>
     <button type="button" role="tab" id="t-code" aria-controls="p-code" aria-selected="false">Claude Code</button>
-    <button type="button" role="tab" id="t-cw"   aria-controls="p-cw"   aria-selected="false">Cowork</button>
     <button type="button" role="tab" id="t-gpt"  aria-controls="p-gpt"  aria-selected="false">ChatGPT</button>
+    <button type="button" role="tab" id="t-codex" aria-controls="p-codex" aria-selected="false">Codex</button>
   </div>
 
   <div class="panel" id="p-web" role="tabpanel" aria-labelledby="t-web">
     <h3><span lang="he">1 · הסקיל</span><span lang="en">1 · The skill</span></h3>
     <ol>
       <li><span lang="he"><a data-zip href="#">מורידים את <code>mekomil.zip</code></a>.</span><span lang="en"><a data-zip href="#">Download <code>mekomil.zip</code></a>.</span></li>
-      <li><span lang="he">ב-<a href="https://claude.ai">claude.ai</a> פותחים <kbd>Settings</kbd> ← <kbd>Customize</kbd> ← <kbd>Skills</kbd>, וגוררים את קובץ ה-ZIP לתוך העמוד. אפשר גם לבחור <kbd>+ Add</kbd> ← <kbd>Upload skill</kbd>. לא פותחים את ה-ZIP.</span><span lang="en">In <a href="https://claude.ai">claude.ai</a>, open <kbd>Settings</kbd> → <kbd>Customize</kbd> → <kbd>Skills</kbd>, then drag and drop the ZIP onto the page. You can also choose <kbd>+ Add</kbd> → <kbd>Upload skill</kbd>. Do not unzip it.</span></li>
+      <li><span lang="he">ב-<a href="https://claude.ai">claude.ai</a> פותחים <kbd>Settings</kbd> ואחר כך <kbd>Skills</kbd>, וגוררים את קובץ ה-ZIP לתוך העמוד. אפשר גם ללחוץ <kbd>+ Add</kbd> ואז <kbd>Upload skill</kbd>. לא פותחים את ה-ZIP.</span><span lang="en">In <a href="https://claude.ai">claude.ai</a>, open <kbd>Settings</kbd>, then <kbd>Skills</kbd>, and drag the ZIP onto the page. You can also choose <kbd>+ Add</kbd>, then <kbd>Upload skill</kbd>. Do not unzip it.</span></li>
     </ol>
     <h3><span lang="he">2 · החיבור</span><span lang="en">2 · The connector</span></h3>
     <ol>
-      <li><span lang="he">פותחים <kbd>Settings</kbd> ← <kbd>Customize</kbd> ← <kbd>Connectors</kbd> ← <kbd>+</kbd> ← <kbd>Add custom connector</kbd>.</span><span lang="en">Open <kbd>Settings</kbd> → <kbd>Customize</kbd> → <kbd>Connectors</kbd> → <kbd>+</kbd> → <kbd>Add custom connector</kbd>.</span></li>
+      <li><span lang="he">פותחים <kbd>Settings</kbd> ואחר כך <kbd>Connectors</kbd>, לוחצים <kbd>+</kbd> ובוחרים <kbd>Add custom connector</kbd>.</span><span lang="en">Open <kbd>Settings</kbd>, then <kbd>Connectors</kbd>. Select <kbd>+</kbd>, then <kbd>Add custom connector</kbd>.</span></li>
       <li><span lang="he">קוראים לו <kbd>mekomil</kbd> ומדביקים את הכתובת:</span><span lang="en">Name it <kbd>mekomil</kbd> and paste this address:</span><div class="ticket" data-ticket="mcp"></div></li>
+      <li><span lang="he">בשלב השני, תחת <kbd>Authentication</kbd>, מוודאים ש-<kbd>No sign-in</kbd> מסומן. Claude אמור לזהות זאת אוטומטית כ-<kbd>Detected</kbd>. אין צורך להוסיף <kbd>Request headers</kbd>.</span><span lang="en">In step 2, under <kbd>Authentication</kbd>, make sure <kbd>No sign-in</kbd> is selected. Claude should detect it automatically as <kbd>Detected</kbd>. Do not add any <kbd>Request headers</kbd>.</span></li>
       <li><span lang="he">שומרים את החיבור.</span><span lang="en">Save the connector.</span></li>
-      <li><span lang="he">לא חובה: פותחים את החיבור ובוחרים <kbd>Tool permissions</kbd> ← <kbd>Other tools</kbd> ← <kbd>Always allow</kbd>, כדי ש-Claude יוכל להשתמש בשלושת כלי הקטלוג לקריאה בלבד בלי לבקש אישור בכל פעם.</span><span lang="en">Optional: open the connector and choose <kbd>Tool permissions</kbd> → <kbd>Other tools</kbd> → <kbd>Always allow</kbd>, so Claude can use the three read-only catalog tools without asking each time.</span></li>
+      <li><span lang="he">כדי שלא תצטרכו לאשר כל קריאה בנפרד, פותחים את החיבור, נכנסים ל-<kbd>Tool permissions</kbd>, פותחים את <kbd>Other tools</kbd> ובוחרים <kbd>Always allow</kbd> לכל שלושת כלי הקטלוג לקריאה בלבד.</span><span lang="en">To avoid approving every call separately, open the connector, go to <kbd>Tool permissions</kbd>, expand <kbd>Other tools</kbd>, and choose <kbd>Always allow</kbd> for all three read-only catalog tools.</span></li>
       <li><span lang="he">זהו, שואלים בעברית.</span><span lang="en">That's it—just ask in Hebrew.</span></li>
+    </ol>
+  </div>
+
+  <div class="panel" id="p-cw" role="tabpanel" aria-labelledby="t-cw" hidden>
+    <ol>
+      <li><span lang="he">מוסיפים את הסקיל בדיוק כמו ב-claude.ai.</span><span lang="en">Add the skill exactly as on claude.ai.</span></li>
+      <li><span lang="he">פותחים <kbd>Connectors</kbd>, מוסיפים connector מותאם, ומדביקים את הכתובת:</span><span lang="en">Open <kbd>Connectors</kbd>, add a custom connector, and paste the address:</span><div class="ticket" data-ticket="mcp"></div></li>
     </ol>
   </div>
 
   <div class="panel" id="p-code" role="tabpanel" aria-labelledby="t-code" hidden>
     <h3><span lang="he">התוסף: הסקיל והחיבור יחד</span><span lang="en">The plugin: skill and connector together</span></h3>
     <ol>
-      <li><span lang="he">בתוך Claude Code, שתי פקודות:</span><span lang="en">Inside Claude Code, two commands:</span><div class="ticket" data-ticket="plugin"></div></li>
+      <li><span lang="he">כן — ב-Claude Code מקומי IL מותקן כתוסף אחד שכולל גם את הסקיל וגם את חיבור ה-MCP. מריצים שתי פקודות:</span><span lang="en">Yes—in Claude Code, mekomIL is installed as one plugin containing both the skill and the MCP connection. Run these two commands:</span><div class="ticket" data-ticket="plugin"></div></li>
       <li><span lang="he">בודקים ש-<kbd>/mcp</kbd> מציג את <kbd>mekomil</kbd> כמחובר. זהו.</span><span lang="en">Check that <kbd>/mcp</kbd> lists <kbd>mekomil</kbd> as connected. That's it.</span></li>
     </ol>
     <h3><span lang="he">בלי תוסף</span><span lang="en">Without the plugin</span> <span class="opt"><span lang="he">לא חובה</span><span lang="en">optional</span></span></h3>
@@ -420,19 +429,29 @@ footer{padding:44px 0 64px}
     <p class="note"><span lang="he">כדי שמקומי IL ימצא ויטען סקילים, צריך גם את הסקיל וגם את החיבור. בלי החיבור אין גישה לקטלוג העדכני.</span><span lang="en">mekomIL needs both pieces to find and load skills. Without the connector, it cannot access the current catalog.</span></p>
   </div>
 
-  <div class="panel" id="p-cw" role="tabpanel" aria-labelledby="t-cw" hidden>
+  <div class="panel" id="p-gpt" role="tabpanel" aria-labelledby="t-gpt" hidden>
+    <h3><span lang="he">1 · הסקיל</span><span lang="en">1 · The skill</span></h3>
     <ol>
-      <li><span lang="he">מוסיפים את הסקיל בדיוק כמו ב-claude.ai.</span><span lang="en">Add the skill exactly as on claude.ai.</span></li>
-      <li><span lang="he">פותחים <kbd>Connectors</kbd>, מוסיפים connector מותאם, ומדביקים את הכתובת:</span><span lang="en">Open <kbd>Connectors</kbd>, add a custom connector, and paste the address:</span><div class="ticket" data-ticket="mcp"></div></li>
+      <li><span lang="he"><a data-zip href="#">מורידים את <code>mekomil.zip</code></a>.</span><span lang="en"><a data-zip href="#">Download <code>mekomil.zip</code></a>.</span></li>
+      <li><span lang="he">בסרגל הצד פותחים <kbd>Plugins</kbd>, עוברים ללשונית <kbd>Skills</kbd>, לוחצים <kbd>Add</kbd> ואז <kbd>Upload from your computer</kbd>, ובוחרים את קובץ ה-ZIP. לא פותחים אותו.</span><span lang="en">In the sidebar, open <kbd>Plugins</kbd> → the <kbd>Skills</kbd> tab → <kbd>Add</kbd> → <kbd>Upload from your computer</kbd>, then select the ZIP file. Do not unzip it.</span></li>
+    </ol>
+    <h3><span lang="he">2 · התוסף והחיבור</span><span lang="en">2 · The plugin and connection</span></h3>
+    <ol>
+      <li><span lang="he">עוברים ללשונית <kbd>Plugins</kbd>, לוחצים <kbd>Add</kbd> ואז <kbd>Create custom MCP server</kbd>.</span><span lang="en">Switch to the <kbd>Plugins</kbd> tab → <kbd>Add</kbd> → <kbd>Create custom MCP server</kbd>.</span></li>
+      <li><span lang="he">בשם כותבים <kbd>mekomil</kbd>, בוחרים <kbd>Server URL</kbd>, ומדביקים את הכתובת:</span><span lang="en">For the name, enter <kbd>mekomil</kbd>, select <kbd>Server URL</kbd>, and paste this address:</span><div class="ticket" data-ticket="mcp"></div></li>
+      <li><span lang="he">תחת <kbd>Authentication</kbd> בוחרים <kbd>No authentication</kbd>, מסמנים שקראתם את אזהרת הבטיחות, ולוחצים <kbd>Create as a plugin</kbd>.</span><span lang="en">Under <kbd>Authentication</kbd>, choose <kbd>No authentication</kbd>, acknowledge the safety warning, and select <kbd>Create as a plugin</kbd>.</span></li>
+      <li><span lang="he">אחרי ההתקנה אפשר למצוא את החיבור תחת <kbd>Plugins</kbd>, בלשונית <kbd>Personal</kbd>. פותחים שיחה חדשה ושואלים בעברית.</span><span lang="en">After setup, find the connection under <kbd>Plugins</kbd> → <kbd>Personal</kbd>. Start a new chat and ask in Hebrew.</span></li>
     </ol>
   </div>
 
-  <div class="panel" id="p-gpt" role="tabpanel" aria-labelledby="t-gpt" hidden>
+  <div class="panel" id="p-codex" role="tabpanel" aria-labelledby="t-codex" hidden>
+    <h3><span lang="he">Codex CLI ותוסף ה-IDE</span><span lang="en">Codex CLI and IDE extension</span></h3>
     <ol>
-      <li><span lang="he">אם מצב מפתחים זמין לחשבון שלכם, פותחים <kbd>Settings</kbd> ← <kbd>Security and login</kbd> ומפעילים <kbd>Developer mode</kbd>.</span><span lang="en">If developer mode is available to your account, open <kbd>Settings</kbd> → <kbd>Security and login</kbd> and enable <kbd>Developer mode</kbd>.</span></li>
-      <li><span lang="he">ב-<kbd>ChatGPT Plugins</kbd> לוחצים <kbd>+</kbd> ומוסיפים את כתובת שרת ה-MCP:</span><span lang="en">In <kbd>ChatGPT Plugins</kbd>, click <kbd>+</kbd> and add the MCP server address:</span><div class="ticket" data-ticket="mcp"></div></li>
+      <li><span lang="he"><a data-zip href="#">מורידים את <code>mekomil.zip</code></a>, ומתקינים את הסקיל המקומי:</span><span lang="en"><a data-zip href="#">Download <code>mekomil.zip</code></a>, then install the local skill:</span><div class="ticket" data-ticket="codexunzip"></div></li>
+      <li><span lang="he">מוסיפים את שרת ה-MCP. ההגדרה משותפת ל-Codex CLI ולתוסף ה-IDE:</span><span lang="en">Add the MCP server. Codex CLI and the IDE extension share this configuration:</span><div class="ticket" data-ticket="codexmcp"></div></li>
+      <li><span lang="he">פותחים סשן חדש. אפשר לבדוק שהסקיל מופיע עם <kbd>/skills</kbd>, או להפעיל אותו במפורש עם <kbd>$mekomil</kbd>.</span><span lang="en">Start a new session. You can check that the skill appears with <kbd>/skills</kbd>, or invoke it explicitly with <kbd>$mekomil</kbd>.</span></li>
     </ol>
-    <p class="note"><span lang="he">זהו חיבור ניסיוני לשרת. עד שנפרסם תוסף ChatGPT שכולל גם את הסקיל, בחירת הסקיל הרלוונטי אינה אוטומטית כאן.</span><span lang="en">This is an experimental server connection. Automatic skill selection here awaits a ChatGPT plugin that bundles the skill.</span></p>
+    <p class="note"><span lang="he">ב-Codex Web ממשק הוספת שרת MCP אינו מתקין סקיל ידני. כדי שמקומי IL יבחר את המדריך הישראלי המתאים צריך את שני החלקים, ולכן ההתקנה המלאה המתועדת כאן מיועדת ל-Codex CLI או לתוסף ה-IDE.</span><span lang="en">In Codex Web, adding an MCP server does not install a standalone skill. mekomIL needs both pieces to select the right Israeli guide, so the complete setup documented here is for Codex CLI or the IDE extension.</span></p>
   </div>
 </section>
 
@@ -448,7 +467,7 @@ footer{padding:44px 0 64px}
       <text x="50" y="74" text-anchor="middle" font-family="Heebo,sans-serif" font-weight="700" font-size="7" fill="#111">skills-il</text>
     </svg>
     <div>
-      <p class="lead"><span lang="he">כמו מדבקת טסט: הסקילים נטענים מהמקור, עם מטמון של עד שעה.</span><span lang="en">Like the annual licence sticker: skills load from the source, with caching for up to one hour.</span></p>
+      <p class="lead"><span lang="he">רק כשצריך: מקומי IL מוצא וטוען את הסקיל הישראלי שמתאים לשאלה.</span><span lang="en">Only when needed: mekomIL finds and loads the Israeli skill that fits the question.</span></p>
       <div class="small">
         <p><span lang="he">מבוסס על הקטלוג הפתוח <a href="https://agentskills.co.il/he">skills-il</a>, ולא מסונף אליו או ל-YooTech. הסקילים נכתבים ומתוחזקים שם, ומקומי IL רק מאתר וטוען אותם.</span><span lang="en">Built on the open <a href="https://agentskills.co.il/he">skills-il</a> catalog, and not affiliated with it or with YooTech. Skills are written and maintained there; mekomIL only finds and loads them.</span></p>
         <p><span lang="he">גרסה מוקדמת · רישיון MIT · <a data-repo href="#">הקוד ב-GitHub</a></span><span lang="en">Early version · MIT licensed · <a data-repo href="#">Code on GitHub</a></span></p>
@@ -468,7 +487,9 @@ footer{padding:44px 0 64px}
     mcp:    MCP_URL,
     plugin: "/plugin marketplace add ilanvys/mekomil\n/plugin install mekomil@mekomil",
     unzip:  "curl -L -o mekomil.zip " + SKILL_ZIP + "\nunzip mekomil.zip -d ~/.claude/skills/",
-    mcpadd: "claude mcp add --transport http mekomil " + MCP_URL
+    mcpadd: "claude mcp add --transport http mekomil " + MCP_URL,
+    codexunzip: "mkdir -p ~/.agents/skills\ncurl -L -o mekomil.zip " + SKILL_ZIP + "\nunzip mekomil.zip -d ~/.agents/skills/",
+    codexmcp: "codex mcp add mekomil --url " + MCP_URL
   };
 
   var root = document.documentElement;
