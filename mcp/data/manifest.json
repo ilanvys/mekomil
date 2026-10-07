@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T07:14:48.650Z",
+ "generated": "2026-10-07T11:06:55.304Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -672,15 +672,21 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/hebrew-stt-models.md",
+    "references/hebrew-tts-normalization.md",
     "references/ivr-design-patterns.md",
-    "scripts/hebrew-stt-demo.py"
+    "references/twilio-call-flow.md",
+    "scripts/hebrew-stt-demo.py",
+    "scripts/test_hebrew_tts_normalization.py"
    ],
    "bytes": {
-    "SKILL.md": 40671,
-    "SKILL_HE.md": 40395,
-    "references/hebrew-stt-models.md": 9157,
-    "references/ivr-design-patterns.md": 9289,
-    "scripts/hebrew-stt-demo.py": 12894
+    "SKILL.md": 40647,
+    "SKILL_HE.md": 45109,
+    "references/hebrew-stt-models.md": 9386,
+    "references/hebrew-tts-normalization.md": 9761,
+    "references/ivr-design-patterns.md": 11708,
+    "references/twilio-call-flow.md": 16363,
+    "scripts/hebrew-stt-demo.py": 14327,
+    "scripts/test_hebrew_tts_normalization.py": 9649
    }
   },
   "hyperframes-best-practices": {
@@ -694,6 +700,7 @@
     "references/domain-checklist.md",
     "references/dynamic-techniques.md",
     "references/hebrew-rtl.md",
+    "references/layout-before-animation.md",
     "references/motion-principles.md",
     "references/transcript-guide.md",
     "references/transitions.md",
@@ -713,22 +720,26 @@
     "references/transitions/css-scale.md",
     "references/tts.md",
     "references/typography.md",
+    "scripts/animation-map-sampling.mjs",
     "scripts/animation-map.mjs",
-    "scripts/contrast-report.mjs"
+    "scripts/contrast-report.mjs",
+    "scripts/package-loader.mjs",
+    "scripts/test/contrast-report.regression.mjs"
    ],
    "bytes": {
-    "SKILL.md": 36400,
-    "SKILL_HE.md": 25641,
+    "SKILL.md": 37518,
+    "SKILL_HE.md": 38631,
     "references/audio-reactive.md": 3040,
-    "references/captions.md": 6669,
+    "references/captions.md": 7105,
     "references/css-patterns.md": 8294,
-    "references/domain-checklist.md": 18842,
+    "references/domain-checklist.md": 23729,
     "references/dynamic-techniques.md": 6853,
-    "references/hebrew-rtl.md": 9142,
+    "references/hebrew-rtl.md": 16182,
+    "references/layout-before-animation.md": 2979,
     "references/motion-principles.md": 3877,
-    "references/transcript-guide.md": 7973,
+    "references/transcript-guide.md": 8321,
     "references/transitions.md": 11676,
-    "references/transitions/catalog.md": 6278,
+    "references/transitions/catalog.md": 6763,
     "references/transitions/css-3d.md": 421,
     "references/transitions/css-blur.md": 1784,
     "references/transitions/css-cover.md": 1448,
@@ -739,13 +750,16 @@
     "references/transitions/css-light.md": 2376,
     "references/transitions/css-mechanical.md": 1613,
     "references/transitions/css-other.md": 838,
-    "references/transitions/css-push.md": 1192,
+    "references/transitions/css-push.md": 1240,
     "references/transitions/css-radial.md": 1060,
     "references/transitions/css-scale.md": 715,
     "references/tts.md": 2839,
-    "references/typography.md": 11022,
-    "scripts/animation-map.mjs": 19301,
-    "scripts/contrast-report.mjs": 12030
+    "references/typography.md": 11226,
+    "scripts/animation-map-sampling.mjs": 1400,
+    "scripts/animation-map.mjs": 23406,
+    "scripts/contrast-report.mjs": 26047,
+    "scripts/package-loader.mjs": 10876,
+    "scripts/test/contrast-report.regression.mjs": 5106
    }
   },
   "idf-date-converter": {
@@ -977,15 +991,17 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/billing-cycle-patterns.md",
+    "references/domain-checklist.md",
     "references/make-israeli-modules.md",
     "references/make-mcp-server.md"
    ],
    "bytes": {
-    "SKILL.md": 34222,
-    "SKILL_HE.md": 43841,
-    "references/billing-cycle-patterns.md": 13231,
-    "references/make-israeli-modules.md": 18275,
-    "references/make-mcp-server.md": 4477
+    "SKILL.md": 34184,
+    "SKILL_HE.md": 44939,
+    "references/billing-cycle-patterns.md": 13185,
+    "references/domain-checklist.md": 18007,
+    "references/make-israeli-modules.md": 21218,
+    "references/make-mcp-server.md": 4483
    }
   },
   "n8n-hebrew-workflows": {
@@ -1030,9 +1046,9 @@
     "references/domain-checklist.md"
    ],
    "bytes": {
-    "SKILL.md": 18357,
-    "SKILL_HE.md": 22661,
-    "references/domain-checklist.md": 6651
+    "SKILL.md": 19282,
+    "SKILL_HE.md": 23990,
+    "references/domain-checklist.md": 7982
    }
   },
   "skills-il-skill-creator": {
@@ -1678,21 +1694,25 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/additional-benefits.md",
+    "references/citizenship-and-aliyah.md",
     "references/diaspora-orgs-directory.md",
     "references/documents-checklist.md",
     "references/domain-checklist.md",
+    "references/operational-items.md",
     "references/recognition-process.md",
     "scripts/post-discharge-rent-estimator.py"
    ],
    "bytes": {
-    "SKILL.md": 34547,
-    "SKILL_HE.md": 47253,
-    "references/additional-benefits.md": 1347,
-    "references/diaspora-orgs-directory.md": 5517,
-    "references/documents-checklist.md": 1008,
-    "references/domain-checklist.md": 6842,
-    "references/recognition-process.md": 4253,
-    "scripts/post-discharge-rent-estimator.py": 6894
+    "SKILL.md": 33652,
+    "SKILL_HE.md": 43865,
+    "references/additional-benefits.md": 3005,
+    "references/citizenship-and-aliyah.md": 1144,
+    "references/diaspora-orgs-directory.md": 3212,
+    "references/documents-checklist.md": 1357,
+    "references/domain-checklist.md": 9867,
+    "references/operational-items.md": 2058,
+    "references/recognition-process.md": 4907,
+    "scripts/post-discharge-rent-estimator.py": 12353
    }
   },
   "israeli-media-authenticity-verifier": {
@@ -2178,21 +2198,23 @@
     "references/domain-checklist.md",
     "references/hebrew-exercise-map.md",
     "references/israeli-gym-rules.md",
+    "references/kupah-physio-routes.md",
     "references/progression-models.md",
     "references/safety-red-flags.md",
     "references/state-schema.md",
     "scripts/analyze_log.py"
    ],
    "bytes": {
-    "SKILL.md": 33537,
-    "SKILL_HE.md": 46177,
-    "references/domain-checklist.md": 13681,
+    "SKILL.md": 33468,
+    "SKILL_HE.md": 47249,
+    "references/domain-checklist.md": 16101,
     "references/hebrew-exercise-map.md": 3859,
-    "references/israeli-gym-rules.md": 4947,
-    "references/progression-models.md": 6317,
-    "references/safety-red-flags.md": 6749,
-    "references/state-schema.md": 9300,
-    "scripts/analyze_log.py": 20346
+    "references/israeli-gym-rules.md": 8926,
+    "references/kupah-physio-routes.md": 4045,
+    "references/progression-models.md": 7256,
+    "references/safety-red-flags.md": 11079,
+    "references/state-schema.md": 10315,
+    "scripts/analyze_log.py": 30005
    }
   },
   "israeli-building-committee": {
@@ -2246,6 +2268,23 @@
     "references/domain-checklist.md": 19208,
     "references/smaller-routes.md": 5515,
     "scripts/eligibility_intake.py": 7614
+   }
+  },
+  "israeli-consumer-claim-kit": {
+   "repo": "legal-tech",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/rules-and-letters.md",
+    "scripts/claim_check.py"
+   ],
+   "bytes": {
+    "SKILL.md": 24473,
+    "SKILL_HE.md": 32171,
+    "references/domain-checklist.md": 23334,
+    "references/rules-and-letters.md": 7993,
+    "scripts/claim_check.py": 13615
    }
   },
   "israeli-divorce-navigator": {
@@ -3390,12 +3429,12 @@
     "scripts/arnona-calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 30485,
-    "SKILL_HE.md": 39256,
-    "references/arnona-discounts-guide.md": 24426,
-    "references/arnona-rates-guide.md": 7120,
-    "references/domain-checklist.md": 6082,
-    "scripts/arnona-calculator.py": 45392
+    "SKILL.md": 30284,
+    "SKILL_HE.md": 39516,
+    "references/arnona-discounts-guide.md": 27905,
+    "references/arnona-rates-guide.md": 7063,
+    "references/domain-checklist.md": 8732,
+    "scripts/arnona-calculator.py": 60493
    }
   },
   "israeli-bank-connector": {
@@ -3584,12 +3623,12 @@
     "scripts/estimate_refund.py"
    ],
    "bytes": {
-    "SKILL.md": 32184,
-    "SKILL_HE.md": 52513,
-    "references/2026-rates.md": 18642,
-    "references/document-requirements.md": 6099,
-    "references/domain-checklist.md": 19408,
-    "scripts/estimate_refund.py": 13939
+    "SKILL.md": 32494,
+    "SKILL_HE.md": 55632,
+    "references/2026-rates.md": 28601,
+    "references/document-requirements.md": 8730,
+    "references/domain-checklist.md": 22536,
+    "scripts/estimate_refund.py": 18933
    }
   },
   "israeli-export-shipping-kit": {
@@ -3770,13 +3809,13 @@
     "scripts/quote_builder.py"
    ],
    "bytes": {
-    "SKILL.md": 30536,
-    "SKILL_HE.md": 37122,
-    "references/domain-checklist.md": 6313,
-    "references/payment-terms-law.md": 8086,
-    "references/quote-templates.md": 7796,
-    "references/vat-and-oseik-status.md": 5029,
-    "scripts/quote_builder.py": 18897
+    "SKILL.md": 33100,
+    "SKILL_HE.md": 40415,
+    "references/domain-checklist.md": 7983,
+    "references/payment-terms-law.md": 9119,
+    "references/quote-templates.md": 10137,
+    "references/vat-and-oseik-status.md": 5535,
+    "scripts/quote_builder.py": 29120
    }
   },
   "israeli-property-appraisal": {
@@ -3790,12 +3829,12 @@
     "scripts/comparables.py"
    ],
    "bytes": {
-    "SKILL.md": 24199,
-    "SKILL_HE.md": 39749,
-    "references/betterment-levy.md": 8388,
-    "references/comparables-routes.md": 9874,
-    "references/domain-checklist.md": 9642,
-    "scripts/comparables.py": 17926
+    "SKILL.md": 26823,
+    "SKILL_HE.md": 43481,
+    "references/betterment-levy.md": 11081,
+    "references/comparables-routes.md": 10010,
+    "references/domain-checklist.md": 10710,
+    "scripts/comparables.py": 19084
    }
   },
   "israeli-smart-saver": {

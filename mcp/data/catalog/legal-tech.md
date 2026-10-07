@@ -1,6 +1,6 @@
 # legal-tech
 
-20 skills. Load a selected skill with `get_skill` before applying it.
+21 skills. Load a selected skill with `get_skill` before applying it.
 Descriptions are the authors' own, unedited -- including the "Do NOT use for" clauses,
 which are load-bearing: they are how you tell near-misses apart.
 Descriptions: Copyright (c) 2026 Skills IL (Yootech), MIT License. See THIRD_PARTY_NOTICES.md.
@@ -13,6 +13,9 @@ Not legal advice. Guides a driver through the aftermath of a car accident in Isr
 
 ## israeli-citizenship-by-descent  `Sc`
 Not legal advice. Help an Israeli check whether they can claim a European passport by descent or Nazi-era restitution and build the do-it-yourself application path from Israel. Use when someone says a parent, grandparent, or great-grandparent came from Europe and they want to know if a passport is realistic and how to file it without paying an agency. Covers the German and Austrian restitution routes, citizenship by descent for Italy, Poland, Romania, Hungary and smaller routes, which routes have closed, and the Israeli-side document pipeline (population-registry extract, apostille, certified translation). Explains why getting the route and the document chain right is what decides approval. Do NOT use for immigrating to Israel, work or relocation visas, wills and inheritance, or as a substitute for a licensed immigration lawyer on a complex or contested case.
+
+## israeli-consumer-claim-kit  `Sc`
+Not legal advice. Drafts Israeli consumer demand letters, cancellation notices and complaints that the user signs and sends. Use when a technician, delivery or gas inspection was hours late or never came (chok hatechnaim), when cancelling a purchase made online, by phone, at the door, at a sales event or in a shop, or a subscription (bitul iska), including the 4-month right for seniors, olim and people with disabilities, when a warranty repair is refused or overdue, or when complaining to the Consumer Protection Authority or the Consumer Council. It works out the statutory figure first (300 or 600 NIS, the cancellation deadline, the fee cap) because guides often get these wrong. Do NOT use for filing the court claim itself (use israeli-small-claims-court), for seller-side compliance (use israeli-ecommerce-compliance), for flight compensation (use israeli-flight-compensation), or for bank and card fees (use israeli-consumer-fee-fighter).
 
 ## israeli-divorce-navigator  `Sc`
 Not legal advice. Walks a person through the Israeli divorce process end to end: the rabbinical-court vs. family-court jurisdiction choice and the joinder doctrine (kricha), the mandatory intake track (bakasha leyishuv sikhsukh and the MAHUT meetings under the 2014 family-disputes law) and the urgent-relief / protective-order carve-out, property balancing (izun mashabim, default 50/50 under the 1973 law, with section 8 deviation), spousal maintenance (mezonot isha) vs. child support (mezonot yeladim) and the Bagatz 919/15 shared-custody reform, custody / parental responsibility, the ketubah, common-law partners (yeduim betzibur), and the get plus get-refusal sanctions. Use when someone in Israel is starting or facing girushin and needs a roadmap, a property-balancing worksheet, or a checklist of what a divorce agreement must cover. Do NOT use for pension-split math (use israeli-pension-advisor), and always recommend a family lawyer for the actual filing.
