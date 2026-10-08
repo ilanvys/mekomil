@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T11:06:55.304Z",
+ "generated": "2026-10-08T11:24:09.917Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -756,9 +756,9 @@
     "references/tts.md": 2839,
     "references/typography.md": 11226,
     "scripts/animation-map-sampling.mjs": 1400,
-    "scripts/animation-map.mjs": 23406,
-    "scripts/contrast-report.mjs": 26047,
-    "scripts/package-loader.mjs": 10876,
+    "scripts/animation-map.mjs": 23532,
+    "scripts/contrast-report.mjs": 26697,
+    "scripts/package-loader.mjs": 10921,
     "scripts/test/contrast-report.regression.mjs": 5106
    }
   },
@@ -998,8 +998,8 @@
    "bytes": {
     "SKILL.md": 34184,
     "SKILL_HE.md": 44939,
-    "references/billing-cycle-patterns.md": 13185,
-    "references/domain-checklist.md": 18007,
+    "references/billing-cycle-patterns.md": 13653,
+    "references/domain-checklist.md": 18182,
     "references/make-israeli-modules.md": 21218,
     "references/make-mcp-server.md": 4483
    }
@@ -2280,11 +2280,11 @@
     "scripts/claim_check.py"
    ],
    "bytes": {
-    "SKILL.md": 24473,
-    "SKILL_HE.md": 32171,
-    "references/domain-checklist.md": 23334,
-    "references/rules-and-letters.md": 7993,
-    "scripts/claim_check.py": 13615
+    "SKILL.md": 24941,
+    "SKILL_HE.md": 32746,
+    "references/domain-checklist.md": 23540,
+    "references/rules-and-letters.md": 8246,
+    "scripts/claim_check.py": 13909
    }
   },
   "israeli-divorce-navigator": {
@@ -3809,13 +3809,13 @@
     "scripts/quote_builder.py"
    ],
    "bytes": {
-    "SKILL.md": 33100,
-    "SKILL_HE.md": 40415,
-    "references/domain-checklist.md": 7983,
+    "SKILL.md": 33155,
+    "SKILL_HE.md": 40539,
+    "references/domain-checklist.md": 8013,
     "references/payment-terms-law.md": 9119,
     "references/quote-templates.md": 10137,
-    "references/vat-and-oseik-status.md": 5535,
-    "scripts/quote_builder.py": 29120
+    "references/vat-and-oseik-status.md": 5612,
+    "scripts/quote_builder.py": 29340
    }
   },
   "israeli-property-appraisal": {
