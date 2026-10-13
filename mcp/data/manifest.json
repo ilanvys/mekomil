@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T11:24:09.917Z",
+ "generated": "2026-10-13T11:50:57.889Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -869,14 +869,16 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
     "references/prefix-allocation.md",
     "scripts/validate_phone.py"
    ],
    "bytes": {
-    "SKILL.md": 10357,
-    "SKILL_HE.md": 13232,
-    "references/prefix-allocation.md": 4290,
-    "scripts/validate_phone.py": 6483
+    "SKILL.md": 13687,
+    "SKILL_HE.md": 17748,
+    "references/domain-checklist.md": 8650,
+    "references/prefix-allocation.md": 8012,
+    "scripts/validate_phone.py": 15394
    }
   },
   "israeli-postgres-toolkit": {
@@ -2090,16 +2092,20 @@
     "references/bituach-leumi-allergy-claim.md",
     "references/document-templates.md",
     "references/domain-checklist.md",
+    "references/injectors-and-oit.md",
+    "references/maon-ages-0-3.md",
     "references/moe-standing-instruction-0042.md"
    ],
    "bytes": {
-    "SKILL.md": 33073,
-    "SKILL_HE.md": 42061,
+    "SKILL.md": 33213,
+    "SKILL_HE.md": 42697,
     "references/allergen-labelling.md": 2833,
-    "references/bituach-leumi-allergy-claim.md": 5149,
-    "references/document-templates.md": 10203,
-    "references/domain-checklist.md": 12010,
-    "references/moe-standing-instruction-0042.md": 10426
+    "references/bituach-leumi-allergy-claim.md": 7969,
+    "references/document-templates.md": 12236,
+    "references/domain-checklist.md": 16703,
+    "references/injectors-and-oit.md": 3785,
+    "references/maon-ages-0-3.md": 5598,
+    "references/moe-standing-instruction-0042.md": 14857
    }
   },
   "israeli-hmo-navigator": {
@@ -2420,12 +2426,12 @@
     "scripts/defect_window.py"
    ],
    "bytes": {
-    "SKILL.md": 25121,
-    "SKILL_HE.md": 31167,
-    "references/domain-checklist.md": 17010,
-    "references/periods-and-burdens.md": 15147,
-    "references/walkthrough-and-letter.md": 8918,
-    "scripts/defect_window.py": 14958
+    "SKILL.md": 30703,
+    "SKILL_HE.md": 38800,
+    "references/domain-checklist.md": 20661,
+    "references/periods-and-burdens.md": 22597,
+    "references/walkthrough-and-letter.md": 9982,
+    "scripts/defect_window.py": 25915
    }
   },
   "israeli-hotzaa-lapoal-debtor": {
@@ -2695,6 +2701,7 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
     "references/israeli-form-types.md",
     "references/nesach-tabu-structure.md",
     "scripts/extract_form_fields.py",
@@ -2702,13 +2709,14 @@
     "scripts/tabu_to_spreadsheet.py"
    ],
    "bytes": {
-    "SKILL.md": 15862,
-    "SKILL_HE.md": 19374,
-    "references/israeli-form-types.md": 3121,
-    "references/nesach-tabu-structure.md": 7388,
-    "scripts/extract_form_fields.py": 9251,
-    "scripts/preprocess_image.py": 5266,
-    "scripts/tabu_to_spreadsheet.py": 13690
+    "SKILL.md": 24675,
+    "SKILL_HE.md": 31289,
+    "references/domain-checklist.md": 7046,
+    "references/israeli-form-types.md": 5633,
+    "references/nesach-tabu-structure.md": 9565,
+    "scripts/extract_form_fields.py": 21595,
+    "scripts/preprocess_image.py": 10300,
+    "scripts/tabu_to_spreadsheet.py": 25766
    }
   },
   "hebrew-rtl-best-practices": {
@@ -3329,11 +3337,11 @@
     "scripts/fetch_boi_rates.py"
    ],
    "bytes": {
-    "SKILL.md": 16829,
-    "SKILL_HE.md": 21755,
-    "references/boi-api.md": 8269,
-    "references/domain-checklist.md": 3894,
-    "scripts/fetch_boi_rates.py": 16093
+    "SKILL.md": 22704,
+    "SKILL_HE.md": 29941,
+    "references/boi-api.md": 10941,
+    "references/domain-checklist.md": 6552,
+    "scripts/fetch_boi_rates.py": 28646
    }
   },
   "cardcom-payment-gateway": {
@@ -3344,15 +3352,19 @@
     "references/api-endpoints.md",
     "references/api-responses.md",
     "references/document-types.md",
+    "references/domain-checklist.md",
+    "references/production-checklist.md",
     "scripts/validate_cardcom_response.py"
    ],
    "bytes": {
-    "SKILL.md": 33887,
-    "SKILL_HE.md": 40643,
-    "references/api-endpoints.md": 10192,
-    "references/api-responses.md": 3256,
-    "references/document-types.md": 7499,
-    "scripts/validate_cardcom_response.py": 14008
+    "SKILL.md": 37376,
+    "SKILL_HE.md": 45702,
+    "references/api-endpoints.md": 15198,
+    "references/api-responses.md": 4468,
+    "references/document-types.md": 8836,
+    "references/domain-checklist.md": 31751,
+    "references/production-checklist.md": 5929,
+    "scripts/validate_cardcom_response.py": 22803
    }
   },
   "dual-listed-arbitrage": {
@@ -3442,16 +3454,18 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
     "references/spending-categories.md",
     "references/supported-banks.md",
     "scripts/categorize_transactions.py"
    ],
    "bytes": {
-    "SKILL.md": 14815,
-    "SKILL_HE.md": 18080,
-    "references/spending-categories.md": 2148,
-    "references/supported-banks.md": 7943,
-    "scripts/categorize_transactions.py": 18855
+    "SKILL.md": 29304,
+    "SKILL_HE.md": 37363,
+    "references/domain-checklist.md": 13812,
+    "references/spending-categories.md": 2481,
+    "references/supported-banks.md": 9498,
+    "scripts/categorize_transactions.py": 39206
    }
   },
   "israeli-budget-planner": {
@@ -3464,11 +3478,11 @@
     "scripts/budget_calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 20330,
-    "SKILL_HE.md": 27194,
-    "references/domain-checklist.md": 7099,
-    "references/israeli-financial-rates.md": 5071,
-    "scripts/budget_calculator.py": 10965
+    "SKILL.md": 25945,
+    "SKILL_HE.md": 34938,
+    "references/domain-checklist.md": 8648,
+    "references/israeli-financial-rates.md": 7483,
+    "scripts/budget_calculator.py": 14597
    }
   },
   "israeli-client-payment-chaser": {
@@ -3496,19 +3510,21 @@
     "references/transaction-and-sale-he.md",
     "references/transaction-and-sale.md",
     "references/troubleshooting.md",
+    "references/valuation-methods-he.md",
     "references/valuation-methods.md",
     "scripts/valuation_model.py"
    ],
    "bytes": {
-    "SKILL.md": 31925,
-    "SKILL_HE.md": 43654,
-    "references/domain-checklist.md": 11093,
-    "references/israeli-tax-regimes.md": 12781,
-    "references/transaction-and-sale-he.md": 6480,
-    "references/transaction-and-sale.md": 5164,
+    "SKILL.md": 32194,
+    "SKILL_HE.md": 43558,
+    "references/domain-checklist.md": 14485,
+    "references/israeli-tax-regimes.md": 14305,
+    "references/transaction-and-sale-he.md": 14131,
+    "references/transaction-and-sale.md": 11139,
     "references/troubleshooting.md": 2468,
-    "references/valuation-methods.md": 11705,
-    "scripts/valuation_model.py": 18148
+    "references/valuation-methods-he.md": 17405,
+    "references/valuation-methods.md": 12316,
+    "scripts/valuation_model.py": 34523
    }
   },
   "israeli-consumer-fee-fighter": {
@@ -3583,12 +3599,12 @@
     "scripts/crypto-gains-calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 33082,
-    "SKILL_HE.md": 43582,
-    "references/crypto-tax-regulations.md": 26405,
-    "references/crypto-tax-scenarios.md": 13153,
-    "references/domain-checklist.md": 9264,
-    "scripts/crypto-gains-calculator.py": 48023
+    "SKILL.md": 33364,
+    "SKILL_HE.md": 43898,
+    "references/crypto-tax-regulations.md": 31207,
+    "references/crypto-tax-scenarios.md": 14124,
+    "references/domain-checklist.md": 11423,
+    "scripts/crypto-gains-calculator.py": 63590
    }
   },
   "israeli-customs-duty-calculator": {
