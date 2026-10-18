@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T11:50:57.889Z",
+ "generated": "2026-10-18T08:52:51.605Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -42,14 +42,16 @@
     "SKILL_HE.md",
     "references/api-reference.md",
     "references/document-workflows.md",
+    "references/domain-checklist.md",
     "scripts/green-invoice-client.py"
    ],
    "bytes": {
-    "SKILL.md": 34567,
-    "SKILL_HE.md": 44074,
-    "references/api-reference.md": 19231,
-    "references/document-workflows.md": 8879,
-    "scripts/green-invoice-client.py": 15017
+    "SKILL.md": 34424,
+    "SKILL_HE.md": 44668,
+    "references/api-reference.md": 24854,
+    "references/document-workflows.md": 12134,
+    "references/domain-checklist.md": 26165,
+    "scripts/green-invoice-client.py": 23296
    }
   },
   "gws-israeli-business-sheets": {
@@ -115,10 +117,10 @@
     "scripts/financial_parser.py"
    ],
    "bytes": {
-    "SKILL.md": 24293,
-    "SKILL_HE.md": 30177,
-    "references/domain-checklist.md": 7015,
-    "references/hebrew-financial-terms.md": 2950,
+    "SKILL.md": 28477,
+    "SKILL_HE.md": 34958,
+    "references/domain-checklist.md": 10092,
+    "references/hebrew-financial-terms.md": 3225,
     "scripts/financial_parser.py": 4527
    }
   },
@@ -1552,6 +1554,7 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/adjacent-benefits.md",
+    "references/department-programs.md",
     "references/domain-checklist.md",
     "references/mimadim-scholarship.md",
     "references/nekudot-zikui-tables.md",
@@ -1559,14 +1562,15 @@
     "scripts/pikadon-calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 33181,
-    "SKILL_HE.md": 43643,
-    "references/adjacent-benefits.md": 7609,
-    "references/domain-checklist.md": 15350,
-    "references/mimadim-scholarship.md": 3884,
-    "references/nekudot-zikui-tables.md": 7596,
-    "references/six-purposes-deep-dive.md": 9399,
-    "scripts/pikadon-calculator.py": 9650
+    "SKILL.md": 34186,
+    "SKILL_HE.md": 44903,
+    "references/adjacent-benefits.md": 9980,
+    "references/department-programs.md": 7961,
+    "references/domain-checklist.md": 18111,
+    "references/mimadim-scholarship.md": 5176,
+    "references/nekudot-zikui-tables.md": 8217,
+    "references/six-purposes-deep-dive.md": 9590,
+    "scripts/pikadon-calculator.py": 13285
    }
   },
   "israeli-drug-database": {
@@ -1932,12 +1936,12 @@
     "scripts/avtala_calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 31804,
-    "SKILL_HE.md": 44156,
-    "references/application-forms.md": 12087,
-    "references/benefit-calculation-tables.md": 14917,
-    "references/eligibility-rules.md": 26405,
-    "scripts/avtala_calculator.py": 29812
+    "SKILL.md": 31689,
+    "SKILL_HE.md": 44098,
+    "references/application-forms.md": 12674,
+    "references/benefit-calculation-tables.md": 17126,
+    "references/eligibility-rules.md": 30323,
+    "scripts/avtala_calculator.py": 34217
    }
   },
   "israeli-vehicle-manager": {
@@ -3619,13 +3623,13 @@
     "scripts/calculate_duty.py"
    ],
    "bytes": {
-    "SKILL.md": 28590,
-    "SKILL_HE.md": 35181,
-    "references/domain-checklist.md": 5277,
-    "references/duty-rates-by-category.md": 3917,
-    "references/fta-preferences.md": 6961,
-    "references/hs-codes-guide.md": 2280,
-    "scripts/calculate_duty.py": 13209
+    "SKILL.md": 32000,
+    "SKILL_HE.md": 39470,
+    "references/domain-checklist.md": 7282,
+    "references/duty-rates-by-category.md": 4467,
+    "references/fta-preferences.md": 7413,
+    "references/hs-codes-guide.md": 2639,
+    "scripts/calculate_duty.py": 19018
    }
   },
   "israeli-employee-tax-refund": {
@@ -3654,20 +3658,24 @@
     "SKILL_HE.md",
     "references/eur1-application-guide.md",
     "references/incoterms-2020.md",
+    "references/non-preferential-origin.md",
     "references/origin-declaration-template.md",
     "references/pem-2026-rules.md",
+    "references/script-usage.md",
     "scripts/generate_invoice.py",
     "scripts/sample_order.json"
    ],
    "bytes": {
-    "SKILL.md": 28765,
-    "SKILL_HE.md": 35312,
-    "references/eur1-application-guide.md": 5274,
+    "SKILL.md": 31784,
+    "SKILL_HE.md": 40794,
+    "references/eur1-application-guide.md": 5560,
     "references/incoterms-2020.md": 2531,
-    "references/origin-declaration-template.md": 4272,
-    "references/pem-2026-rules.md": 3276,
-    "scripts/generate_invoice.py": 14064,
-    "scripts/sample_order.json": 992
+    "references/non-preferential-origin.md": 1337,
+    "references/origin-declaration-template.md": 5223,
+    "references/pem-2026-rules.md": 4079,
+    "references/script-usage.md": 1347,
+    "scripts/generate_invoice.py": 16446,
+    "scripts/sample_order.json": 1215
    }
   },
   "israeli-freelancer-ops": {
@@ -4037,16 +4045,18 @@
     "references/domain-checklist.md",
     "references/error-codes.md",
     "references/payment-parameters.md",
+    "references/refunds-and-billing.md",
     "scripts/validate_pelecard_response.py"
    ],
    "bytes": {
-    "SKILL.md": 36205,
-    "SKILL_HE.md": 46370,
-    "references/api-endpoints.md": 11361,
-    "references/domain-checklist.md": 3183,
-    "references/error-codes.md": 35545,
-    "references/payment-parameters.md": 8756,
-    "scripts/validate_pelecard_response.py": 15225
+    "SKILL.md": 36521,
+    "SKILL_HE.md": 47036,
+    "references/api-endpoints.md": 13189,
+    "references/domain-checklist.md": 3926,
+    "references/error-codes.md": 36409,
+    "references/payment-parameters.md": 9126,
+    "references/refunds-and-billing.md": 7063,
+    "scripts/validate_pelecard_response.py": 19499
    }
   },
   "shekel-currency-converter": {
@@ -4060,12 +4070,12 @@
     "scripts/fetch_rates.py"
    ],
    "bytes": {
-    "SKILL.md": 13308,
-    "SKILL_HE.md": 16388,
-    "references/boi-api-guide.md": 3900,
-    "references/currency-codes.md": 1981,
-    "references/domain-checklist.md": 5226,
-    "scripts/fetch_rates.py": 18652
+    "SKILL.md": 23570,
+    "SKILL_HE.md": 29565,
+    "references/boi-api-guide.md": 5727,
+    "references/currency-codes.md": 2700,
+    "references/domain-checklist.md": 7509,
+    "scripts/fetch_rates.py": 25726
    }
   },
   "tase-stock-analysis": {
@@ -4093,19 +4103,23 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/3ds-flow.md",
+    "references/allocation-number.md",
     "references/api-parameters.md",
+    "references/api-v2-flows.md",
     "references/domain-checklist.md",
     "references/error-codes.md",
     "scripts/validate_tranzila_response.py"
    ],
    "bytes": {
-    "SKILL.md": 32878,
-    "SKILL_HE.md": 39815,
-    "references/3ds-flow.md": 6074,
-    "references/api-parameters.md": 6720,
-    "references/domain-checklist.md": 1997,
-    "references/error-codes.md": 6070,
-    "scripts/validate_tranzila_response.py": 16949
+    "SKILL.md": 34497,
+    "SKILL_HE.md": 41589,
+    "references/3ds-flow.md": 6466,
+    "references/allocation-number.md": 1554,
+    "references/api-parameters.md": 8677,
+    "references/api-v2-flows.md": 7584,
+    "references/domain-checklist.md": 3917,
+    "references/error-codes.md": 6662,
+    "scripts/validate_tranzila_response.py": 18428
    }
   },
   "us-israel-dual-tax-navigator": {
