@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T08:52:51.605Z",
+ "generated": "2026-10-19T09:57:10.397Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -3623,8 +3623,8 @@
     "scripts/calculate_duty.py"
    ],
    "bytes": {
-    "SKILL.md": 32000,
-    "SKILL_HE.md": 39470,
+    "SKILL.md": 32080,
+    "SKILL_HE.md": 39556,
     "references/domain-checklist.md": 7282,
     "references/duty-rates-by-category.md": 4467,
     "references/fta-preferences.md": 7413,
@@ -4055,7 +4055,7 @@
     "references/domain-checklist.md": 3926,
     "references/error-codes.md": 36409,
     "references/payment-parameters.md": 9126,
-    "references/refunds-and-billing.md": 7063,
+    "references/refunds-and-billing.md": 7133,
     "scripts/validate_pelecard_response.py": 19499
    }
   },
