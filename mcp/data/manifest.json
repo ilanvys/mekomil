@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T09:57:10.397Z",
+ "generated": "2026-10-20T09:28:00.940Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -65,12 +65,12 @@
     "scripts/vat-summary.py"
    ],
    "bytes": {
-    "SKILL.md": 29025,
-    "SKILL_HE.md": 35864,
-    "references/gws-sheets-recipes.md": 5973,
-    "references/israeli-tax-categories.md": 11430,
-    "scripts/backup-sheets.py": 4962,
-    "scripts/vat-summary.py": 16621
+    "SKILL.md": 32765,
+    "SKILL_HE.md": 40761,
+    "references/gws-sheets-recipes.md": 6228,
+    "references/israeli-tax-categories.md": 14874,
+    "scripts/backup-sheets.py": 6495,
+    "scripts/vat-summary.py": 44266
    }
   },
   "hashavshevet-data-tools": {
@@ -230,23 +230,27 @@
     "references/dirug-map.md",
     "references/domain-checklist.md",
     "references/framework-agreement.md",
+    "references/havraa-days.md",
     "references/healthcare-tosafot.md",
     "references/nurses-salary-tables.md",
+    "references/pension-and-annual-lines.md",
     "references/troubleshooting.md",
     "references/wage-reduction.md",
     "scripts/healthcare_gross.py"
    ],
    "bytes": {
-    "SKILL.md": 33732,
-    "SKILL_HE.md": 46047,
-    "references/dirug-map.md": 2658,
-    "references/domain-checklist.md": 15736,
-    "references/framework-agreement.md": 3147,
-    "references/healthcare-tosafot.md": 11476,
-    "references/nurses-salary-tables.md": 33355,
-    "references/troubleshooting.md": 1184,
-    "references/wage-reduction.md": 2296,
-    "scripts/healthcare_gross.py": 9737
+    "SKILL.md": 34209,
+    "SKILL_HE.md": 49227,
+    "references/dirug-map.md": 2610,
+    "references/domain-checklist.md": 18772,
+    "references/framework-agreement.md": 4086,
+    "references/havraa-days.md": 4241,
+    "references/healthcare-tosafot.md": 11765,
+    "references/nurses-salary-tables.md": 33401,
+    "references/pension-and-annual-lines.md": 6819,
+    "references/troubleshooting.md": 1273,
+    "references/wage-reduction.md": 3813,
+    "scripts/healthcare_gross.py": 18273
    }
   },
   "israeli-payroll-calculator": {
@@ -295,13 +299,13 @@
     "scripts/teacher_gross.py"
    ],
    "bytes": {
-    "SKILL.md": 31971,
-    "SKILL_HE.md": 45142,
-    "references/domain-checklist.md": 14717,
-    "references/gmul-components.md": 9131,
-    "references/reform-hour-structure.md": 4791,
-    "references/wage-reduction.md": 3775,
-    "scripts/teacher_gross.py": 13092
+    "SKILL.md": 31918,
+    "SKILL_HE.md": 45237,
+    "references/domain-checklist.md": 19029,
+    "references/gmul-components.md": 13798,
+    "references/reform-hour-structure.md": 7359,
+    "references/wage-reduction.md": 3996,
+    "scripts/teacher_gross.py": 28097
    }
   },
   "gws-hebrew-email-automation": {
@@ -844,13 +848,15 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/id-formats.md",
+    "references/javascript.md",
     "scripts/validate_id.py"
    ],
    "bytes": {
-    "SKILL.md": 14541,
-    "SKILL_HE.md": 18860,
-    "references/id-formats.md": 3317,
-    "scripts/validate_id.py": 12390
+    "SKILL.md": 18252,
+    "SKILL_HE.md": 23854,
+    "references/id-formats.md": 5961,
+    "references/javascript.md": 3413,
+    "scripts/validate_id.py": 15083
    }
   },
   "israeli-marketplace-seller": {
@@ -1079,6 +1085,7 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/business-mode.md",
     "references/conversations.md",
     "references/deployment.md",
     "references/domain-checklist.md",
@@ -1089,15 +1096,16 @@
     "references/quickstarts.md"
    ],
    "bytes": {
-    "SKILL.md": 37042,
-    "SKILL_HE.md": 49134,
-    "references/conversations.md": 2674,
-    "references/deployment.md": 3350,
-    "references/domain-checklist.md": 15897,
-    "references/examples.md": 14321,
+    "SKILL.md": 37351,
+    "SKILL_HE.md": 48634,
+    "references/business-mode.md": 2440,
+    "references/conversations.md": 4060,
+    "references/deployment.md": 6465,
+    "references/domain-checklist.md": 16070,
+    "references/examples.md": 19011,
     "references/framework-comparison.md": 9056,
     "references/middleware.md": 1266,
-    "references/mini-apps.md": 5061,
+    "references/mini-apps.md": 6763,
     "references/quickstarts.md": 3930
    }
   },
@@ -1991,12 +1999,12 @@
     "scripts/calc_caregiver_cost.py"
    ],
    "bytes": {
-    "SKILL.md": 32274,
-    "SKILL_HE.md": 40728,
-    "references/domain-checklist.md": 8949,
+    "SKILL.md": 31450,
+    "SKILL_HE.md": 40442,
+    "references/domain-checklist.md": 10370,
     "references/employment-process.md": 2479,
-    "references/pay-and-cost-components.md": 7180,
-    "scripts/calc_caregiver_cost.py": 14395
+    "references/pay-and-cost-components.md": 11949,
+    "scripts/calc_caregiver_cost.py": 17373
    }
   },
   "israeli-celiac-navigator": {
@@ -3585,11 +3593,11 @@
     "scripts/rank_codes.py"
    ],
    "bytes": {
-    "SKILL.md": 19353,
-    "SKILL_HE.md": 26396,
-    "references/domain-checklist.md": 4374,
-    "references/source-map.md": 4331,
-    "scripts/rank_codes.py": 6132
+    "SKILL.md": 22312,
+    "SKILL_HE.md": 30301,
+    "references/domain-checklist.md": 5916,
+    "references/source-map.md": 5094,
+    "scripts/rank_codes.py": 9123
    }
   },
   "israeli-crypto-tax-reporter": {
@@ -3687,10 +3695,10 @@
     "references/utility-portals.md"
    ],
    "bytes": {
-    "SKILL.md": 25813,
-    "SKILL_HE.md": 32819,
-    "references/deadline-calendar.md": 6296,
-    "references/utility-portals.md": 4302
+    "SKILL.md": 33042,
+    "SKILL_HE.md": 44995,
+    "references/deadline-calendar.md": 10106,
+    "references/utility-portals.md": 4375
    }
   },
   "israeli-hon-declaration-preparer": {
@@ -3967,20 +3975,22 @@
     "references/domain-checklist.md",
     "references/equity-compensation-sourcing.md",
     "references/form-1348-fields.md",
+    "references/hok-iddud-2026.md",
     "references/section-14-mechanics.md",
     "references/us-citizen-dual-tax.md",
     "scripts/cashflow-projection.py"
    ],
    "bytes": {
-    "SKILL.md": 33693,
-    "SKILL_HE.md": 45463,
-    "references/2026-reporting-change.md": 4438,
-    "references/domain-checklist.md": 9390,
+    "SKILL.md": 33828,
+    "SKILL_HE.md": 45477,
+    "references/2026-reporting-change.md": 4468,
+    "references/domain-checklist.md": 11208,
     "references/equity-compensation-sourcing.md": 3204,
-    "references/form-1348-fields.md": 4263,
-    "references/section-14-mechanics.md": 12111,
-    "references/us-citizen-dual-tax.md": 4560,
-    "scripts/cashflow-projection.py": 14105
+    "references/form-1348-fields.md": 4454,
+    "references/hok-iddud-2026.md": 8723,
+    "references/section-14-mechanics.md": 18617,
+    "references/us-citizen-dual-tax.md": 7259,
+    "scripts/cashflow-projection.py": 22481
    }
   },
   "israeli-trapped-profits-planner": {
@@ -4011,10 +4021,10 @@
     "references/domain-checklist.md"
    ],
    "bytes": {
-    "SKILL.md": 33103,
-    "SKILL_HE.md": 51872,
-    "references/details-2026.md": 51688,
-    "references/domain-checklist.md": 3257
+    "SKILL.md": 32410,
+    "SKILL_HE.md": 41800,
+    "references/details-2026.md": 15625,
+    "references/domain-checklist.md": 5261
    }
   },
   "israeli-vat-reporting": {
