@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T09:28:00.940Z",
+ "generated": "2026-10-23T09:23:06.670Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -4217,6 +4217,21 @@
     "references/domain-checklist.md": 5451,
     "references/soar-mcp-usage.md": 2715,
     "scripts/compare-flights.md": 4604
+   }
+  },
+  "israeli-hiking-day-planner": {
+   "repo": "travel",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "scripts/hike_plan.py"
+   ],
+   "bytes": {
+    "SKILL.md": 25970,
+    "SKILL_HE.md": 36055,
+    "references/domain-checklist.md": 20732,
+    "scripts/hike_plan.py": 18376
    }
   },
   "israeli-travel-planner": {

@@ -10,7 +10,7 @@ Then read only those files. Never read them all.
 - **accounting** (15) — הנהלת חשבונות, דוחות שנתיים, ספרי חשבונות, שכר, רואה חשבון, חשבונית ירוקה, Green Invoice ו-Morning API
 - **health-services** (11) — קופת חולים, תרופות, בית מרקחת, זכויות רפואיות, טיפול בקשישים, בריאות הנפש, אונקולוגיה, צליאק, מטפל סיעודי
 - **education** (7) — לימודים, בגרות, מלגות, גן ילדים, אוניברסיטה, הכנה לראיון
-- **travel** (4) — טיולים בארץ ובחו"ל, טיסות, ויזה, חופשה
+- **travel** (5) — טיולים בארץ ובחו"ל, טיסות, ויזה, חופשה
 - **food-and-dining** (3) — מסעדות, כשרות, הזמנת מקום, אוכל, משלוחים
 - **localization** (12) — עברית ו-RTL, תרגום, נגישות אתרים, טיפוגרפיה, עיצוב ממשק, חיפוש דירה, תכנון חתונה, לוח שנה עברי
 - **communication** (11) — SMS, וואטסאפ עסקי, מייל, קורות חיים ופורמט קורות חיים בישראל, חיפוש עבודה, שירות לקוחות, השוואת חבילות סלולר, טלגרם
@@ -20,5 +20,5 @@ Then read only those files. Never read them all.
 - **courses** (6) — קורסים ומדריכים מודרכים - פנסיה, מילואים, עלייה, שנת פרילנס ראשונה
 
 Flags: `-` instructions only · `Sc` port the logic and compute · `Si` extract the contract, make the real call · `Sx` needs auth or writes, out of reach here.
-Generated from github.com/skills-il — 217 skills.
+Generated from github.com/skills-il — 218 skills.
 Descriptions: Copyright (c) 2026 Skills IL (Yootech), MIT License. See THIRD_PARTY_NOTICES.md.
