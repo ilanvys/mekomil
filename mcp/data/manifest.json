@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T09:23:06.670Z",
+ "generated": "2026-10-24T08:54:34.328Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -619,17 +619,21 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/hebrew-chatbot-phrases.md",
+    "references/hebrew-sentiment-lexicon.md",
     "references/whatsapp-business-api-guide.md",
+    "scripts/hebrew_bidi.py",
     "scripts/telegram-bot-scaffold.py",
     "scripts/whatsapp-webhook-handler.py"
    ],
    "bytes": {
-    "SKILL.md": 42738,
-    "SKILL_HE.md": 39183,
+    "SKILL.md": 43086,
+    "SKILL_HE.md": 41260,
     "references/hebrew-chatbot-phrases.md": 8965,
+    "references/hebrew-sentiment-lexicon.md": 2337,
     "references/whatsapp-business-api-guide.md": 11149,
-    "scripts/telegram-bot-scaffold.py": 17833,
-    "scripts/whatsapp-webhook-handler.py": 18643
+    "scripts/hebrew_bidi.py": 9220,
+    "scripts/telegram-bot-scaffold.py": 18187,
+    "scripts/whatsapp-webhook-handler.py": 19107
    }
   },
   "hebrew-llm-eval-suite": {
