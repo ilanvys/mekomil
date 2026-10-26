@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T08:54:34.328Z",
+ "generated": "2026-10-26T10:10:46.738Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -78,12 +78,16 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/ita-filings.md",
     "references/legacy-fixed-width.md"
    ],
    "bytes": {
-    "SKILL.md": 34921,
-    "SKILL_HE.md": 46787,
-    "references/legacy-fixed-width.md": 5582
+    "SKILL.md": 34860,
+    "SKILL_HE.md": 45455,
+    "references/domain-checklist.md": 32055,
+    "references/ita-filings.md": 17410,
+    "references/legacy-fixed-width.md": 7591
    }
   },
   "israeli-amuta-compliance": {
@@ -150,14 +154,20 @@
     "SKILL_HE.md",
     "references/bank-scrapers-credentials.md",
     "references/domain-checklist.md",
-    "references/matching-rules.md"
+    "references/matching-rules.md",
+    "references/period-close.md",
+    "references/scraping-risk.md",
+    "references/vat-and-fx-rules.md"
    ],
    "bytes": {
-    "SKILL.md": 32182,
-    "SKILL_HE.md": 40932,
-    "references/bank-scrapers-credentials.md": 3805,
-    "references/domain-checklist.md": 8484,
-    "references/matching-rules.md": 5201
+    "SKILL.md": 34107,
+    "SKILL_HE.md": 43980,
+    "references/bank-scrapers-credentials.md": 3834,
+    "references/domain-checklist.md": 11351,
+    "references/matching-rules.md": 8216,
+    "references/period-close.md": 4712,
+    "references/scraping-risk.md": 2728,
+    "references/vat-and-fx-rules.md": 7669
    }
   },
   "israeli-bookkeeping-automation": {
@@ -169,8 +179,8 @@
     "references/vat-input-and-filing-formats.md"
    ],
    "bytes": {
-    "SKILL.md": 33167,
-    "SKILL_HE.md": 40707,
+    "SKILL.md": 33263,
+    "SKILL_HE.md": 40846,
     "references/domain-checklist.md": 11149,
     "references/vat-input-and-filing-formats.md": 8221
    }
@@ -204,8 +214,8 @@
     "references/domain-checklist.md"
    ],
    "bytes": {
-    "SKILL.md": 32505,
-    "SKILL_HE.md": 38038,
+    "SKILL.md": 32610,
+    "SKILL_HE.md": 38179,
     "references/domain-checklist.md": 8127
    }
   },
@@ -814,15 +824,15 @@
     "scripts/conversation-analyzer.py"
    ],
    "bytes": {
-    "SKILL.md": 38472,
-    "SKILL_HE.md": 53967,
-    "references/analytics-stack-notes.md": 3125,
-    "references/chatbot-metrics-glossary.md": 18047,
-    "references/domain-checklist.md": 6191,
-    "references/hebrew-sentiment-guide.md": 17792,
-    "references/llm-bot-observability.md": 13829,
-    "references/platform-integrations.md": 2826,
-    "scripts/conversation-analyzer.py": 24332
+    "SKILL.md": 37993,
+    "SKILL_HE.md": 48241,
+    "references/analytics-stack-notes.md": 3389,
+    "references/chatbot-metrics-glossary.md": 26053,
+    "references/domain-checklist.md": 7038,
+    "references/hebrew-sentiment-guide.md": 20894,
+    "references/llm-bot-observability.md": 14795,
+    "references/platform-integrations.md": 5478,
+    "scripts/conversation-analyzer.py": 43566
    }
   },
   "israeli-cloud-cost-comparator": {
@@ -2155,11 +2165,11 @@
     "scripts/therapy-cost-estimator.py"
    ],
    "bytes": {
-    "SKILL.md": 33456,
-    "SKILL_HE.md": 44984,
-    "references/crisis-hotlines-directory.md": 14846,
-    "references/domain-checklist.md": 8470,
-    "references/patient-rights.md": 5869,
+    "SKILL.md": 33281,
+    "SKILL_HE.md": 44486,
+    "references/crisis-hotlines-directory.md": 17890,
+    "references/domain-checklist.md": 8461,
+    "references/patient-rights.md": 11385,
     "references/therapy-types-guide.md": 13430,
     "scripts/therapy-cost-estimator.py": 17312
    }
@@ -2333,6 +2343,8 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/additional-clause-checks.md",
+    "references/domain-checklist.md",
     "references/high-value-clause-traps.md",
     "references/hoda-at-mukdemet-table.md",
     "references/notice-to-employee-disclosures.md",
@@ -2343,16 +2355,18 @@
     "scripts/contract_sanity_check.py"
    ],
    "bytes": {
-    "SKILL.md": 33150,
-    "SKILL_HE.md": 42868,
-    "references/high-value-clause-traps.md": 12351,
-    "references/hoda-at-mukdemet-table.md": 3783,
-    "references/notice-to-employee-disclosures.md": 2322,
-    "references/numerical-sanity-checks.md": 8135,
-    "references/red-flag-checklist.md": 7658,
-    "references/section-14-trap-guide.md": 6652,
-    "references/standard-negotiation-language.md": 8347,
-    "scripts/contract_sanity_check.py": 16090
+    "SKILL.md": 33125,
+    "SKILL_HE.md": 43461,
+    "references/additional-clause-checks.md": 9536,
+    "references/domain-checklist.md": 5026,
+    "references/high-value-clause-traps.md": 13270,
+    "references/hoda-at-mukdemet-table.md": 4141,
+    "references/notice-to-employee-disclosures.md": 3929,
+    "references/numerical-sanity-checks.md": 12280,
+    "references/red-flag-checklist.md": 10003,
+    "references/section-14-trap-guide.md": 9287,
+    "references/standard-negotiation-language.md": 17408,
+    "scripts/contract_sanity_check.py": 23292
    }
   },
   "israeli-employment-contracts": {
@@ -2360,16 +2374,18 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/household-workers.md",
     "references/labor-law.md",
     "references/mandatory-clauses.md",
     "scripts/generate_contract.py"
    ],
    "bytes": {
-    "SKILL.md": 29324,
-    "SKILL_HE.md": 36268,
-    "references/labor-law.md": 11808,
-    "references/mandatory-clauses.md": 22702,
-    "scripts/generate_contract.py": 20334
+    "SKILL.md": 32943,
+    "SKILL_HE.md": 42202,
+    "references/household-workers.md": 3724,
+    "references/labor-law.md": 15677,
+    "references/mandatory-clauses.md": 35163,
+    "scripts/generate_contract.py": 28620
    }
   },
   "israeli-estate-settlement-navigator": {
@@ -2524,12 +2540,12 @@
     "scripts/rent-index-calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 32314,
-    "SKILL_HE.md": 40120,
-    "references/contract-checklist.md": 16218,
-    "references/fair-rental-law-summary.md": 16343,
-    "references/statutory-provisions.md": 14005,
-    "scripts/rent-index-calculator.py": 8655
+    "SKILL.md": 32255,
+    "SKILL_HE.md": 40962,
+    "references/contract-checklist.md": 16992,
+    "references/fair-rental-law-summary.md": 14633,
+    "references/statutory-provisions.md": 16832,
+    "scripts/rent-index-calculator.py": 10288
    }
   },
   "israeli-small-claims-court": {
@@ -2634,16 +2650,18 @@
     "SKILL_HE.md",
     "references/domain-checklist.md",
     "references/entitlements-calculator.md",
+    "references/harassment-and-disability.md",
     "references/labor-laws-summary.md",
     "scripts/severance-calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 32316,
-    "SKILL_HE.md": 45336,
-    "references/domain-checklist.md": 5547,
-    "references/entitlements-calculator.md": 21518,
-    "references/labor-laws-summary.md": 7129,
-    "scripts/severance-calculator.py": 12434
+    "SKILL.md": 31989,
+    "SKILL_HE.md": 43652,
+    "references/domain-checklist.md": 5975,
+    "references/entitlements-calculator.md": 26659,
+    "references/harassment-and-disability.md": 3151,
+    "references/labor-laws-summary.md": 7786,
+    "scripts/severance-calculator.py": 12001
    }
   },
   "hebrew-content-writer": {
@@ -3556,14 +3574,14 @@
     "scripts/fee_track_calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 32046,
-    "SKILL_HE.md": 45872,
-    "references/2027-fee-reform.md": 3358,
-    "references/cancellation-letter-templates.md": 7390,
-    "references/domain-checklist.md": 11800,
-    "references/fee-tracks-comparison.md": 5165,
-    "references/payment-services-remedies.md": 8471,
-    "scripts/fee_track_calculator.py": 9573
+    "SKILL.md": 32209,
+    "SKILL_HE.md": 43556,
+    "references/2027-fee-reform.md": 4311,
+    "references/cancellation-letter-templates.md": 9353,
+    "references/domain-checklist.md": 15255,
+    "references/fee-tracks-comparison.md": 6793,
+    "references/payment-services-remedies.md": 14559,
+    "scripts/fee_track_calculator.py": 11953
    }
   },
   "israeli-corporate-tax-strategy": {
@@ -4208,19 +4226,25 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/airline-baggage-quick-ref.md",
+    "references/booking-extras.md",
     "references/comparison-platforms.md",
     "references/domain-checklist.md",
+    "references/entry-documents.md",
     "references/soar-mcp-usage.md",
+    "references/tlv-carrier-status.md",
     "scripts/compare-flights.md"
    ],
    "bytes": {
-    "SKILL.md": 32653,
-    "SKILL_HE.md": 45151,
-    "references/airline-baggage-quick-ref.md": 2724,
-    "references/comparison-platforms.md": 4063,
-    "references/domain-checklist.md": 5451,
-    "references/soar-mcp-usage.md": 2715,
-    "scripts/compare-flights.md": 4604
+    "SKILL.md": 32148,
+    "SKILL_HE.md": 44571,
+    "references/airline-baggage-quick-ref.md": 3537,
+    "references/booking-extras.md": 1235,
+    "references/comparison-platforms.md": 2785,
+    "references/domain-checklist.md": 8645,
+    "references/entry-documents.md": 5038,
+    "references/soar-mcp-usage.md": 3330,
+    "references/tlv-carrier-status.md": 4725,
+    "scripts/compare-flights.md": 6796
    }
   },
   "israeli-hiking-day-planner": {
