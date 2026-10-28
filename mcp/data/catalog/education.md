@@ -1,9 +1,12 @@
 # education
 
-7 skills. Load a selected skill with `get_skill` before applying it.
+8 skills. Load a selected skill with `get_skill` before applying it.
 Descriptions are the authors' own, unedited -- including the "Do NOT use for" clauses,
 which are load-bearing: they are how you tell near-misses apart.
 Descriptions: Copyright (c) 2026 Skills IL (Yootech), MIT License. See THIRD_PARTY_NOTICES.md.
+
+## hebrew-exam-grader  `Sc`
+Helps an Israeli teacher grade a class set of Hebrew-language exams and essays against a points rubric. Anonymises students first, builds the rubric from the exam and answer key (templates for bagrut Hebrew practice, high-school and grade-8 writing, and literature bands), respects testing accommodations, scores each criterion with a quoted line from the answer, flags answers that need the teacher's judgment, drafts short Hebrew feedback, and outputs a draft class grade sheet plus a common-mistakes summary. Every grade stays a suggestion until the teacher approves it, as Ministry of Education guidance requires. Use when a teacher asks to check, mark or give feedback on class essays or exams, bdikat mivchanim, bdikat chiburim, a mechvan (rubric), or handwritten answers to transcribe and grade. Do NOT use for writing a student's essay, student exam preparation, appealing an official bagrut grade, or math exams checked by final answer.
 
 ## israeli-academic-scholarships  `Sc`
 Not a determination of eligibility and not a submitted application. Match an Israeli higher-education student to scholarships they qualify for, ranked by deadline and grant size. Covers PEREACH, MoD periphery, Mimadim LiLimudim (graduated, NOT flat 100%), Pikadon, Student Authority for olim, MilGo (4-tier), Rashi, ISEF, university merit, Adams Fellowship for PhDs in exact/math/life sciences only, Rothschild postdoc, PBC/MALAG, the Iron Swords (חרבות ברזל) reservist framework via CHE + MoD, statutory tracks for bereaved families / wounded soldiers, and evacuee (מפונים) scholarships. Use when a student asks מלגה, פר"ח, מלגת פריפריה, פיקדון, מלגת אדמס, מלגת רוטשילד, מלגת מילואים, חרבות ברזל, or how to fund tuition. Prevents missed deadlines, over-budgeting Mimadim, and humanities PhDs wasting an Adams application. Do NOT use for K-12, Bituach Leumi welfare (israeli-bituach-leumi), loans, MFA inbound-student scholarships, yeshiva stipends, or general post-army benefits (israeli-miluim-manager).

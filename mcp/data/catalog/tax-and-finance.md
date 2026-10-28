@@ -1,6 +1,6 @@
 # tax-and-finance
 
-42 skills. Load a selected skill with `get_skill` before applying it.
+43 skills. Load a selected skill with `get_skill` before applying it.
 Descriptions are the authors' own, unedited -- including the "Do NOT use for" clauses,
 which are load-bearing: they are how you tell near-misses apart.
 Descriptions: Copyright (c) 2026 Skills IL (Yootech), MIT License. See THIRD_PARTY_NOTICES.md.
@@ -94,6 +94,9 @@ Generate a structured investment memo for an Israeli startup deal: market, team,
 
 ## israeli-stock-options-tax  `-`
 Calculate tax on stock options and RSUs for Israeli tech employees under Section 102. Use when user asks about option exercise tax, RSU taxation, startup exit proceeds, Section 102 tracks, trustee holding period, capital gains vs income track comparison, or 'how much tax on my options'. Walks through a detailed tax breakdown with net proceeds. Do NOT use for crypto tax (use israeli-crypto-tax-reporter), ESOP plan setup (use israeli-startup-toolkit), controlling shareholder profit extraction (use israeli-corporate-tax-strategy), annual tax returns (use israeli-tax-returns), or payroll (use israeli-payroll-calculator).
+
+## israeli-tax-coordination  `Sc`
+Not tax advice. Mid-year Israeli tax coordination (teum mas, תיאום מס) for a salaried person with two or more payers, such as two jobs, salary plus pension, or salary plus a taxable Bituach Leumi payment (maternity, unemployment) or stipend. Recommends which payer gets the credit points on Form 101, estimates the over-withholding when the second payer withholds 47% versus the annual liability on the 2026 brackets, routes to the free online service or Form 116 at the assessing office, and flags the separate Bituach Leumi coordination. Can stop months of excess withholding. Use when someone has a second job or pension, asks about תיאום מס, Form 101 credit points, or 47% tax on a second salary. Do NOT use for refunds for past years (israeli-employee-tax-refund), freelancer or osek withholding (israeli-tax-withholding), annual returns (israeli-tax-returns), or net salary of a single job (israeli-payroll-calculator).
 
 ## israeli-tax-returns  `-`
 Prepare and file Israeli tax returns with Reshut HaMisim. Covers Form 1301 (individual), Form 1214 (corporate), Form 126 (employer salary), Form 856 (supplier payments), Form 6111 (financial statements), mikdamot (advance payments), Mas Shevach (real estate capital gains), and securities capital gains (Forms 1322/1325). Use when user asks about "doch shnati", "tax return Israel", "Form 1301", "Form 1214", "mas hachnasa", "mikdamot", "mas shevach declaration", "capital gains report", "nekudot zikui", "mas yesafim", or "דוח שנתי". Guides income classification, deductions, tax credits, surtax, deadlines, and SHAAM submission. Do NOT use for VAT reporting (use israeli-vat-reporting), withholding tax (use israeli-tax-withholding), crypto tax (use israeli-crypto-tax-reporter), payroll (use israeli-payroll-calculator), invoicing (use israeli-e-invoice), or Section 102 employee stock options (use israeli-stock-options-tax).

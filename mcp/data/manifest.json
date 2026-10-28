@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T10:10:46.738Z",
+ "generated": "2026-10-28T10:36:59.088Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -1205,6 +1205,23 @@
     "references/israeli-zapier-apps.md": 38707,
     "references/zap-templates.md": 22481,
     "references/zapier-platform-notes.md": 20639
+   }
+  },
+  "hebrew-exam-grader": {
+   "repo": "education",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/rubric-templates.md",
+    "scripts/grade_sheet.py"
+   ],
+   "bytes": {
+    "SKILL.md": 32574,
+    "SKILL_HE.md": 44413,
+    "references/domain-checklist.md": 13336,
+    "references/rubric-templates.md": 16229,
+    "scripts/grade_sheet.py": 17453
    }
   },
   "israeli-academic-scholarships": {
@@ -3946,6 +3963,21 @@
     "SKILL_HE.md": 37381,
     "references/section-102-tracks.md": 9027,
     "references/tax-rates-2026.md": 4162
+   }
+  },
+  "israeli-tax-coordination": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "scripts/coordination_estimate.py"
+   ],
+   "bytes": {
+    "SKILL.md": 30944,
+    "SKILL_HE.md": 40058,
+    "references/domain-checklist.md": 12390,
+    "scripts/coordination_estimate.py": 15825
    }
   },
   "israeli-tax-returns": {
