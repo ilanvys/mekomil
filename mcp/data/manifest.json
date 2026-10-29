@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T10:36:59.088Z",
+ "generated": "2026-10-29T10:55:41.248Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -1621,10 +1621,10 @@
     "scripts/lookup_drug.py"
    ],
    "bytes": {
-    "SKILL.md": 28273,
-    "SKILL_HE.md": 33806,
-    "references/drug-registry-guide.md": 8881,
-    "scripts/lookup_drug.py": 13853
+    "SKILL.md": 35286,
+    "SKILL_HE.md": 43244,
+    "references/drug-registry-guide.md": 11774,
+    "scripts/lookup_drug.py": 23585
    }
   },
   "israeli-education-system": {
