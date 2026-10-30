@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T10:55:41.248Z",
+ "generated": "2026-10-30T10:53:32.908Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -289,12 +289,16 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
-    "references/domain-checklist.md"
+    "references/domain-checklist.md",
+    "references/retention-and-scanning.md",
+    "references/vat-deduction-rules.md"
    ],
    "bytes": {
-    "SKILL.md": 33744,
-    "SKILL_HE.md": 43373,
-    "references/domain-checklist.md": 10324
+    "SKILL.md": 32628,
+    "SKILL_HE.md": 43525,
+    "references/domain-checklist.md": 15138,
+    "references/retention-and-scanning.md": 4858,
+    "references/vat-deduction-rules.md": 11798
    }
   },
   "israeli-teacher-payroll": {
@@ -466,18 +470,20 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/business-bot-templates.md",
+    "references/compliance-and-security.md",
     "references/domain-checklist.md",
     "references/israeli-payment-providers.md",
     "references/mini-apps-implementation.md",
     "references/no-code-platforms.md"
    ],
    "bytes": {
-    "SKILL.md": 34070,
-    "SKILL_HE.md": 46555,
-    "references/business-bot-templates.md": 20139,
-    "references/domain-checklist.md": 6652,
-    "references/israeli-payment-providers.md": 3447,
-    "references/mini-apps-implementation.md": 2646,
+    "SKILL.md": 33868,
+    "SKILL_HE.md": 46229,
+    "references/business-bot-templates.md": 25655,
+    "references/compliance-and-security.md": 17942,
+    "references/domain-checklist.md": 8656,
+    "references/israeli-payment-providers.md": 4295,
+    "references/mini-apps-implementation.md": 3095,
     "references/no-code-platforms.md": 1448
    }
   },
@@ -1438,17 +1444,19 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/allowed-items-list.md",
+    "references/domain-checklist.md",
     "references/returning-residents.md",
     "references/shipment-planning-strategy.md",
     "scripts/plan_shipments.py"
    ],
    "bytes": {
-    "SKILL.md": 23172,
-    "SKILL_HE.md": 30549,
-    "references/allowed-items-list.md": 5924,
-    "references/returning-residents.md": 4042,
-    "references/shipment-planning-strategy.md": 5120,
-    "scripts/plan_shipments.py": 13396
+    "SKILL.md": 27682,
+    "SKILL_HE.md": 37123,
+    "references/allowed-items-list.md": 7385,
+    "references/domain-checklist.md": 5118,
+    "references/returning-residents.md": 3426,
+    "references/shipment-planning-strategy.md": 5009,
+    "scripts/plan_shipments.py": 22682
    }
   },
   "israeli-aliyah-navigator": {
@@ -1895,16 +1903,18 @@
     "references/domain-checklist.md",
     "references/household-shipment-rules.md",
     "references/vehicle-import-benefit.md",
+    "scripts/test_vehicle_decision.py",
     "scripts/vehicle-decision.py"
    ],
    "bytes": {
-    "SKILL.md": 34655,
-    "SKILL_HE.md": 26404,
-    "references/customs-timeline.md": 5894,
-    "references/domain-checklist.md": 18289,
-    "references/household-shipment-rules.md": 7055,
-    "references/vehicle-import-benefit.md": 8104,
-    "scripts/vehicle-decision.py": 10836
+    "SKILL.md": 32792,
+    "SKILL_HE.md": 43949,
+    "references/customs-timeline.md": 6386,
+    "references/domain-checklist.md": 19869,
+    "references/household-shipment-rules.md": 8222,
+    "references/vehicle-import-benefit.md": 10081,
+    "scripts/test_vehicle_decision.py": 2887,
+    "scripts/vehicle-decision.py": 17865
    }
   },
   "israeli-returning-resident-navigator": {
@@ -2050,13 +2060,13 @@
     "references/labels-and-pesach.md"
    ],
    "bytes": {
-    "SKILL.md": 30577,
-    "SKILL_HE.md": 39771,
-    "references/birthday-snacks.md": 7653,
-    "references/diagnosis-pathway.md": 2703,
-    "references/domain-checklist.md": 7339,
-    "references/entitlements-and-education.md": 4125,
-    "references/labels-and-pesach.md": 2719
+    "SKILL.md": 32676,
+    "SKILL_HE.md": 43459,
+    "references/birthday-snacks.md": 10491,
+    "references/diagnosis-pathway.md": 4654,
+    "references/domain-checklist.md": 10665,
+    "references/entitlements-and-education.md": 7180,
+    "references/labels-and-pesach.md": 8014
    }
   },
   "israeli-elder-care-navigator": {
@@ -2329,11 +2339,11 @@
     "scripts/claim_check.py"
    ],
    "bytes": {
-    "SKILL.md": 24941,
-    "SKILL_HE.md": 32746,
-    "references/domain-checklist.md": 23540,
-    "references/rules-and-letters.md": 8246,
-    "scripts/claim_check.py": 13909
+    "SKILL.md": 31056,
+    "SKILL_HE.md": 41253,
+    "references/domain-checklist.md": 28266,
+    "references/rules-and-letters.md": 14539,
+    "scripts/claim_check.py": 18189
    }
   },
   "israeli-divorce-navigator": {
@@ -3290,18 +3300,22 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/aftermath.md",
     "references/domain-checklist.md",
     "references/reporting-routes.md",
     "references/russian-phrasebook.md",
+    "references/scam-patterns.md",
     "scripts/liability_clock.py"
    ],
    "bytes": {
-    "SKILL.md": 31275,
-    "SKILL_HE.md": 40281,
-    "references/domain-checklist.md": 24643,
-    "references/reporting-routes.md": 8012,
-    "references/russian-phrasebook.md": 8214,
-    "scripts/liability_clock.py": 7843
+    "SKILL.md": 31144,
+    "SKILL_HE.md": 42854,
+    "references/aftermath.md": 2468,
+    "references/domain-checklist.md": 28306,
+    "references/reporting-routes.md": 8785,
+    "references/russian-phrasebook.md": 9580,
+    "references/scam-patterns.md": 2570,
+    "scripts/liability_clock.py": 9890
    }
   },
   "israeli-shelter-guide": {
@@ -3541,14 +3555,16 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
     "references/legal-escalation.md",
     "references/reminder-templates.md"
    ],
    "bytes": {
-    "SKILL.md": 32391,
-    "SKILL_HE.md": 44896,
-    "references/legal-escalation.md": 14184,
-    "references/reminder-templates.md": 7807
+    "SKILL.md": 31949,
+    "SKILL_HE.md": 40847,
+    "references/domain-checklist.md": 6535,
+    "references/legal-escalation.md": 25687,
+    "references/reminder-templates.md": 9179
    }
   },
   "israeli-company-valuation": {
