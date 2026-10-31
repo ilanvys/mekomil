@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T10:53:32.908Z",
+ "generated": "2026-10-31T10:25:09.515Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -1206,11 +1206,11 @@
     "references/zapier-platform-notes.md"
    ],
    "bytes": {
-    "SKILL.md": 34530,
-    "SKILL_HE.md": 45624,
-    "references/israeli-zapier-apps.md": 38707,
-    "references/zap-templates.md": 22481,
-    "references/zapier-platform-notes.md": 20639
+    "SKILL.md": 33801,
+    "SKILL_HE.md": 44358,
+    "references/israeli-zapier-apps.md": 51222,
+    "references/zap-templates.md": 32156,
+    "references/zapier-platform-notes.md": 25637
    }
   },
   "hebrew-exam-grader": {
@@ -1524,16 +1524,18 @@
     "SKILL_HE.md",
     "references/bureaucratic-hebrew-glossary.md",
     "references/common-government-forms.md",
+    "references/domain-checklist.md",
     "references/government-bodies-guide.md",
     "scripts/document-analyzer.py"
    ],
    "bytes": {
-    "SKILL.md": 24159,
-    "SKILL_HE.md": 30213,
-    "references/bureaucratic-hebrew-glossary.md": 15571,
-    "references/common-government-forms.md": 14421,
-    "references/government-bodies-guide.md": 20162,
-    "scripts/document-analyzer.py": 25384
+    "SKILL.md": 31647,
+    "SKILL_HE.md": 39308,
+    "references/bureaucratic-hebrew-glossary.md": 15817,
+    "references/common-government-forms.md": 16810,
+    "references/domain-checklist.md": 20498,
+    "references/government-bodies-guide.md": 22106,
+    "scripts/document-analyzer.py": 47867
    }
   },
   "israeli-business-war-compensation": {
