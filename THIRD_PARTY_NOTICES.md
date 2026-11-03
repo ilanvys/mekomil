@@ -53,8 +53,8 @@ inventory includes:
 
 | License | Packages (including optional platform variants) |
 |---|---|
-| MIT | Next.js, React/React DOM, MCP SDK, Zod and other packages |
-| Apache-2.0 | `mcp-handler`, `@swc/helpers`, `detect-libc`, Sharp and Sharp binary packages |
+| MIT | Next.js, React/React DOM, Zod and other packages |
+| Apache-2.0 | MCP SDK (`@modelcontextprotocol/server`, `@modelcontextprotocol/core`), `@swc/helpers`, `detect-libc`, Sharp and Sharp binary packages |
 | LGPL-3.0-or-later | optional Sharp/libvips packages; some Sharp packages declare combined licenses |
 | BSD-3-Clause | `source-map-js` |
 | ISC | `picocolors`, `semver` |
