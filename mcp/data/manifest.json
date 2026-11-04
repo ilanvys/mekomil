@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T10:25:09.515Z",
+ "generated": "2026-11-04T12:11:40.095Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -496,20 +496,22 @@
     "references/compliance-checklist.md",
     "references/domain-checklist.md",
     "references/interactive-list.md",
+    "references/israeli-law.md",
     "references/platform-2026.md",
     "references/template-rejections.md",
     "scripts/send_whatsapp.py"
    ],
    "bytes": {
-    "SKILL.md": 36400,
-    "SKILL_HE.md": 45407,
-    "references/bsp-selection.md": 1281,
-    "references/compliance-checklist.md": 1516,
-    "references/domain-checklist.md": 10111,
-    "references/interactive-list.md": 1040,
-    "references/platform-2026.md": 7762,
-    "references/template-rejections.md": 2117,
-    "scripts/send_whatsapp.py": 18061
+    "SKILL.md": 35544,
+    "SKILL_HE.md": 46271,
+    "references/bsp-selection.md": 2510,
+    "references/compliance-checklist.md": 2741,
+    "references/domain-checklist.md": 14794,
+    "references/interactive-list.md": 1041,
+    "references/israeli-law.md": 11175,
+    "references/platform-2026.md": 20685,
+    "references/template-rejections.md": 3748,
+    "scripts/send_whatsapp.py": 30903
    }
   },
   "monday-com-workflows": {
@@ -811,9 +813,28 @@
     "references/agritech-ecosystem.md"
    ],
    "bytes": {
-    "SKILL.md": 25203,
-    "SKILL_HE.md": 28522,
+    "SKILL.md": 26430,
+    "SKILL_HE.md": 30179,
     "references/agritech-ecosystem.md": 6204
+   }
+  },
+  "israeli-app-code-review": {
+   "repo": "developer-tools",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/domain-checklist.md",
+    "references/rule-catalogue.md",
+    "scripts/il-review-scan.py",
+    "scripts/test_il_review_scan.py"
+   ],
+   "bytes": {
+    "SKILL.md": 29197,
+    "SKILL_HE.md": 37298,
+    "references/domain-checklist.md": 13999,
+    "references/rule-catalogue.md": 18812,
+    "scripts/il-review-scan.py": 56996,
+    "scripts/test_il_review_scan.py": 13376
    }
   },
   "israeli-chatbot-analytics": {
@@ -1063,9 +1084,9 @@
     "references/domain-checklist.md"
    ],
    "bytes": {
-    "SKILL.md": 27726,
-    "SKILL_HE.md": 36415,
-    "references/domain-checklist.md": 4681
+    "SKILL.md": 33685,
+    "SKILL_HE.md": 46448,
+    "references/domain-checklist.md": 6766
    }
   },
   "remotion-best-practices": {
@@ -1333,11 +1354,11 @@
     "scripts/deadline_calc.py"
    ],
    "bytes": {
-    "SKILL.md": 26117,
-    "SKILL_HE.md": 32004,
-    "references/committee-rights.md": 5865,
-    "references/domain-checklist.md": 8939,
-    "scripts/deadline_calc.py": 7586
+    "SKILL.md": 31929,
+    "SKILL_HE.md": 40266,
+    "references/committee-rights.md": 7335,
+    "references/domain-checklist.md": 11344,
+    "scripts/deadline_calc.py": 17196
    }
   },
   "israeli-tech-interview-prep": {
@@ -1718,14 +1739,16 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
     "references/gov-portals.md",
     "scripts/fill_form.py"
    ],
    "bytes": {
-    "SKILL.md": 17326,
-    "SKILL_HE.md": 19812,
-    "references/gov-portals.md": 6709,
-    "scripts/fill_form.py": 12613
+    "SKILL.md": 27590,
+    "SKILL_HE.md": 34206,
+    "references/domain-checklist.md": 4626,
+    "references/gov-portals.md": 8034,
+    "scripts/fill_form.py": 15409
    }
   },
   "israeli-land-tenders": {
@@ -2022,13 +2045,15 @@
     "SKILL.md",
     "SKILL_HE.md",
     "references/claims-process-flowchart.md",
-    "references/compensation-ceilings.md"
+    "references/compensation-ceilings.md",
+    "references/domain-checklist.md"
    ],
    "bytes": {
-    "SKILL.md": 22474,
-    "SKILL_HE.md": 24300,
-    "references/claims-process-flowchart.md": 3307,
-    "references/compensation-ceilings.md": 3126
+    "SKILL.md": 31654,
+    "SKILL_HE.md": 39894,
+    "references/claims-process-flowchart.md": 5071,
+    "references/compensation-ceilings.md": 7203,
+    "references/domain-checklist.md": 6007
    }
   },
   "foreign-caregiver-payroll": {
@@ -2693,6 +2718,31 @@
     "scripts/severance-calculator.py": 12001
    }
   },
+  "hebrew-ai-text-humanizer": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/ai-hebrew-patterns.md",
+    "references/channel-grammar-gender.md",
+    "references/domain-checklist.md",
+    "scripts/fixtures/expert-linkedin.txt",
+    "scripts/fixtures/punctuation-stress.txt",
+    "scripts/hebrew-ai-tells.py",
+    "scripts/test_hebrew_ai_tells.py"
+   ],
+   "bytes": {
+    "SKILL.md": 28641,
+    "SKILL_HE.md": 36697,
+    "references/ai-hebrew-patterns.md": 20519,
+    "references/channel-grammar-gender.md": 5801,
+    "references/domain-checklist.md": 7960,
+    "scripts/fixtures/expert-linkedin.txt": 740,
+    "scripts/fixtures/punctuation-stress.txt": 351,
+    "scripts/hebrew-ai-tells.py": 41644,
+    "scripts/test_hebrew_ai_tells.py": 8273
+   }
+  },
   "hebrew-content-writer": {
    "repo": "localization",
    "files": [
@@ -2957,28 +3007,28 @@
     "scripts/serp_analysis.py"
    ],
    "bytes": {
-    "SKILL.md": 32992,
-    "SKILL_HE.md": 40529,
-    "references/aeo-considerations.md": 6727,
-    "references/domain-checklist.md": 5791,
-    "references/eeat-principles.md": 3617,
-    "references/geo-research.md": 10051,
-    "references/hebrew-seo.md": 4037,
-    "references/platform-algorithms.md": 13097,
-    "references/schema-templates.md": 11483,
-    "references/seo-checklist.md": 8014,
-    "references/tools-and-apis.md": 8457,
-    "scripts/analyze_keywords.py": 5998,
-    "scripts/autocomplete_ideas.py": 2521,
-    "scripts/backlinks.py": 1041,
-    "scripts/competitor_gap.py": 3042,
+    "SKILL.md": 34854,
+    "SKILL_HE.md": 44990,
+    "references/aeo-considerations.md": 7989,
+    "references/domain-checklist.md": 6997,
+    "references/eeat-principles.md": 1920,
+    "references/geo-research.md": 11021,
+    "references/hebrew-seo.md": 5036,
+    "references/platform-algorithms.md": 8428,
+    "references/schema-templates.md": 12226,
+    "references/seo-checklist.md": 8868,
+    "references/tools-and-apis.md": 9610,
+    "scripts/analyze_keywords.py": 8903,
+    "scripts/autocomplete_ideas.py": 1475,
+    "scripts/backlinks.py": 1260,
+    "scripts/competitor_gap.py": 2539,
     "scripts/credential.py": 311,
-    "scripts/dataforseo_api.py": 3274,
-    "scripts/domain_overview.py": 1418,
-    "scripts/keyword_research.py": 1174,
-    "scripts/related_keywords.py": 3180,
-    "scripts/seo_audit.py": 10634,
-    "scripts/serp_analysis.py": 1247
+    "scripts/dataforseo_api.py": 5465,
+    "scripts/domain_overview.py": 1725,
+    "scripts/keyword_research.py": 2068,
+    "scripts/related_keywords.py": 2549,
+    "scripts/seo_audit.py": 24512,
+    "scripts/serp_analysis.py": 1446
    }
   },
   "hebrew-survey-builder": {
@@ -3173,18 +3223,20 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/court-procedure-map.md",
     "references/domain-checklist.md",
     "references/legal-databases-guide.md",
     "references/legislation-index.md",
     "scripts/legal_term_lookup.py"
    ],
    "bytes": {
-    "SKILL.md": 17214,
-    "SKILL_HE.md": 22389,
-    "references/domain-checklist.md": 11036,
-    "references/legal-databases-guide.md": 6065,
-    "references/legislation-index.md": 13495,
-    "scripts/legal_term_lookup.py": 14065
+    "SKILL.md": 21335,
+    "SKILL_HE.md": 28369,
+    "references/court-procedure-map.md": 7595,
+    "references/domain-checklist.md": 12458,
+    "references/legal-databases-guide.md": 7141,
+    "references/legislation-index.md": 23993,
+    "scripts/legal_term_lookup.py": 19994
    }
   },
   "israeli-ai-compliance-kit": {
@@ -3270,12 +3322,14 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
-    "references/consumer-protection-law.md"
+    "references/consumer-protection-law.md",
+    "references/domain-checklist.md"
    ],
    "bytes": {
-    "SKILL.md": 15466,
-    "SKILL_HE.md": 17605,
-    "references/consumer-protection-law.md": 5347
+    "SKILL.md": 29046,
+    "SKILL_HE.md": 37388,
+    "references/consumer-protection-law.md": 9925,
+    "references/domain-checklist.md": 5473
    }
   },
   "israeli-privacy-shield": {
@@ -3743,6 +3797,27 @@
     "scripts/sample_order.json": 1215
    }
   },
+  "israeli-foreign-broker-tax-report": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/broker-exports.md",
+    "references/domain-checklist.md",
+    "references/foreign-currency-gain-method.md",
+    "references/forms-and-filing.md",
+    "scripts/broker-gains-ils.py"
+   ],
+   "bytes": {
+    "SKILL.md": 30704,
+    "SKILL_HE.md": 41284,
+    "references/broker-exports.md": 3452,
+    "references/domain-checklist.md": 11314,
+    "references/foreign-currency-gain-method.md": 5811,
+    "references/forms-and-filing.md": 6866,
+    "scripts/broker-gains-ils.py": 49983
+   }
+  },
   "israeli-freelancer-ops": {
    "repo": "tax-and-finance",
    "files": [
@@ -4104,18 +4179,20 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
     "references/reporting-calendar.md",
     "references/special-cases.md",
     "references/vat-regulations.md",
     "scripts/calculate_vat.py"
    ],
    "bytes": {
-    "SKILL.md": 11458,
-    "SKILL_HE.md": 14321,
-    "references/reporting-calendar.md": 2129,
+    "SKILL.md": 18773,
+    "SKILL_HE.md": 24125,
+    "references/domain-checklist.md": 22136,
+    "references/reporting-calendar.md": 3676,
     "references/special-cases.md": 1205,
-    "references/vat-regulations.md": 1349,
-    "scripts/calculate_vat.py": 12304
+    "references/vat-regulations.md": 2024,
+    "scripts/calculate_vat.py": 26301
    }
   },
   "pelecard-payment-gateway": {
@@ -4171,12 +4248,12 @@
     "scripts/fetch_tase_data.py"
    ],
    "bytes": {
-    "SKILL.md": 16589,
-    "SKILL_HE.md": 21301,
-    "references/capital-gains.md": 6171,
-    "references/domain-checklist.md": 1433,
-    "references/tase-api.md": 2820,
-    "scripts/fetch_tase_data.py": 8345
+    "SKILL.md": 22600,
+    "SKILL_HE.md": 28650,
+    "references/capital-gains.md": 7912,
+    "references/domain-checklist.md": 3178,
+    "references/tase-api.md": 3356,
+    "scripts/fetch_tase_data.py": 8495
    }
   },
   "tranzila-payment-gateway": {

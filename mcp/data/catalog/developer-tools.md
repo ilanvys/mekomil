@@ -1,6 +1,6 @@
 # developer-tools
 
-30 skills. Load a selected skill with `get_skill` before applying it.
+31 skills. Load a selected skill with `get_skill` before applying it.
 Descriptions are the authors' own, unedited -- including the "Do NOT use for" clauses,
 which are load-bearing: they are how you tell near-misses apart.
 Descriptions: Copyright (c) 2026 Skills IL (Yootech), MIT License. See THIRD_PARTY_NOTICES.md.
@@ -31,6 +31,9 @@ Convert between Hebrew (Jewish) calendar and Gregorian dates, look up Israeli ho
 
 ## israeli-agritech-advisor  `-`
 Guide developers in integrating Israeli agritech tools and precision agriculture platforms including CropX (soil monitoring), Netafim GrowSphere (IoT irrigation), Taranis (crop intelligence), and the broader Israeli agritech ecosystem. Use when user asks about agritech APIs, precision agriculture, smart irrigation, "hashkaya cham", crop monitoring, pest detection, Israeli agriculture tech, or needs to build farm management software. Covers irrigation optimization, pest detection, climate data integration, and Israeli agricultural context. Do NOT use for general gardening advice or non-agricultural IoT projects.
+
+## israeli-app-code-review  `Sc`
+Reviews a PR, diff or files of an app for Israeli users and returns a prioritized report of Israel-specific defects (severity, file and line, who breaks, the fix) plus a checked-and-clean list, catching what generic reviewers miss. Use when asked to review a PR or diff for Israeli users, RTL or Hebrew bugs, "code review le-RTL", or "bdikat kod le-ivrit". Covers RTL and bidi, Hebrew regex and normalisation, Teudat Zehut, phone and mikud fields, ILS and VAT, the Sunday to Thursday week, Asia/Jerusalem DST and cron, IDs or health data in logs, lang and labels. A bundled scanner gives line-accurate candidates. Do NOT use for building RTL from scratch (hebrew-rtl-best-practices), security review (israeli-appsec-scanner), full accessibility audit (israeli-accessibility-compliance), privacy compliance (israeli-privacy-shield), writing ID or phone validators (israeli-id-validator, israeli-phone-formatter), or general code review.
 
 ## israeli-chatbot-analytics  `Sc`
 Analyze and optimize Hebrew chatbot performance with conversation flow analytics, Hebrew sentiment analysis, drop-off detection, user satisfaction scoring, A/B testing for response variants, and reporting dashboards. Use when user asks to "analyze chatbot performance", "measure chatbot satisfaction", "track Hebrew bot metrics", "analitika shel tsatbot" (Hebrew transliteration), or needs help with conversation analytics, intent accuracy tracking, or chatbot reporting. Supports Dialogflow, Rasa, and custom bot platforms. Do NOT use for building chatbots (use hebrew-chatbot-builder), Hebrew NLP model training (use hebrew-nlp-toolkit), customer support workflow setup (use israeli-customer-support-automator), or voice bot development (use hebrew-voice-bot-builder).
