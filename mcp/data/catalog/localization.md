@@ -1,12 +1,15 @@
 # localization
 
-13 skills. Load a selected skill with `get_skill` before applying it.
+14 skills. Load a selected skill with `get_skill` before applying it.
 Descriptions are the authors' own, unedited -- including the "Do NOT use for" clauses,
 which are load-bearing: they are how you tell near-misses apart.
 Descriptions: Copyright (c) 2026 Skills IL (Yootech), MIT License. See THIRD_PARTY_NOTICES.md.
 
 ## hebrew-ai-text-humanizer  `Sc`
 Edits Hebrew that reads as machine-written or translated (emails, LinkedIn posts, product pages, WhatsApp messages to customers, reports) into natural Israeli Hebrew. Use when the user pastes Hebrew that sounds like AI or translated, "ze nishma kmo ChatGPT", "taarokh li et ha-ivrit", or asks to fix register, gender addressing, maqaf or gershayim. Flags a named catalogue of AI-Hebrew patterns (calques like bemida ve and al menat, register mismatch, mixed addressing, list-itis, dash overuse, prefix-number maqaf, bidi breaks) by line, rewrites at the chosen register keeping every fact, number and name, and returns a change log so the writer learns. Editing for clarity and voice, not detector evasion. Do NOT use for writing new content (hebrew-content-writer), Hebrew NLP code (hebrew-nlp-toolkit), DOCX or PDF output (hebrew-document-generator), or translation from another language.
+
+## hebrew-book-typesetter  `Sc`
+Turn a long Hebrew Word manuscript (memoir, poetry with nikkud, chidushei torah, academic book) into a print-ready book PDF, then prepare it for an Israeli print shop, ISBN and legal deposit. Use when the user says 'lay out my book', 'typeset a Hebrew book', 'imud sefer', 'imud le-dfus', 'print-ready PDF', 'self-publish a book in Hebrew', 'my Word file for the printer', or asks about ISBN (mis'tav) or depositing copies at the National Library. Converts docx with pandoc to Typst, builds a right-bound layout with mirrored margins, Hebrew-letter page numbers (tet-vav for 15), running heads, footnotes and a table of contents, then computes the cover and spine. Prevents the costly reprint that follows a file with wrong binding side, broken nikkud or missing imprint details. Do NOT use for short documents, letters, reports or slides (use hebrew-document-generator) or for writing and editing the text itself (use hebrew-content-writer).
 
 ## hebrew-content-writer  `-`
 Write and edit professional content in Hebrew including marketing copy, UX text, articles, emails, and social media posts. Use when user asks to write in Hebrew, "ktov b'ivrit", create Hebrew marketing content, edit Hebrew text, write Hebrew UX copy, or optimize Hebrew content for SEO. Covers grammar rules, register from formal to dugri, mixed Hebrew/English, gendered language, nikud and numerals, and Hebrew SEO best practices. Do NOT use for Hebrew NLP/ML tasks (use hebrew-nlp-toolkit) or translation (use a translation skill).

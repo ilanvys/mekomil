@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T12:11:40.095Z",
+ "generated": "2026-11-09T12:55:32.871Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -2743,6 +2743,27 @@
     "scripts/test_hebrew_ai_tells.py": 8273
    }
   },
+  "hebrew-book-typesetter": {
+   "repo": "localization",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/isbn-and-deposit.md",
+    "references/print-shop-handoff.md",
+    "scripts/cover_size.py",
+    "scripts/inspect_body.py",
+    "scripts/make_book.py"
+   ],
+   "bytes": {
+    "SKILL.md": 22057,
+    "SKILL_HE.md": 28451,
+    "references/isbn-and-deposit.md": 2863,
+    "references/print-shop-handoff.md": 2566,
+    "scripts/cover_size.py": 3334,
+    "scripts/inspect_body.py": 6870,
+    "scripts/make_book.py": 15144
+   }
+  },
   "hebrew-content-writer": {
    "repo": "localization",
    "files": [
@@ -3999,6 +4020,23 @@
     "references/comparables-routes.md": 10010,
     "references/domain-checklist.md": 10710,
     "scripts/comparables.py": 19084
+   }
+  },
+  "israeli-short-term-rental-host": {
+   "repo": "tax-and-finance",
+   "files": [
+    "SKILL.md",
+    "SKILL_HE.md",
+    "references/host-checklist.md",
+    "references/tax-treatments.md",
+    "scripts/str_host_calc.py"
+   ],
+   "bytes": {
+    "SKILL.md": 16682,
+    "SKILL_HE.md": 20553,
+    "references/host-checklist.md": 1816,
+    "references/tax-treatments.md": 4815,
+    "scripts/str_host_calc.py": 12955
    }
   },
   "israeli-smart-saver": {

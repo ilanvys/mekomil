@@ -1,6 +1,6 @@
 # tax-and-finance
 
-44 skills. Load a selected skill with `get_skill` before applying it.
+45 skills. Load a selected skill with `get_skill` before applying it.
 Descriptions are the authors' own, unedited -- including the "Do NOT use for" clauses,
 which are load-bearing: they are how you tell near-misses apart.
 Descriptions: Copyright (c) 2026 Skills IL (Yootech), MIT License. See THIRD_PARTY_NOTICES.md.
@@ -88,6 +88,9 @@ Generate compliant Hebrew price quotes (hatzaat mechir / הצעת מחיר) for 
 
 ## israeli-property-appraisal  `Sx`
 Not a licensed appraisal (shuma) and no substitute for a licensed shamai mekarkein. Builds a comparable-transactions analysis for an Israeli property from official government data, and handles the appraisal processes around it: a low bank mortgage appraisal under Standard 19, and a betterment levy (heitel hashbacha) assessment. Use when someone asks what a property is worth, says the bank's appraisal came in low and blocked their mortgage, received a betterment levy bill from the local planning committee, or needs the gush and helka for an address. Resolves an address to its parcel, pulls real recorded transactions, and assembles the principles and arguments for the objection letter. Recorded comparable deals are public but effectively unreachable, so people accept a bank number or a municipal bill they could have challenged. Do NOT use for purchase tax or betterment tax (mas rechisha, mas shevach), Tabu extracts, rental agreements, mortgage track comparison, or land tenders.
+
+## israeli-short-term-rental-host  `Sc`
+Not tax advice and not a filed return. Profit sheet and tax-exposure map for an Israeli resident who rents an apartment, room or unit on Airbnb or Booking for short stays. Use when the user asks 'how is my Airbnb income taxed in Israel', 'mas al Airbnb', 'hashkara le-tvach katzar', 'do I need to open an osek for Airbnb', 'is short-term rental exempt like regular rent', or wants a per-booking profit sheet, a VAT threshold check, a Hebrew-English listing or house rules. Computes on the host's own bookings, shows what the business, 10% and exemption treatments would each cost and which one the Tax Authority's reported position points to, flags VAT, National Insurance, licence, bylaw and insurance risks, and drafts listing text. Prevents the common mistake of assuming the residential rent exemption automatically covers nightly guests. Do NOT use for long-term leases (use israeli-rental-agreements) or for choosing a route or filing on the user's behalf.
 
 ## israeli-smart-saver  `-`
 Not legal advice. Save money in Israel through smart shopping, cashback optimization, subscription auditing, and deal hunting. Covers Zap.co.il price comparison, BuyMe gift cards, Cashback.co.il and Cashdo rebates, credit card perks (Cal, Max, Isracard), cellular plan switching to budget carriers and promo-price comparison between carriers, promo expiry, subscription cancellation rights, and seasonal sales. Use when user asks about "lachsoch kesef", saving money in Israel, Israeli coupons, cashback, "hashvaat mechirim", subscription audit, "kamah ani meshalem", credit card benefits, "hotza'ot", reducing expenses, or smart shopping tips. Helps cut monthly spending by finding unneeded subscriptions, cheaper alternatives and cashback. Do NOT use for pension, savings-fund or investment questions, mortgage comparison (use israeli-mortgage-comparator), grocery price comparison (use israeli-grocery-price-intelligence), or a specific store coupon code (use israeli-coupon-code-finder).
