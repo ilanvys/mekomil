@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:55:32.871Z",
+ "generated": "2026-11-12T12:46:21.124Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -443,14 +443,16 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/domain-checklist.md",
     "scripts/send_sms.py",
     "scripts/validate_phone.py"
    ],
    "bytes": {
-    "SKILL.md": 21348,
-    "SKILL_HE.md": 27287,
-    "scripts/send_sms.py": 17079,
-    "scripts/validate_phone.py": 6452
+    "SKILL.md": 28601,
+    "SKILL_HE.md": 36931,
+    "references/domain-checklist.md": 3416,
+    "scripts/send_sms.py": 19371,
+    "scripts/validate_phone.py": 7447
    }
   },
   "israeli-telecom-comparator": {
@@ -1155,7 +1157,9 @@
    "files": [
     "SKILL.md",
     "SKILL_HE.md",
+    "references/animation-slots.md",
     "references/captions-only-tuning.md",
+    "references/conversation-prompts.md",
     "references/domain-checklist.md",
     "references/hebrew-filler-words.md",
     "references/known-limitations.md",
@@ -1168,19 +1172,21 @@
     "scripts/install-hebrew-fonts.sh"
    ],
    "bytes": {
-    "SKILL.md": 37223,
-    "SKILL_HE.md": 50760,
-    "references/captions-only-tuning.md": 5286,
-    "references/domain-checklist.md": 9781,
+    "SKILL.md": 36671,
+    "SKILL_HE.md": 47630,
+    "references/animation-slots.md": 1564,
+    "references/captions-only-tuning.md": 6636,
+    "references/conversation-prompts.md": 1197,
+    "references/domain-checklist.md": 11912,
     "references/hebrew-filler-words.md": 8810,
-    "references/known-limitations.md": 1425,
-    "references/macos-ffmpeg-setup.md": 5464,
-    "references/pricing.md": 4267,
-    "references/quick-test.md": 3040,
-    "references/sub-force-style-hebrew.md": 8160,
-    "scripts/burn-hebrew-captions.sh": 21105,
-    "scripts/captions-only.sh": 16323,
-    "scripts/install-hebrew-fonts.sh": 5992
+    "references/known-limitations.md": 2406,
+    "references/macos-ffmpeg-setup.md": 4968,
+    "references/pricing.md": 4598,
+    "references/quick-test.md": 3210,
+    "references/sub-force-style-hebrew.md": 8370,
+    "scripts/burn-hebrew-captions.sh": 27453,
+    "scripts/captions-only.sh": 22454,
+    "scripts/install-hebrew-fonts.sh": 4070
    }
   },
   "wcag-accessibility-widget": {
@@ -2151,16 +2157,18 @@
     "references/ivf-process-detailed.md",
     "references/posthumous-and-embryo-law.md",
     "references/surrogacy-law-guide.md",
+    "references/work-and-service-rights.md",
     "scripts/fertility-coverage-checker.py"
    ],
    "bytes": {
-    "SKILL.md": 31962,
-    "SKILL_HE.md": 41558,
-    "references/domain-checklist.md": 11906,
-    "references/ivf-process-detailed.md": 12292,
-    "references/posthumous-and-embryo-law.md": 6528,
-    "references/surrogacy-law-guide.md": 5891,
-    "scripts/fertility-coverage-checker.py": 26406
+    "SKILL.md": 32007,
+    "SKILL_HE.md": 42370,
+    "references/domain-checklist.md": 14654,
+    "references/ivf-process-detailed.md": 15286,
+    "references/posthumous-and-embryo-law.md": 6629,
+    "references/surrogacy-law-guide.md": 8775,
+    "references/work-and-service-rights.md": 7035,
+    "scripts/fertility-coverage-checker.py": 33714
    }
   },
   "israeli-food-allergy-navigator": {
@@ -2531,12 +2539,12 @@
     "scripts/deadlines.py"
    ],
    "bytes": {
-    "SKILL.md": 23961,
-    "SKILL_HE.md": 30742,
-    "references/domain-checklist.md": 7480,
-    "references/forms-and-clocks.md": 3534,
-    "references/verified-facts.md": 16061,
-    "scripts/deadlines.py": 3220
+    "SKILL.md": 30338,
+    "SKILL_HE.md": 39396,
+    "references/domain-checklist.md": 9890,
+    "references/forms-and-clocks.md": 8336,
+    "references/verified-facts.md": 22086,
+    "scripts/deadlines.py": 8769
    }
   },
   "israeli-patent-guide": {
@@ -2548,20 +2556,22 @@
     "references/domain-checklist.md",
     "references/ilpo-fee-schedule.md",
     "references/pct-israel-checklist.md",
+    "references/prior-art-search.md",
     "references/pte.md",
     "references/service-inventions.md",
     "scripts/patent-deadlines.py"
    ],
    "bytes": {
-    "SKILL.md": 33667,
-    "SKILL_HE.md": 45820,
-    "references/amendment-15.md": 3451,
-    "references/domain-checklist.md": 7116,
-    "references/ilpo-fee-schedule.md": 12067,
-    "references/pct-israel-checklist.md": 7453,
+    "SKILL.md": 33133,
+    "SKILL_HE.md": 44043,
+    "references/amendment-15.md": 3302,
+    "references/domain-checklist.md": 9148,
+    "references/ilpo-fee-schedule.md": 12807,
+    "references/pct-israel-checklist.md": 8223,
+    "references/prior-art-search.md": 1788,
     "references/pte.md": 2255,
     "references/service-inventions.md": 1832,
-    "scripts/patent-deadlines.py": 13913
+    "scripts/patent-deadlines.py": 19326
    }
   },
   "israeli-renovation-scope-builder": {
@@ -2613,12 +2623,12 @@
     "scripts/filing-fee-calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 30408,
-    "SKILL_HE.md": 35959,
+    "SKILL.md": 31211,
+    "SKILL_HE.md": 37083,
     "references/demand-letter-template.md": 8610,
-    "references/domain-checklist.md": 7017,
-    "references/evidence-guide.md": 12170,
-    "scripts/filing-fee-calculator.py": 6400
+    "references/domain-checklist.md": 9831,
+    "references/evidence-guide.md": 13092,
+    "scripts/filing-fee-calculator.py": 6919
    }
   },
   "israeli-tabu-extract-decoder": {
@@ -3462,11 +3472,11 @@
     "scripts/se_tax_projection.py"
    ],
    "bytes": {
-    "SKILL.md": 18956,
-    "SKILL_HE.md": 24439,
-    "references/domain-checklist.md": 6284,
-    "references/se-tax-mechanics.md": 4341,
-    "scripts/se_tax_projection.py": 8111
+    "SKILL.md": 27606,
+    "SKILL_HE.md": 36892,
+    "references/domain-checklist.md": 7839,
+    "references/se-tax-mechanics.md": 6886,
+    "scripts/se_tax_projection.py": 8842
    }
   },
   "boi-economic-data": {
@@ -3543,16 +3553,18 @@
     "SKILL_HE.md",
     "references/api-endpoints.md",
     "references/domain-checklist.md",
+    "references/error-codes.md",
     "references/webhook-payloads.md",
     "scripts/grow-payment-helper.sh"
    ],
    "bytes": {
-    "SKILL.md": 33722,
-    "SKILL_HE.md": 38548,
-    "references/api-endpoints.md": 5451,
-    "references/domain-checklist.md": 5127,
-    "references/webhook-payloads.md": 1886,
-    "scripts/grow-payment-helper.sh": 7471
+    "SKILL.md": 35531,
+    "SKILL_HE.md": 42712,
+    "references/api-endpoints.md": 5635,
+    "references/domain-checklist.md": 7932,
+    "references/error-codes.md": 8872,
+    "references/webhook-payloads.md": 4072,
+    "scripts/grow-payment-helper.sh": 10695
    }
   },
   "il-invoice-organizer": {
@@ -4329,11 +4341,11 @@
     "scripts/filing_map.py"
    ],
    "bytes": {
-    "SKILL.md": 25782,
-    "SKILL_HE.md": 33383,
-    "references/domain-checklist.md": 12021,
-    "references/filing-matrix.md": 6829,
-    "scripts/filing_map.py": 8227
+    "SKILL.md": 31565,
+    "SKILL_HE.md": 41584,
+    "references/domain-checklist.md": 15403,
+    "references/filing-matrix.md": 9114,
+    "scripts/filing_map.py": 9989
    }
   },
   "us-person-israeli-investment-check": {
@@ -4346,11 +4358,11 @@
     "scripts/screen_product.py"
    ],
    "bytes": {
-    "SKILL.md": 20120,
-    "SKILL_HE.md": 25930,
-    "references/domain-checklist.md": 7770,
-    "references/screening-criteria.md": 5751,
-    "scripts/screen_product.py": 15249
+    "SKILL.md": 25826,
+    "SKILL_HE.md": 33634,
+    "references/domain-checklist.md": 9795,
+    "references/screening-criteria.md": 7862,
+    "scripts/screen_product.py": 25543
    }
   },
   "israeli-abroad-trip-planner": {
