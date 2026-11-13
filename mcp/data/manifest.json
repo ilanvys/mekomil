@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T12:46:21.124Z",
+ "generated": "2026-11-13T12:16:46.552Z",
  "org": "skills-il",
  "maxFileBytes": 262144,
  "repos": [
@@ -2719,11 +2719,11 @@
     "scripts/severance-calculator.py"
    ],
    "bytes": {
-    "SKILL.md": 31989,
-    "SKILL_HE.md": 43652,
-    "references/domain-checklist.md": 5975,
+    "SKILL.md": 32026,
+    "SKILL_HE.md": 43726,
+    "references/domain-checklist.md": 7499,
     "references/entitlements-calculator.md": 26659,
-    "references/harassment-and-disability.md": 3151,
+    "references/harassment-and-disability.md": 11623,
     "references/labor-laws-summary.md": 7786,
     "scripts/severance-calculator.py": 12001
    }
